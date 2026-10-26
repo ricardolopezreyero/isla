@@ -10,7 +10,7 @@ Basado en el [Plan de acción MVP](biblia/05-plan-de-accion-mvp.md). La regla de
 |---|---|---|
 | Base · proyecto y dominio | — | ✅ Listo (25-oct-2026) |
 | Fase A · Plan rápido | ≈ 1 semana | 🟡 En curso |
-| Fase B · Greybox en Unreal | ≈ 2–3 semanas | ⚪ Sigue |
+| Fase B · Greybox en Unreal | ≈ 2–3 semanas | 🟡 Arrancó el 26-oct-2026: isla completa en bloques ([11](11-greybox-fase-b.md)) |
 | Fase C · Detalle visual con asset packs | ≈ 4–6 semanas | ⚪ Sigue |
 | Fase D · Interactividad mínima | ≈ 2–4 semanas | ⚪ Sigue |
 | **MVP 0.1 jugable** | **≈ 9–14 semanas** desde la Fase A | |
@@ -66,8 +66,9 @@ Tomar el documento maestro y aterrizarlo en un mapa y en una lista cerrada.
 
 El environment artist arma la isla en bloques, sin detalle.
 
-- [ ] Forma de la isla: topografía sencilla, cráter, rocas, playas
-- [ ] Caminos y edificios como bloques grises
+- [x] Forma de la isla: topografía sencilla, cráter, rocas, playas (26-oct, [11](11-greybox-fase-b.md))
+- [x] Caminos y edificios como bloques (26-oct): hotel, 80 villas, Horizonte, restaurante, marina, pista, spa y staff
+- [x] **Isla v2 con objetos hechos en casa** (26-oct, [12](12-fabrica-en-casa.md)): terreno real con volcán y cráter, 50 modelos propios, 1,170 piezas colocadas, mar translúcido, colisión para caminar
 - [ ] Escala real: alturas, distancias caminables, tamaño de habitación (Suite Retorno = 100 m² + terraza) y villas
 - [ ] Recorrido a pie de punta a punta cronometrado (¿cuánto se tarda una persona en cruzar 3–4 km?)
 - [ ] Personajes: 4 rostros base en MetaHuman (2 y 2) + prueba de multitud de 50 NPC midiendo cuadros por segundo

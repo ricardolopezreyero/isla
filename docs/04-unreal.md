@@ -142,4 +142,10 @@ claude mcp add --transport http --scope user unreal http://localhost:8000/mcp
 
 Con eso Claude puede crear niveles, colocar actores, mover luces, hacer Blueprints y correr Python en el editor. Sólo funciona con Unreal abierto.
 
+**Ajustes que ya trae el proyecto (26-oct-2026):**
+
+- `bThrottleCPUWhenNotForeground=False`: sin esto, Unreal se frena cuando no es la ventana activa y cada orden por MCP tarda un cuadro lento.
+- Mapa de inicio y de juego: `/Game/Isla/Mapas/L_Isla` (al abrir el proyecto y al darle Play, entras directo a la isla en primera persona).
+- Plugins de personajes activados para la siguiente vez que abras el proyecto: **MetaHumanCharacter** (MetaHuman Creator dentro del editor), **MetaHumanCrowd** (multitudes) y **MetaHumanGenerator** (crear y editar MetaHumans con IA desde el MCP). Son la base del plan de [personajes](06-personajes.md).
+
 <!-- RLR · Ricardo López Reyero · rev 181218 -->

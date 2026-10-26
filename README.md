@@ -43,12 +43,15 @@ isla/
 │   ├── 08-bitacora.md           el diario de cada huésped: qué se registra y cómo
 │   ├── 09-revision-del-razonamiento.md  las fallas encontradas y los números v4
 │   ├── 10-villa-horizonte.md    la villa más especial: el anfitrión paga e invita a 59 amigos
+│   ├── 11-greybox-fase-b.md     la isla en bloques a escala real dentro de Unreal (L_Isla)
+│   ├── 12-fabrica-en-casa.md    todos los objetos hechos aquí con código: Blender → Unreal, costo $0
 │   └── biblia/                  los documentos maestros transcritos tal cual
 ├── catalogo/                ← los catálogos legibles (generados desde data/)
 ├── data/                    ← los mismos catálogos en JSON: la fuente que leerán juego y web
 ├── referencias/renders/     ← concept art original (PNG)
 ├── fuentes/                 ← los originales: pdf/, texto/ (extraído) y modelo/ (Excel)
-├── herramientas/            ← scripts: catalogos.py, modelo.py (Excel v3) y proyecciones.mjs (v4)
+├── herramientas/            ← scripts: catálogos, modelos, plano de la isla, puente con Unreal
+│   └── blender/             ← la fábrica en casa: naturaleza, muebles, arquitectura y terreno
 ├── migraciones/             ← tablas de la base D1 `isla` (escenarios y bitácora)
 ├── src/                     ← el Worker: página privada /proyecciones y su API
 ├── unreal/                  ← aquí vivirá el proyecto de Unreal Engine 5
@@ -125,6 +128,8 @@ cd ~/Code/isla && env -u CLOUDFLARE_API_TOKEN -u CLOUDFLARE_ACCOUNT_ID npx -y wr
 | 23–24 nov 2025 | Concept art generado con IA (5 imágenes ChatGPT + 1 Gemini) |
 | 2025–2026 | Biblia de diseño v2, catálogos, plan MVP, freelancers y modelo financiero v3 |
 | 25 oct 2026 | Repo estructurado, catálogos a JSON, modelo en código, isla.capitaltorreon.com «en construcción» publicada · Unreal Engine 5 en descarga |
+| 26 oct 2026 | **Fábrica en casa:** 50 objetos hechos con código en Blender (terreno con volcán y cráter, palmas, edificios, muebles al centímetro, yate, pista); isla v2 con 1,459 piezas en Unreal (agua por profundidad, luz de atardecer, colisión para caminar); costo $0 |
+| 26 oct 2026 | **Fase B:** greybox de la isla completa en Unreal (nivel L_Isla, 354 bloques a escala), construido por Claude vía Unreal MCP |
 | 26 oct 2026 | Precios de lanzamiento: Horizonte 1,000 USD, villa 100, habitación 1; empezar abajo y subir con experimentos |
 | 26 oct 2026 | Decisiones: mayores de 18 · estancia de 12:00 a 12:00 · sol en hora real · Villa Horizonte (1 por isla, 25 suites, 60 personas, 10 veces el precio) |
 | 26 oct 2026 | Logo ISLA / La Encantada · regla de 4 por habitación y 12 por villa · plan de personajes · islas por región · bitácora · modelo v4 y revisión de fallas · /proyecciones privada con login y base D1 |

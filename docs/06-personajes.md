@@ -90,6 +90,8 @@ Para que la isla se sienta llena se necesitan **muchos personajes que no son jug
 | Multitudes | Mass AI + LODs + animation sharing | Un MetaHuman completo es pesado: de cerca calidad total, a distancia versiones ligeras; si no, 1,500 personas no caben en la tarjeta de video |
 | Animación | Motion capture de caminatas elegantes (biblioteca comprada o sesión propia) | Caminar, sentarse, nadar, bailar, brindar, servir |
 
+**Ya disponible en el proyecto (26-oct-2026):** Unreal 5.8 trae MetaHuman Creator dentro del editor (plugin `MetaHumanCharacter`), multitudes (`MetaHumanCrowd`) y un **generador de MetaHumans con IA** (`MetaHumanGenerator`) que se maneja por el mismo servidor MCP. Quedaron activados en el `.uproject` y cargan la próxima vez que se abra Unreal. Con eso la «Llegada de hoy» se puede producir desde aquí: Claude genera la pareja del día dentro del espacio de belleza, sin comprar personajes.
+
 **Prueba para la Fase B:** 1 avatar jugable + 50 NPC de la misma calidad caminando en la playa, midiendo cuadros por segundo en la Mac y en una PC media. Si no aguanta, se ajustan los LOD antes de crear más gente.
 
 ## 8. Fases de los personajes

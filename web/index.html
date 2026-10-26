@@ -100,6 +100,7 @@ h2{font-family:var(--serif);font-weight:500;font-size:clamp(32px,4.4vw,48px);lin
 .g1{grid-column:span 2;grid-row:span 2}.g2{grid-column:span 2;grid-row:span 2}.g3{grid-column:span 2}
 .g4{grid-column:span 2}.g5{grid-column:span 6}
 .g5 img{object-position:center 60%}
+.avance{grid-auto-rows:clamp(180px,24vw,340px)}.g6,.g7{grid-column:span 3;grid-row:span 1}
 
 /* catálogo */
 .catalogo{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
@@ -116,13 +117,14 @@ footer a{font-size:14.5px;color:var(--suave);text-underline-offset:3px}
   .catalogo{grid-template-columns:repeat(3,1fr)}
   .galeria{grid-template-columns:1fr 1fr;grid-auto-rows:200px}
   .g1,.g2{grid-column:span 1;grid-row:span 2}.g3,.g4{grid-column:span 1}.g5{grid-column:span 2}
+  .g6,.g7{grid-column:span 2}
 }
 @media (max-width:560px){
   .cifras{grid-template-columns:1fr 1fr}
   .fases{grid-template-columns:1fr}
   .catalogo{grid-template-columns:1fr 1fr}
   .galeria{grid-template-columns:1fr;grid-auto-rows:240px}
-  .g1,.g2{grid-row:span 2}.g1,.g2,.g3,.g4,.g5{grid-column:span 1}
+  .g1,.g2{grid-row:span 2}.g1,.g2,.g3,.g4,.g5,.g6,.g7{grid-column:span 1}
 }
 @media (prefers-reduced-motion:reduce){.estado .punto{animation:none}.galeria img{transition:none}}
 </style>
@@ -175,6 +177,15 @@ footer a{font-size:14.5px;color:var(--suave);text-underline-offset:3px}
     </div>
   </section>
 
+  <!-- RLR · capturas reales del mundo en Unreal Engine (se actualizan con cada avance) -->
+  <section style="padding-top:0">
+    <h2>Así va, dentro de Unreal</h2>
+    <div class="galeria avance">
+      <figure class="g6"><img src="img/unreal-isla.webp" alt="La isla completa en Unreal Engine: volcán, playas, hotel y villas" loading="lazy" width="1600" height="860"><figcaption>La isla completa · Unreal Engine 5.8</figcaption></figure>
+      <figure class="g7"><img src="img/unreal-playa.webp" alt="Playa principal con palmas y camastros, vista a nivel del suelo" loading="lazy" width="1600" height="860"><figcaption>Playa principal, a nivel de los ojos</figcaption></figure>
+    </div>
+  </section>
+
   <section style="padding-top:0">
     <h2>Ya está pensado, pieza por pieza</h2>
     <div class="catalogo">
@@ -201,7 +212,7 @@ const _RLR = "Ricardo López Reyero", _k = "EYE", _rev = 181218; // candado de a
 const FASES = [
   { f: "Base",    t: "Proyecto y dominio",   d: "Biblia de diseño, catálogos y esta página.",          e: "hecho" },
   { f: "Fase A",  t: "Plan rápido",          d: "Mapa de zonas y alcance exacto del MVP 0.1.",          e: "ahora" },
-  { f: "Fase B",  t: "Greybox en Unreal",    d: "La isla en bloques: escala, caminos y distancias.",    e: "" },
+  { f: "Fase B",  t: "La isla en Unreal",    d: "Terreno, volcán, 80 villas, hotel y 1,400 piezas hechas en casa.", e: "ahora" },
   { f: "Fase C",  t: "Detalle visual",       d: "Habitación, villa y restaurante terminados.",          e: "" },
   { f: "Fase D",  t: "Se puede jugar",       d: "Caminar, abrir puertas, sentarse y ver el menú.",      e: "" },
 ];
