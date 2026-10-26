@@ -24,9 +24,9 @@ De ahí salen cinco principios de trabajo para cualquier decisión de diseño o 
 |---|---|---|
 | Tipo | Volcánica, con gran cráter central, laderas verdes, acantilados, playas curvas de arena blanca y bahías tranquilas | [Prompt maestro §2](biblia/01-prompt-maestro-v2.md) |
 | Tamaño | 3–4 km de diámetro | Prompt maestro §2 |
-| Habitaciones | 800 · **hasta 4 personas** (la biblia decía 3) · 100 USD/noche | Regla del 26-oct-2026 · [07](07-islas-y-capacidad.md) |
-| Villas ultra lujo | 80 · **hasta 10–12 personas** (la biblia decía 4–6) · 10,000 USD/noche | Regla del 26-oct-2026 |
-| Villa Horizonte | **1 por isla** · 25 suites · hasta 60 personas · 10 veces el precio de una villa (100,000 USD/noche) | [10](10-villa-horizonte.md) |
+| Habitaciones | 800 · **hasta 4 personas** (la biblia decía 3) · **1 USD/noche** de lanzamiento | Regla del 26-oct-2026 · [07](07-islas-y-capacidad.md) |
+| Villas ultra lujo | 80 · **hasta 10–12 personas** (la biblia decía 4–6) · **100 USD/noche** de lanzamiento | Regla del 26-oct-2026 |
+| Villa Horizonte | **1 por isla** · 25 suites · hasta 60 personas · 10 veces el precio de una villa (**1,000 USD/noche** de lanzamiento) | [10](10-villa-horizonte.md) |
 | Huéspedes por isla | **4,220 máximo**, 2,685 en promedio (la biblia decía ≈ 2,800) | [07](07-islas-y-capacidad.md) |
 | Staff | **1,820 por isla** (2 por llave + 60 de Horizonte; la biblia decía 1,200 NPC) | [07](07-islas-y-capacidad.md) |
 | Estancia | **Cada noche va de 12:00 a 12:00**, como un hotel | Decisión del 26-oct-2026 |
@@ -93,7 +93,7 @@ Cosas que los documentos dicen de forma distinta o que todavía no se deciden. N
 | 3 | **Villas** | 80 villas de hasta 12 personas; la Villa Horizonte 50 es para 50. | **Decidido (26-oct-2026):** Villa Horizonte es la villa más especial de la isla, aparte de las 80: **una por isla**, 25 suites (5 veces una villa), hasta 60 personas y 10 veces el precio. La paga un anfitrión que invita a sus amigos ([10](10-villa-horizonte.md)) |
 | 8 | **Edad** | La estética es sensual y hay dinero y encuentros entre personas. | **Decidido (26-oct-2026, Ricardo):** la plataforma es sólo para mayores de 18 años ([06 §5](06-personajes.md#5-sexy-sin-vulgaridad-las-reglas)) |
 | 9 | **Opción neutral en avatares** | El pedido es una mujer y un hombre nuevos por sesión. | ¿Agregar una tercera opción más adelante? ([06 §9](06-personajes.md#9-lo-que-todavía-hay-que-decidir)) |
-| 4 | **Precios** | Habitación 100 USD/noche y villa 10,000 USD/noche (prompt) vs. 35 USD por usuario al día por habitación (modelo). | Una sola lista de precios y moneda virtual. |
+| 4 | **Precios** | Habitación 100 USD/noche y villa 10,000 USD/noche (prompt) vs. 35 USD por usuario al día por habitación (modelo). | **Decidido (26-oct-2026): empezar abajo y subir.** Lanzamiento: Horizonte 1,000 USD, villa 100 y habitación 1 por noche; luego experimentos de precio (primera noche gratis, subidas al doble) ([09 §3](09-revision-del-razonamiento.md#3-cómo-averiguar-el-precio-real-barato-y-antes-de-construir-de-más)). Antes: una sola lista de precios y moneda virtual. |
 | 5 | **Catálogo de masajes** | El PDF dice «100 tipos» y contiene **120**. | Se quedan los 120 (ya están en datos). |
 | 6 | **Nombre** | «Isla La Encantada», «IslaEncantada.com», «Isla Virtual de Lujo». | **Resuelto:** la marca es **ISLA** y cada isla lleva su nombre abajo; la primera es **La Encantada** |
 | 7 | **Plataforma inicial** | Plan MVP: Unreal Engine 5; alternativa barata: Fortnite UEFN o Roblox. | Se va con Unreal (ya se está descargando). |

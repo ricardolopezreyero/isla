@@ -10,13 +10,15 @@
 | Escenario | Ingresos 60 meses | Utilidad 60 meses | Capital necesario | Primer mes con utilidad | Islas al mes 60 | Personas reales en el pico, por isla |
 |---|---:|---:|---:|---:|---:|---:|
 | Excel v3 (tal cual) | $8,142 M | $7,524 M | $0 | 1 | — | — |
-| v4 · Biblia (100 / 10,000 USD por noche) | $5,515 M | $4,332 M | $225 mil | 7 | 12 | 499 |
-| v4 · Prudente (15 / 450 USD) | $292.6 M | $210.9 M | $225 mil | 7 | 12 | 499 |
-| v4 · Conservador (6 / 150 USD) | $21.5 M | $9.1 M | $785 mil | 24 | 4 | 361 |
+| v4 · **Lanzamiento** (habitación 1 · villa 100 · Horizonte 1,000 USD) | $55.2 M | $18.6 M | $914 mil | 22 | 12 | 499 |
+| v4 · Primera subida (todo al doble) | $112.4 M | $63.8 M | $368 mil | 13 | 12 | 499 |
+| v4 · Meta (5 veces el lanzamiento) | $275.8 M | $192.9 M | $225 mil | 7 | 12 | 499 |
+
+*26-oct-2026: Ricardo bajó los precios para empezar abajo y subir con experimentos. Los escenarios anteriores (Biblia 100 / 10,000, Prudente 15 / 450, Conservador 6 / 150) se retiraron.*
 
 *Desde el 26-oct-2026 incluye la Villa Horizonte: una por isla, 10 veces el precio de una villa, 30 % de noches vendidas.*
 
-**Lectura:** cambiar sólo el precio mueve la utilidad de 9 millones a 4,300 millones. **El precio que la gente de verdad paga es el dato que más vale averiguar**, y hoy nadie lo sabe. Antes de construir de más, conviene medirlo (sección 3).
+**Lectura:** con precios de lanzamiento la caja baja hasta ~914 mil USD y la primera utilidad llega en el mes 22; si cada subida funciona, el capital necesario baja a 225 mil. **El precio que la gente de verdad paga es el dato que más vale averiguar**, y hoy nadie lo sabe. Antes de construir de más, conviene medirlo (sección 3).
 
 ## 2. Las fallas, de la más grave a la menos
 
@@ -39,6 +41,14 @@
 | 15 | **Repositorio público.** El modelo y los supuestos se ven en GitHub | La página de proyecciones es privada, pero los valores por omisión están en el código | Decisión de Ricardo: el repo se queda público. Los escenarios que guardes en la página viven en la base privada, no en el repo |
 
 ## 3. Cómo averiguar el precio real, barato y antes de construir de más
+
+**Regla de Ricardo (26-oct-2026): empezar abajo y subir.** Es más fácil subir un precio que bajarlo. Los experimentos, en orden:
+
+1. **Primera noche gratis** para quien llega por primera vez; las siguientes, a precio de lanzamiento.
+2. **Subidas pequeñas** (al doble) cuando una isla pasa del 85 % de ocupación por 4 semanas.
+3. Cada experimento se guarda como escenario en /proyecciones con lo que de verdad pasó.
+
+Además:
 
 1. **Lista de espera** en isla.capitaltorreon.com con una pregunta: «¿Cuánto pagarías por una noche en una villa para tu grupo?».
 2. **Preventa simbólica:** 50–100 «llaves fundadoras» (por ejemplo, 7 noches de habitación) con precio real, cobradas con Stripe y reembolsables.

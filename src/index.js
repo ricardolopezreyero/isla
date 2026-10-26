@@ -6,7 +6,7 @@ import { verificarPase } from "./verificar.js";
 
 const _RLR = "Ricardo López Reyero", _k = "EYE", _rev = 181218;
 const AUD = ["isla.capitaltorreon.com", "localhost"];
-const BASES = ["biblia", "prudente", "conservador"];
+const BASES = ["lanzamiento", "subida", "meta"];
 // RLR · Ricardo entra con contacto@ingenieriadigital.mx pero se muestra su correo de trabajo
 const CORREO_DE_TRABAJO = { "contacto@ingenieriadigital.mx": "ricardo@superleads.mx" };
 

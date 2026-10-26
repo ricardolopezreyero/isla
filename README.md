@@ -15,9 +15,9 @@ Un mundo 3D persistente, calidad AAA, ambientado en una isla volcánica privada 
 | | |
 |---|---|
 | Isla | volcánica, **3–4 km** de diámetro, cráter central, laderas verdes, acantilados, playas de arena blanca y bahías |
-| Habitaciones | **800** · **hasta 4 personas** · referencia **100 USD/noche** |
-| Villas | **80** de ultra lujo · **hasta 10–12 personas** · referencia **10,000 USD/noche** |
-| Villa Horizonte | **1 por isla** · 25 suites · **hasta 60 personas** · **100,000 USD/noche**: un anfitrión paga e invita a sus amigos ([10](docs/10-villa-horizonte.md)) |
+| Habitaciones | **800** · **hasta 4 personas** · **1 USD/noche** de lanzamiento |
+| Villas | **80** de ultra lujo · **hasta 10–12 personas** · **100 USD/noche** de lanzamiento |
+| Villa Horizonte | **1 por isla** · 25 suites · **hasta 60 personas** · **1,000 USD/noche** de lanzamiento: un anfitrión paga e invita a sus amigos ([10](docs/10-villa-horizonte.md)) |
 | Estancia | Cada noche va de **12:00 a 12:00**, como un hotel |
 | Capacidad por isla | **4,220 huéspedes** máximo (2,685 en promedio) · **sin sobreventa** |
 | Staff | **1,820 por isla** (2 por llave + 60 de Horizonte; NPC + usuarios-staff) |
@@ -125,6 +125,7 @@ cd ~/Code/isla && env -u CLOUDFLARE_API_TOKEN -u CLOUDFLARE_ACCOUNT_ID npx -y wr
 | 23–24 nov 2025 | Concept art generado con IA (5 imágenes ChatGPT + 1 Gemini) |
 | 2025–2026 | Biblia de diseño v2, catálogos, plan MVP, freelancers y modelo financiero v3 |
 | 25 oct 2026 | Repo estructurado, catálogos a JSON, modelo en código, isla.capitaltorreon.com «en construcción» publicada · Unreal Engine 5 en descarga |
+| 26 oct 2026 | Precios de lanzamiento: Horizonte 1,000 USD, villa 100, habitación 1; empezar abajo y subir con experimentos |
 | 26 oct 2026 | Decisiones: mayores de 18 · estancia de 12:00 a 12:00 · sol en hora real · Villa Horizonte (1 por isla, 25 suites, 60 personas, 10 veces el precio) |
 | 26 oct 2026 | Logo ISLA / La Encantada · regla de 4 por habitación y 12 por villa · plan de personajes · islas por región · bitácora · modelo v4 y revisión de fallas · /proyecciones privada con login y base D1 |
 

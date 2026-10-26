@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS escenarios (
   quien       TEXT NOT NULL,          -- sub del login de CapitalTorreon
   correo      TEXT NOT NULL,
   nombre      TEXT NOT NULL,
-  base        TEXT NOT NULL,          -- biblia | prudente | conservador
+  base        TEXT NOT NULL,          -- lanzamiento | subida | meta (antes biblia | prudente | conservador)
   supuestos   TEXT NOT NULL,          -- JSON con los cambios sobre la base
   creado      TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now')),
   actualizado TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ','now'))

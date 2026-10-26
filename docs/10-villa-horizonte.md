@@ -12,8 +12,8 @@
 |---|---|---|
 | Recámaras | 5 | **25 suites** (5 veces) |
 | Personas | hasta 10–12 | **hasta 60** (25 suites para parejas + 10 lugares en suites familiares) |
-| Precio por noche (biblia) | 10,000 USD | **100,000 USD** (10 veces) |
-| Por persona, llena | ~830 USD | **~1,670 USD** |
+| Precio por noche (lanzamiento, 26-oct-2026) | 100 USD | **1,000 USD** (10 veces) |
+| Por persona, llena | ~8 USD | **~17 USD** |
 | Staff | 2 por villa (dentro de los 2 por llave) | **60 sólo para ella:** uno por invitado |
 | Cuántas hay | 80 | **Una sola en cada isla.** Es la única, y por eso vale tanto |
 
@@ -111,7 +111,7 @@ Eventos nuevos ([08](08-bitacora.md)): `reserva-horizonte`, `invitacion` (enviad
 
 ## 6. En los números
 
-Horizonte entra al modelo v4 ([`web/proyecciones/modelo.js`](../web/proyecciones/modelo.js)) como una villa especial por isla, con precio de **10 veces la villa**, hasta **60 personas**, **60 de staff** y su propia ocupación (por omisión 30 % de las noches). En [/proyecciones](https://isla.capitaltorreon.com/proyecciones) hay un control para moverla.
+Precios de lanzamiento bajos a propósito: se empieza abajo y se sube con experimentos ([09 §3](09-revision-del-razonamiento.md#3-cómo-averiguar-el-precio-real-barato-y-antes-de-construir-de-más)). Horizonte entra al modelo v4 ([`web/proyecciones/modelo.js`](../web/proyecciones/modelo.js)) como una villa especial por isla, con precio de **10 veces la villa**, hasta **60 personas**, **60 de staff** y su propia ocupación (por omisión 30 % de las noches). En [/proyecciones](https://isla.capitaltorreon.com/proyecciones) hay un control para moverla.
 
 ## 7. Cómo se construye
 

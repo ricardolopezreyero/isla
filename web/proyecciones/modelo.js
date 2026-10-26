@@ -43,9 +43,10 @@ export const V4_BASE = {
   villa_horizonte: 1, max_por_horizonte: 60, prom_por_horizonte: 45,
   factor_precio_horizonte: 10, ocupacion_horizonte: 0.3, staff_horizonte: 60,
   staff_por_llave: 2,               // personas de staff (NPC + usuarios-staff) por habitación o villa
-  // Precios por noche, por llave (no por persona)
-  precio_habitacion: 100, precio_villa: 10000,
-  gasto_huesped_dia: 20,            // actividades + tiendas + restaurantes, por huésped al día
+  // Precios por noche, por llave (no por persona). RLR · 26-oct-2026: Ricardo bajó todo para empezar abajo y subir
+  // con experimentos: Horizonte 1,000 USD y lo demás proporcional (villa = 1/10, habitación = 1/100 de la villa)
+  precio_habitacion: 1, precio_villa: 100,
+  gasto_huesped_dia: 0.2,           // actividades + tiendas + restaurantes, por huésped al día
   // Demanda
   mes_lanzamiento: 7,               // meses 1..6 = construir el MVP y la primera isla
   ocupacion_inicial: 0.15,          // de la primera isla, el mes del lanzamiento
@@ -71,12 +72,13 @@ export const V4_BASE = {
   meses: 60,
 };
 
+// RLR · empezar abajo y subir: cada escenario es el siguiente experimento de precio
 export const ESCENARIOS = {
-  biblia:      { nombre: "Biblia · precios de lista", nota: "100 USD la habitación y 10,000 USD la villa por noche, como dice el prompt maestro", s: {} },
-  prudente:    { nombre: "Prudente", nota: "Precios de un lujo virtual que alguien sí paga cada semana",
-                 s: { precio_habitacion: 15, precio_villa: 450, gasto_huesped_dia: 4, crecimiento_mensual: 0.10 } },
-  conservador: { nombre: "Conservador", nota: "Precio de suscripción de videojuego y crecimiento lento",
-                 s: { precio_habitacion: 6, precio_villa: 150, gasto_huesped_dia: 1.5, crecimiento_mensual: 0.07, ocupacion_inicial: 0.08 } },
+  lanzamiento: { nombre: "Lanzamiento", nota: "Horizonte 1,000 USD la noche, villa 100 y habitación 1: empezar abajo", s: {} },
+  subida:      { nombre: "Primera subida", nota: "Si el lanzamiento se llena: todo al doble",
+                 s: { precio_habitacion: 2, precio_villa: 200, gasto_huesped_dia: 0.5 } },
+  meta:        { nombre: "Meta", nota: "Después de varias subidas: 5 veces el lanzamiento",
+                 s: { precio_habitacion: 5, precio_villa: 500, gasto_huesped_dia: 1 } },
 };
 
 export const escenario = (id, cambios = {}) => ({ ...V4_BASE, ...(ESCENARIOS[id]?.s || {}), ...cambios });

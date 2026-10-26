@@ -197,9 +197,9 @@ const $ = (id) => document.getElementById(id);
 
 // RLR · controles: [clave, etiqueta, min, max, paso, formato]
 const CONTROLES = [
-  ["precio_habitacion", "Habitación por noche", 1, 150, 1, "usd"],
-  ["precio_villa", "Villa por noche", 50, 12000, 50, "usd"],
-  ["gasto_huesped_dia", "Gasto por huésped al día", 0, 30, 0.5, "usd"],
+  ["precio_habitacion", "Habitación por noche", 0, 20, 0.5, "usd2"],
+  ["precio_villa", "Villa por noche", 0, 1000, 10, "usd"],
+  ["gasto_huesped_dia", "Gasto por huésped al día", 0, 5, 0.1, "usd2"],
   ["ocupacion_inicial", "Ocupación al lanzar", 0.02, 0.6, 0.01, "pct"],
   ["crecimiento_mensual", "Crecimiento mensual", 0, 0.25, 0.005, "pct"],
   ["prom_por_habitacion", "Personas por habitación (prom.)", 1, 4, 0.1, "num"],
@@ -227,7 +227,7 @@ const fNum = (n) => Math.round(n).toLocaleString("es-MX");
 const fCtrl = (v, f) => f === "usd" ? "$" + Number(v).toLocaleString("es-MX") : f === "usd2" ? "$" + Number(v).toFixed(2) : f === "pct" ? (v * 100).toLocaleString("es-MX", { maximumFractionDigits: 1 }) + " %" : Number(v).toLocaleString("es-MX");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-let estado = { base: "prudente", cambios: {}, guardadoId: null };
+let estado = { base: "lanzamiento", cambios: {}, guardadoId: null };
 let guardados = [];
 
 // ── API (siempre con el pase de la casa)
@@ -259,7 +259,7 @@ async function abrir() {
 }
 
 // ── tablero
-function supuestos() { return escenario(estado.base === "v3" ? "prudente" : estado.base, estado.cambios); }
+function supuestos() { return escenario(estado.base === "v3" ? "lanzamiento" : estado.base, estado.cambios); }
 function correr() { return estado.base === "v3" ? modeloV3() : modeloV4(supuestos()); }
 
 function pintarChips() {
@@ -324,7 +324,7 @@ function pintarTabla(r) {
 
 function pintarHallazgos(r) {
   const s = supuestos(), cap = capacidadIsla(s), v3 = estado.base === "v3";
-  const v4 = v3 ? modeloV4(escenario("prudente")) : r;
+  const v4 = v3 ? modeloV4(escenario("lanzamiento")) : r;
   const fin = v4.meses.at(-1), porIsla = fin.islas ? fin.pico / fin.islas : 0;
   const rob = 0.14; // RLR · referencia: Roblox ≈ 0.14 USD de compras por usuario activo al día (2023)
   const arpu = v3 ? 55 : (fin.ingresos / Math.max(1, fin.huespedes) / 30.4);
@@ -341,7 +341,7 @@ function pintarHallazgos(r) {
 }
 
 function pintarControles() {
-  if (estado.base === "v3") { $("controles").innerHTML = `<p class="v3aviso">El Excel v3 se queda fijo para comparar. Elige Biblia, Prudente o Conservador para mover supuestos.</p>`; return; }
+  if (estado.base === "v3") { $("controles").innerHTML = `<p class="v3aviso">El Excel v3 se queda fijo para comparar. Elige Lanzamiento, Primera subida o Meta para mover supuestos.</p>`; return; }
   const s = supuestos();
   $("controles").innerHTML = CONTROLES.map(([k, n, a, b, p, f]) => `<div class="ctrl"><label for="c_${k}">${n}</label><output id="o_${k}">${fCtrl(s[k], f)}</output><input id="c_${k}" type="range" min="${a}" max="${b}" step="${p}" value="${s[k]}" data-k="${k}" data-f="${f}"></div>`).join("");
   $("controles").querySelectorAll("input").forEach((i) => i.oninput = () => {
