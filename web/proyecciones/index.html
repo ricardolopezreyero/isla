@@ -99,7 +99,7 @@ th{font-size:12.5px;color:var(--tenue);font-weight:600}
 .lista button{background:none;border:0;color:var(--tenue);cursor:pointer;font-size:13px}
 .lista button:hover{color:var(--coral)}
 
-.hallazgos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.hallazgos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
 .hallazgo{background:var(--noche);border:1px solid var(--linea);border-radius:14px;padding:16px}
 .hallazgo b{display:block;font-size:15.5px;margin-bottom:6px}
 .hallazgo p{font-size:14px;color:var(--suave);line-height:1.5}
@@ -204,6 +204,8 @@ const CONTROLES = [
   ["crecimiento_mensual", "Crecimiento mensual", 0, 0.25, 0.005, "pct"],
   ["prom_por_habitacion", "Personas por habitación (prom.)", 1, 4, 0.1, "num"],
   ["prom_por_villa", "Personas por villa (prom.)", 2, 12, 0.5, "num"],
+  ["ocupacion_horizonte", "Noches vendidas de Villa Horizonte", 0, 1, 0.05, "pct"],
+  ["factor_precio_horizonte", "Horizonte cuesta × una villa", 2, 20, 1, "num"],
   ["umbral_nueva_isla", "Abrir otra isla al", 0.5, 1, 0.01, "pct"],
   ["max_islas", "Islas máximo", 1, 30, 1, "num"],
   ["horas_conectado", "Horas dentro al día", 0.5, 8, 0.5, "num"],
@@ -328,8 +330,9 @@ function pintarHallazgos(r) {
   const arpu = v3 ? 55 : (fin.ingresos / Math.max(1, fin.huespedes) / 30.4);
   const h = [
     ["Vendida no es llena", `Con ${s.horas_conectado} h dentro al día, en la hora pico hay <em>${fNum(porIsla)}</em> personas reales por isla; para sentirse llena hacen falta ${fNum(s.presencia_llena)}. El resto, <em>${fNum(Math.max(0, s.presencia_llena - porIsla))}</em>, son NPC huéspedes.`],
-    ["El ingreso por persona manda", `Aquí cada huésped deja <em>$${arpu.toFixed(2)}</em> al día. Roblox anda cerca de $${rob} por usuario activo al día: ${Math.round(arpu / rob)} veces menos. Hay que validarlo con una preventa.`],
-    ["Capacidad por isla", `${fNum(cap.llaves)} llaves, hasta <em>${fNum(cap.max_personas)}</em> huéspedes (4 por habitación, 12 por villa) y <em>${fNum(cap.staff)}</em> de staff a 2 por llave.`],
+    ["El ingreso por persona manda", `Aquí cada huésped deja <em>$${arpu.toFixed(2)}</em> al día. Roblox anda cerca de $${rob} por usuario activo al día: ${fNum(arpu / rob)} veces menos. Hay que validarlo con una preventa.`],
+    ["Capacidad por isla", `${fNum(cap.llaves)} llaves, hasta <em>${fNum(cap.max_personas)}</em> huéspedes (4 por habitación, 12 por villa, 60 en Horizonte) y <em>${fNum(cap.staff)}</em> de staff.`],
+    ["Villa Horizonte", `Una por isla a <em>${fUsd(s.precio_villa * s.factor_precio_horizonte)}</em> la noche. Con ${Math.round(s.ocupacion_horizonte * 100)} % de noches vendidas deja <em>${fUsd((v4.meses.at(-1).ingHorizonte || 0) / Math.max(1, v4.meses.at(-1).islas))}</em> al mes por isla.`],
     ["Servidores", `En el pico del mes 60 hay ${fNum(fin.pico)} personas reales: <em>${fNum(fin.servidores_pico)}</em> servidores de ~${s.jugadores_por_servidor} jugadores. Una isla se parte por zonas.`],
     ["Lo que el Excel no traía", `Construcción antes de lanzar, comisión de pagos (${Math.round(s.comision_pagos * 100)} %), 5 % de regalía de Unreal arriba de $1 M y equipo por isla. Con todo, el capital necesario es <em>${fUsd(v4.resumen.capital_necesario)}</em>.`],
     ["Islas por región", `Abrir otra isla diluye la gente: la regla es abrirla con las habitaciones al ${Math.round(s.umbral_nueva_isla * 100)} % y lista de espera, no antes.`],

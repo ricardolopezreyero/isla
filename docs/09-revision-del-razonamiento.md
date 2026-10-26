@@ -10,11 +10,13 @@
 | Escenario | Ingresos 60 meses | Utilidad 60 meses | Capital necesario | Primer mes con utilidad | Islas al mes 60 | Personas reales en el pico, por isla |
 |---|---:|---:|---:|---:|---:|---:|
 | Excel v3 (tal cual) | $8,142 M | $7,524 M | $0 | 1 | — | — |
-| v4 · Biblia (100 / 10,000 USD por noche) | $5,221 M | $4,099 M | $225 mil | 7 | 12 | 497 |
-| v4 · Prudente (15 / 450 USD) | $281.6 M | $202.2 M | $225 mil | 7 | 12 | 497 |
-| v4 · Conservador (6 / 150 USD) | $20.4 M | $8.1 M | $989 mil | 26 | 4 | 358 |
+| v4 · Biblia (100 / 10,000 USD por noche) | $5,515 M | $4,332 M | $225 mil | 7 | 12 | 499 |
+| v4 · Prudente (15 / 450 USD) | $292.6 M | $210.9 M | $225 mil | 7 | 12 | 499 |
+| v4 · Conservador (6 / 150 USD) | $21.5 M | $9.1 M | $785 mil | 24 | 4 | 361 |
 
-**Lectura:** cambiar sólo el precio mueve la utilidad de 8 millones a 4,000 millones. **El precio que la gente de verdad paga es el dato que más vale averiguar**, y hoy nadie lo sabe. Antes de construir de más, conviene medirlo (sección 3).
+*Desde el 26-oct-2026 incluye la Villa Horizonte: una por isla, 10 veces el precio de una villa, 30 % de noches vendidas.*
+
+**Lectura:** cambiar sólo el precio mueve la utilidad de 9 millones a 4,300 millones. **El precio que la gente de verdad paga es el dato que más vale averiguar**, y hoy nadie lo sabe. Antes de construir de más, conviene medirlo (sección 3).
 
 ## 2. Las fallas, de la más grave a la menos
 
@@ -25,10 +27,10 @@
 | 3 | **Calidad AAA con 2 freelancers.** El equipo del modelo cuesta 25–31 mil USD al mes | Sirve para el MVP 0.1, no para 640 piezas de catálogo, MetaHumans, multijugador y operación de varias islas | v4 suma equipo por isla (35 mil USD/mes) y construcción; falta un plan de equipo para pasar de MVP a producto (15–40 personas) |
 | 4 | **Un servidor de Unreal no aguanta una isla.** ~100 jugadores por servidor dedicado | 500 personas en el pico ya son 5 servidores por isla | Partir cada isla por zonas; probarlo en la Fase D con 2 zonas y 20 jugadores ([07 §5](07-islas-y-capacidad.md#5-servidores-lo-técnico-que-cambia-todo)) |
 | 5 | **Isla por país.** Países muy desparejos y gente del mismo idioma separada | Islas medio vacías en países chicos | Una isla por **región horaria e idioma**; el sol sigue la hora real ([07 §2](07-islas-y-capacidad.md#2-una-isla-por-región-no-por-país)) |
-| 6 | **El ciclo de luz suma 26 h** (18 de día + 8 de noche) | No cabe en un día | Ciclo de 24 h real por región: noche de 22:00 a 6:00 |
+| 6 | **El ciclo de luz suma 26 h** (18 de día + 8 de noche) | No cabe en un día | **Decidido:** como un hotel real; estancia de 12:00 a 12:00 y el sol en la hora real de la región |
 | 7 | **Abrir islas diluye.** Abrir otra en cuanto se llena reparte a la gente | Dos islas medio vacías se ven peor que una llena | Abrir con habitaciones al 85 % durante 4 semanas **y** lista de espera |
-| 8 | **Servicios chicos para una isla llena.** Un restaurante de 120–150 lugares para 2,640 huéspedes | Filas y frustración | 6–8 restaurantes, 30–40 cabinas de spa, varias playas y albercas ([07 §4](07-islas-y-capacidad.md#4-lo-que-una-isla-tiene-que-poder-atender)) |
-| 9 | **Staff corto.** 1,200 NPC para 880 llaves | La biblia pide servicio de 7 estrellas | 2 por llave = 1,760 por isla |
+| 8 | **Servicios chicos para una isla llena.** Un restaurante de 120–150 lugares para 2,685 huéspedes | Filas y frustración | 6–8 restaurantes, 30–40 cabinas de spa, varias playas y albercas ([07 §4](07-islas-y-capacidad.md#4-lo-que-una-isla-tiene-que-poder-atender)) |
+| 9 | **Staff corto.** 1,200 NPC para 880 llaves | La biblia pide servicio de 7 estrellas | 2 por llave + 60 de Horizonte = 1,820 por isla |
 | 10 | **Costos que el Excel no traía:** construcción antes de lanzar, comisión de pagos (~4 %), 30 % si se vende dentro de App Store o Google Play, 5 % de regalía de Unreal arriba de 1 millón de ingresos | Bajan el margen y cambian el capital necesario | Todos están en v4; la comisión de tiendas es un control en la página |
 | 11 | **El marketing del Excel sigue creciendo cuando los usuarios ya toparon** | Gasto sin efecto | v4 lo liga a los ingresos (12 %) más una base |
 | 12 | **Ocupación del 15 % el día uno** (120 habitaciones por noche) | Supone audiencia antes de abrir | Lista de espera y preventa desde la Fase B; si no llega, el escenario Conservador muestra el golpe (capital de ~1 millón) |

@@ -32,12 +32,16 @@ export function modeloV3(s = V3) {
 }
 
 // ── v4: por isla
-// RLR · regla de Ricardo (26-oct-2026): hasta 4 personas por habitación y hasta 10–12 por villa;
+// RLR · reglas de Ricardo (26-oct-2026): hasta 4 personas por habitación y hasta 10–12 por villa; cada noche va
+//        de 12:00 a 12:00 (como hotel) y el mes tiene 30.4 noches; Villa Horizonte = 10× villa, 5× recámaras;
 //        una isla por región, se abre la siguiente cuando la última se llena.
 export const V4_BASE = {
   // Capacidad de cada isla
   habitaciones: 800, max_por_habitacion: 4, prom_por_habitacion: 2.5,
   villas: 80, max_por_villa: 12, prom_por_villa: 8,
+  // RLR · Villa Horizonte (docs/10): una por isla, 25 suites, hasta 60 personas, 10 veces el precio de una villa
+  villa_horizonte: 1, max_por_horizonte: 60, prom_por_horizonte: 45,
+  factor_precio_horizonte: 10, ocupacion_horizonte: 0.3, staff_horizonte: 60,
   staff_por_llave: 2,               // personas de staff (NPC + usuarios-staff) por habitación o villa
   // Precios por noche, por llave (no por persona)
   precio_habitacion: 100, precio_villa: 10000,
@@ -78,12 +82,12 @@ export const ESCENARIOS = {
 export const escenario = (id, cambios = {}) => ({ ...V4_BASE, ...(ESCENARIOS[id]?.s || {}), ...cambios });
 
 export function capacidadIsla(s = V4_BASE) {
-  const llaves = s.habitaciones + s.villas;
+  const llaves = s.habitaciones + s.villas + s.villa_horizonte;
   return {
     llaves,
-    max_personas: s.habitaciones * s.max_por_habitacion + s.villas * s.max_por_villa,
-    prom_personas: s.habitaciones * s.prom_por_habitacion + s.villas * s.prom_por_villa,
-    staff: Math.round(llaves * s.staff_por_llave),
+    max_personas: s.habitaciones * s.max_por_habitacion + s.villas * s.max_por_villa + s.villa_horizonte * s.max_por_horizonte,
+    prom_personas: s.habitaciones * s.prom_por_habitacion + s.villas * s.prom_por_villa + s.villa_horizonte * s.prom_por_horizonte,
+    staff: Math.round((s.habitaciones + s.villas) * s.staff_por_llave + s.villa_horizonte * s.staff_horizonte),
   };
 }
 
@@ -100,12 +104,14 @@ export function modeloV4(s = V4_BASE) {
     const habOcupadas = vivo ? Math.min(demanda, islas * s.habitaciones) : 0;
     const ocupacion = vivo ? habOcupadas / (islas * s.habitaciones) : 0;
     const villasOcupadas = islas * s.villas * Math.min(1, ocupacion * s.factor_villas);
-    const huespedes = habOcupadas * s.prom_por_habitacion + villasOcupadas * s.prom_por_villa;
+    const horizonteOcupadas = vivo ? islas * s.villa_horizonte * s.ocupacion_horizonte : 0;
+    const huespedes = habOcupadas * s.prom_por_habitacion + villasOcupadas * s.prom_por_villa + horizonteOcupadas * s.prom_por_horizonte;
 
     const ingHab = habOcupadas * s.precio_habitacion * DIAS;
     const ingVillas = villasOcupadas * s.precio_villa * DIAS;
     const ingGasto = huespedes * s.gasto_huesped_dia * DIAS;
-    const ingresos = ingHab + ingVillas + ingGasto;
+    const ingHorizonte = horizonteOcupadas * s.precio_villa * s.factor_precio_horizonte * DIAS;
+    const ingresos = ingHab + ingVillas + ingHorizonte + ingGasto;
 
     const regalia = s.regalia_unreal * Math.max(0, acumIngresos + ingresos - 1e6) - s.regalia_unreal * Math.max(0, acumIngresos - 1e6);
     acumIngresos += ingresos;
@@ -124,7 +130,7 @@ export function modeloV4(s = V4_BASE) {
       npc_relleno: islas ? Math.max(0, s.presencia_llena - huespedes * s.horas_conectado / 24 * s.factor_pico / islas) * islas : 0,
       servidores_pico: Math.ceil(huespedes * s.horas_conectado / 24 * s.factor_pico / s.jugadores_por_servidor),
       staff: islas * capacidadIsla(s).staff,
-      ingresos, ingHab, ingVillas, ingGasto,
+      ingresos, ingHab, ingVillas, ingHorizonte, ingGasto, horizonteOcupadas,
       servidores, comisiones, regalia, equipo, marketing, assets, costos,
       utilidad: ingresos - costos,
     });

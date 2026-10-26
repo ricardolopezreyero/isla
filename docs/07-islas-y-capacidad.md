@@ -8,11 +8,14 @@
 |---|---:|---:|---:|
 | Habitación | 800 | **hasta 4** | 2.5 |
 | Villa | 80 | **hasta 12** (10–12) | 8 |
-| **Total por isla** | **880 llaves** | **4,160 huéspedes** | **2,640** |
+| Villa Horizonte ([10](10-villa-horizonte.md)) | 1 | **hasta 60** | 45 cuando está vendida |
+| **Total por isla** | **881 llaves** | **4,220 huéspedes** | **2,685** |
 
-Esto reemplaza a la cifra de la biblia (máximo 3 por habitación y ~5 por villa, ≈ 2,800 huéspedes). La Villa Horizonte 50 queda como **villa especial de grupo**, aparte de las 80.
+Esto reemplaza a la cifra de la biblia (máximo 3 por habitación y ~5 por villa, ≈ 2,800 huéspedes).
 
-**Staff: 2 personas por llave → 1,760 por isla** (la biblia decía 1,200 NPC). En hoteles de ultra lujo la proporción real va de 1.5 a 3 empleados por cuarto. El staff mezcla NPC y, más adelante, usuarios que trabajan en la isla ([00-vision.md](00-vision.md#la-economía-del-mundo-también-se-puede-trabajar-en-la-isla)).
+**La estancia va de 12:00 a 12:00**, como en un hotel: una «noche» es de mediodía a mediodía.
+
+**Staff: 2 personas por llave más 60 sólo para Villa Horizonte → 1,820 por isla** (la biblia decía 1,200 NPC). En hoteles de ultra lujo la proporción real va de 1.5 a 3 empleados por cuarto. El staff mezcla NPC y, más adelante, usuarios que trabajan en la isla ([00-vision.md](00-vision.md#la-economía-del-mundo-también-se-puede-trabajar-en-la-isla)).
 
 ## 2. Una isla por región, no por país
 
@@ -30,7 +33,7 @@ La idea: empezar con una isla y abrir la siguiente cuando la última se llena, p
 
 Cada isla puede tener su propio nombre (por eso el logotipo es **ISLA** arriba y el nombre abajo). Se puede visitar otra isla como invitado; la reserva vive en la tuya.
 
-**Bono:** con una isla por región, **el sol sigue la hora real de esa región**. Eso resuelve la [decisión abierta 1](00-vision.md#decisiones-abiertas) (el ciclo «18 h de día + 8 h de noche» suma 26 h). Propuesta: ciclo de 24 h real, con amanecer de 6:00 a 7:30, día hasta las 20:00, atardecer de 20:00 a 21:30 y noche de 22:00 a 6:00 (8 h). El atardecer cae cuando más gente está conectada.
+**Decidido (26-oct-2026): como un hotel real, el sol sigue la hora real de la región.** En La Encantada (hora del centro de México): amanecer de 6:00 a 7:30, día hasta las 20:00, atardecer de 20:00 a 21:30 y noche de 22:00 a 6:00 (8 h). Si en Torreón son las 8:30 de la noche, en la isla está atardeciendo, justo cuando más gente está conectada. Esto resuelve que la biblia sumaba 26 h (18 de día + 8 de noche).
 
 ## 3. La falla más importante: vendida ≠ llena
 
@@ -38,7 +41,7 @@ Una habitación vendida no significa una persona caminando por la isla. Si cada 
 
 | Isla al 100 % de ocupación | Personas |
 |---|---:|
-| Huéspedes con reserva (promedio) | 2,640 |
+| Huéspedes con reserva (promedio) | 2,685 |
 | Dentro al mismo tiempo, en promedio (2 h de 24) | ≈ 220 |
 | Dentro en la hora pico (× 2.5) | ≈ 550 |
 | Para **sentirse llena** en una isla de 3–4 km | ≈ 1,500 |
@@ -53,14 +56,14 @@ Consecuencias de diseño:
 
 ## 4. Lo que una isla tiene que poder atender
 
-Con 2,640 huéspedes en promedio, la biblia se queda corta en algunos lugares:
+Con 2,685 huéspedes en promedio, la biblia se queda corta en algunos lugares:
 
 | Servicio | Lo que hay en la biblia | Lo que pide una isla llena | Ajuste |
 |---|---|---|---|
 | Cenas | Restaurante principal de 120–150 comensales | Si 1 de cada 3 cena en restaurante en la hora pico virtual: ~880 cubiertos | 6–8 restaurantes de 120–150 + bares; el principal se reserva con anticipación (exclusividad) |
 | Spa | 120 tipos de masaje | Cabinas suficientes para ~5 % de huéspedes al día | 30–40 cabinas, más en villas |
 | Playa y albercas | 1 playa + 1 alberca en el MVP | Camastros para ~25 % de huéspedes a la vez en el pico | Varias playas y albercas por zona |
-| Staff | 1,200 NPC | 1,760 (2 por llave) | Actualizado arriba |
+| Staff | 1,200 NPC | 1,820 (2 por llave + 60 de Horizonte) | Actualizado arriba |
 
 ## 5. Servidores (lo técnico que cambia todo)
 

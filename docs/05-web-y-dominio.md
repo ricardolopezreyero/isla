@@ -50,7 +50,7 @@ y abrir http://localhost:8787. Para probar /proyecciones sin la llave real del l
 ## Qué tiene la página hoy
 
 1. Portada con la panorámica, la etiqueta **«En construcción · trabajando»** y el logo **ISLA / La Encantada** (archivo en `web/img/logo.svg`).
-2. Cuatro cifras: 3–4 km · 800 habitaciones · 80 villas · 1,760 de staff.
+2. Cuatro cifras: 3–4 km · 800 habitaciones · 80 villas · 1,820 de staff.
 3. **Cómo vamos**: las 5 etapas (Base → Fase D) con su estado. Se edita en el arreglo `FASES` dentro de `web/index.html`.
 4. Galería con 5 renders.
 5. Catálogo en cifras: 50 · 70 · 100 · 100 · 120 · 200.

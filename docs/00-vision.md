@@ -26,8 +26,10 @@ De ahí salen cinco principios de trabajo para cualquier decisión de diseño o 
 | Tamaño | 3–4 km de diámetro | Prompt maestro §2 |
 | Habitaciones | 800 · **hasta 4 personas** (la biblia decía 3) · 100 USD/noche | Regla del 26-oct-2026 · [07](07-islas-y-capacidad.md) |
 | Villas ultra lujo | 80 · **hasta 10–12 personas** (la biblia decía 4–6) · 10,000 USD/noche | Regla del 26-oct-2026 |
-| Huéspedes por isla | **4,160 máximo**, 2,640 en promedio (la biblia decía ≈ 2,800) | [07](07-islas-y-capacidad.md) |
-| Staff | **1,760 por isla** (2 por llave; la biblia decía 1,200 NPC) | [07](07-islas-y-capacidad.md) |
+| Villa Horizonte | **1 por isla** · 25 suites · hasta 60 personas · 10 veces el precio de una villa (100,000 USD/noche) | [10](10-villa-horizonte.md) |
+| Huéspedes por isla | **4,220 máximo**, 2,685 en promedio (la biblia decía ≈ 2,800) | [07](07-islas-y-capacidad.md) |
+| Staff | **1,820 por isla** (2 por llave + 60 de Horizonte; la biblia decía 1,200 NPC) | [07](07-islas-y-capacidad.md) |
+| Estancia | **Cada noche va de 12:00 a 12:00**, como un hotel | Decisión del 26-oct-2026 |
 | Islas | Una por región horaria e idioma; La Encantada primero | [07](07-islas-y-capacidad.md) |
 | Personajes | Gente bonita, sensual sin desnudos, al azar y ajustable | [06](06-personajes.md) |
 
@@ -86,9 +88,9 @@ Cosas que los documentos dicen de forma distinta o que todavía no se deciden. N
 
 | # | Tema | Lo que dicen las fuentes | Por decidir |
 |---|---|---|---|
-| 1 | **Duración del ciclo** | El prompt maestro dice «ciclo de 24 horas: 18 de día y 8 de noche», que suman **26 h**. | **Propuesta:** 24 h reales de la región de cada isla; amanecer 6:00, atardecer 20:00–21:30, noche 22:00–6:00 ([07 §2](07-islas-y-capacidad.md#2-una-isla-por-región-no-por-país)). Falta tu sí |
-| 2 | **Capacidad vs. usuarios** | Una isla admite 4,160 huéspedes; el Excel llega a 100,000 usuarios diarios. | **Resuelto:** varias islas por región, se abre otra con 85 % durante 4 semanas y lista de espera ([07](07-islas-y-capacidad.md)) |
-| 3 | **Villas** | 80 villas de hasta 12 personas; la Villa Horizonte 50 es para 50. | **Propuesta:** Horizonte 50 es una villa especial de grupo, aparte de las 80. Falta decir cuántas |
+| 1 | **Duración del ciclo** | El prompt maestro dice «ciclo de 24 horas: 18 de día y 8 de noche», que suman **26 h**. | **Decidido (26-oct-2026):** como un hotel real. La estancia va de 12:00 a 12:00 y el sol sigue la hora real de la región (La Encantada, hora del centro de México): amanecer 6:00, atardecer 20:00–21:30 y noche 22:00–6:00 ([07 §2](07-islas-y-capacidad.md#2-una-isla-por-región-no-por-país)) |
+| 2 | **Capacidad vs. usuarios** | Una isla admite 4,220 huéspedes; el Excel llega a 100,000 usuarios diarios. | **Resuelto:** varias islas por región, se abre otra con 85 % durante 4 semanas y lista de espera ([07](07-islas-y-capacidad.md)) |
+| 3 | **Villas** | 80 villas de hasta 12 personas; la Villa Horizonte 50 es para 50. | **Decidido (26-oct-2026):** Villa Horizonte es la villa más especial de la isla, aparte de las 80: **una por isla**, 25 suites (5 veces una villa), hasta 60 personas y 10 veces el precio. La paga un anfitrión que invita a sus amigos ([10](10-villa-horizonte.md)) |
 | 8 | **Edad** | La estética es sensual y hay dinero y encuentros entre personas. | **Decidido (26-oct-2026, Ricardo):** la plataforma es sólo para mayores de 18 años ([06 §5](06-personajes.md#5-sexy-sin-vulgaridad-las-reglas)) |
 | 9 | **Opción neutral en avatares** | El pedido es una mujer y un hombre nuevos por sesión. | ¿Agregar una tercera opción más adelante? ([06 §9](06-personajes.md#9-lo-que-todavía-hay-que-decidir)) |
 | 4 | **Precios** | Habitación 100 USD/noche y villa 10,000 USD/noche (prompt) vs. 35 USD por usuario al día por habitación (modelo). | Una sola lista de precios y moneda virtual. |

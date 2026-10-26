@@ -22,7 +22,7 @@ Cuando cambie el estado, actualizar esta tabla **y** el arreglo `FASES` de [`web
 | Entra | Se deja para después |
 |---|---|
 | 1 zona de hotel con 1–2 tipos de habitación | El resto de las 800 habitaciones |
-| 2–3 villas representativas | Las demás villas y Villa Horizonte 50 completa |
+| 2–3 villas representativas, **una de ellas Villa Horizonte** (sala monumental, alberca infinita y una suite) | Las demás villas y Villa Horizonte completa |
 | 1 playa principal + 1 alberca principal | Otras playas, marina operando, pista aérea |
 | 1 restaurante principal con platillos estrella | Los demás restaurantes temáticos |
 | Ciclo día/noche sencillo | Cielo, clima y fases de luna completos |
@@ -56,7 +56,8 @@ Tomar el documento maestro y aterrizarlo en un mapa y en una lista cerrada.
 - [ ] Contactar a los freelancers con el mensaje de [02-equipo.md](02-equipo.md)
 - [ ] Moodboard de «gente bonita La Encantada» (30–50 referencias de estilo, sin personas reales identificables) → `referencias/personajes/`
 - [x] Plataforma sólo para mayores de 18 años (decidido el 26-oct-2026)
-- [ ] Decidir: ciclo de 24 h por región, Horizonte 50 como villa especial
+- [x] Estancia de 12:00 a 12:00 y sol en la hora real de la región (decidido el 26-oct-2026)
+- [x] Villa Horizonte: una por isla, 25 suites, 60 personas, 10 veces el precio ([10](10-villa-horizonte.md)) (26-oct-2026)
 - [ ] Lista de espera con la pregunta de precio (para medir el dato que más mueve las proyecciones)
 
 **Entregables:** mapa de zonas · lista del MVP 0.1 · carpeta de concept art.

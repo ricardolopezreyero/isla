@@ -27,6 +27,7 @@ Un **diario de estancia** que se escribe solo. Cada cosa que haces en la isla qu
 | `foto` | Foto en el mirador del cráter al atardecer | Álbum |
 | `logro` | 10 atardeceres · primera mantarraya | Insignias |
 | `ajuste` | Burbuja personal 1.5 m · no aparecer en fotos | Comodidad |
+| `reserva-horizonte`, `invitacion`, `suite-asignada`, `evento-privado`, `album-horizonte` | Valeria invitó a 42 amigos · aceptaste · Master Suite 7 · cena de gala en la península | La experiencia del anfitrión ([10](10-villa-horizonte.md)) |
 
 Los `id` de catálogo (`platillos-001`, `masajes-008`…) son los mismos de [`data/`](../data/): la bitácora y los catálogos hablan el mismo idioma.
 

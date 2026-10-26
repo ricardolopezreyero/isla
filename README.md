@@ -17,11 +17,13 @@ Un mundo 3D persistente, calidad AAA, ambientado en una isla volcánica privada 
 | Isla | volcánica, **3–4 km** de diámetro, cráter central, laderas verdes, acantilados, playas de arena blanca y bahías |
 | Habitaciones | **800** · **hasta 4 personas** · referencia **100 USD/noche** |
 | Villas | **80** de ultra lujo · **hasta 10–12 personas** · referencia **10,000 USD/noche** |
-| Capacidad por isla | **4,160 huéspedes** máximo (2,640 en promedio) · **sin sobreventa** |
-| Staff | **1,760 por isla** (2 por llave: NPC + usuarios-staff) |
+| Villa Horizonte | **1 por isla** · 25 suites · **hasta 60 personas** · **100,000 USD/noche**: un anfitrión paga e invita a sus amigos ([10](docs/10-villa-horizonte.md)) |
+| Estancia | Cada noche va de **12:00 a 12:00**, como un hotel |
+| Capacidad por isla | **4,220 huéspedes** máximo (2,685 en promedio) · **sin sobreventa** |
+| Staff | **1,820 por isla** (2 por llave + 60 de Horizonte; NPC + usuarios-staff) |
 | Islas | Una por **región horaria e idioma**; La Encantada es la primera. Se abre la siguiente cuando la última se llena ([07](docs/07-islas-y-capacidad.md)) |
 | Personajes | Gente bonita: cada sesión llega una mujer nueva y un hombre nuevo, al azar y ajustables, sin desnudos ([06](docs/06-personajes.md)) |
-| Ciclo de luz | Propuesta: 24 h reales de la región, noche de 22:00 a 6:00 *(ver [decisiones abiertas](docs/00-vision.md#decisiones-abiertas))* |
+| Ciclo de luz | El sol sigue la hora real de la región: atardecer de 20:00 a 21:30 y noche de 22:00 a 6:00 |
 | Motor | **Unreal Engine 5** + asset packs + 2 freelancers (environment artist y technical artist) |
 
 ## Cómo está organizado este repo
@@ -40,6 +42,7 @@ isla/
 │   ├── 07-islas-y-capacidad.md  4 por habitación, 12 por villa, islas por región, «siempre llena»
 │   ├── 08-bitacora.md           el diario de cada huésped: qué se registra y cómo
 │   ├── 09-revision-del-razonamiento.md  las fallas encontradas y los números v4
+│   ├── 10-villa-horizonte.md    la villa más especial: el anfitrión paga e invita a 59 amigos
 │   └── biblia/                  los documentos maestros transcritos tal cual
 ├── catalogo/                ← los catálogos legibles (generados desde data/)
 ├── data/                    ← los mismos catálogos en JSON: la fuente que leerán juego y web
@@ -62,7 +65,7 @@ Los documentos maestros, transcritos fielmente desde los PDF ([índice](docs/bib
 | 1 | [Prompt maestro v2 · lujo máximo](docs/biblia/01-prompt-maestro-v2.md) | El mundo completo: topografía, ciclo día/noche, capacidad, camas y baños al centímetro, luz, flora, fauna, arrecifes y gastronomía |
 | 2 | [Restaurante principal](docs/biblia/02-restaurante-principal.md) | El ícono de la isla: fine dining frente al atardecer, 120–150 comensales, península oeste-suroeste |
 | 3 | [Suite Retorno 100](docs/biblia/03-suite-retorno-100.md) | Suite de 100 m² + terraza: el santuario personal de cada huésped |
-| 4 | [Villa Horizonte 50](docs/biblia/04-villa-horizonte-50.md) | Villa para 50 personas: 20 suites, 3,500–4,000 m², vista de 270° |
+| 4 | [Villa Horizonte 50](docs/biblia/04-villa-horizonte-50.md) | Arquitectura original (50 personas, 20 suites, 270°). La versión vigente es [docs/10](docs/10-villa-horizonte.md): 25 suites y 60 personas |
 | 5 | [Plan de acción MVP](docs/biblia/05-plan-de-accion-mvp.md) | Cómo llegar rápido y barato a una demo jugable (fases A–D) |
 | 6 | [Freelancers México](docs/biblia/06-freelancers-mexico.md) | Los dos perfiles a contratar y el mensaje para contactarlos |
 
@@ -122,6 +125,7 @@ cd ~/Code/isla && env -u CLOUDFLARE_API_TOKEN -u CLOUDFLARE_ACCOUNT_ID npx -y wr
 | 23–24 nov 2025 | Concept art generado con IA (5 imágenes ChatGPT + 1 Gemini) |
 | 2025–2026 | Biblia de diseño v2, catálogos, plan MVP, freelancers y modelo financiero v3 |
 | 25 oct 2026 | Repo estructurado, catálogos a JSON, modelo en código, isla.capitaltorreon.com «en construcción» publicada · Unreal Engine 5 en descarga |
+| 26 oct 2026 | Decisiones: mayores de 18 · estancia de 12:00 a 12:00 · sol en hora real · Villa Horizonte (1 por isla, 25 suites, 60 personas, 10 veces el precio) |
 | 26 oct 2026 | Logo ISLA / La Encantada · regla de 4 por habitación y 12 por villa · plan de personajes · islas por región · bitácora · modelo v4 y revisión de fallas · /proyecciones privada con login y base D1 |
 
 <!-- RLR · Ricardo López Reyero · Torreón, Coahuila, México · rev 181218 · EYE -->
