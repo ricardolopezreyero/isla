@@ -1,0 +1,691 @@
+{
+  "catalogo": "experiencias",
+  "titulo": "Menú Maestro de Experiencias – Isla La Encantada",
+  "tipo": "experiencia",
+  "fuente": "fuentes/pdf/Experiencias_Isla_La_Encantada_100_actividades.pdf",
+  "intro": "Este documento presenta 100 experiencias premium diseñadas para Isla La Encantada, pensadas para un resort virtual de lujo donde los huéspedes pueden vivir aventuras, momentos de calma, exploración, bienestar y creatividad con un nivel de detalle extremo. Cada actividad está descrita para que pueda ser modelada en un entorno 3D o utilizada como catálogo de experiencias.",
+  "total": 100,
+  "secciones": [
+    {
+      "clave": "I",
+      "titulo": "Experiencias de mar y buceo",
+      "id": "experiencias-de-mar-y-buceo",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-001",
+          "n": 1,
+          "nombre": "Buceo diurno en arrecife de coral",
+          "descripcion": "Inmersión guiada en aguas cristalinas alrededor de Isla La Encantada, explorando jardines de coral, bancos de peces de colores, tortugas y mantarrayas, con instrucciones previas en una plataforma flotante de entrenamiento."
+        },
+        {
+          "id": "experiencias-002",
+          "n": 2,
+          "nombre": "Buceo en el atardecer",
+          "descripcion": "Inmersión programada para coincidir con los últimos rayos de sol, donde el cielo naranja se refleja sobre el agua mientras el arrecife cambia de actividad, observando cómo los peces diurnos se retiran y emergen especies crepusculares."
+        },
+        {
+          "id": "experiencias-003",
+          "n": 3,
+          "nombre": "Buceo nocturno con linternas especiales",
+          "descripcion": "Buceo guiado con luces cálidas y frías, que permiten ver corales fluorescentes, peces curiosos y pequeños crustáceos en actividad nocturna, siempre en grupos pequeños para respetar el entorno marino."
+        },
+        {
+          "id": "experiencias-004",
+          "n": 4,
+          "nombre": "Buceo con enfoque en fotografía submarina",
+          "descripcion": "Inmersión diseñada para capturar imágenes espectaculares, con rutas que pasan por formaciones rocosas, arcos naturales y cardúmenes densos, guiados por un instructor especializado en composición y luz bajo el agua."
+        },
+        {
+          "id": "experiencias-005",
+          "n": 5,
+          "nombre": "Buceo en pared volcánica",
+          "descripcion": "Descenso suavemente controlado junto a una pared de roca volcánica cubierta de vida marina, con cambios de color del agua según la profundidad y vistas impresionantes hacia el azul abierto."
+        },
+        {
+          "id": "experiencias-006",
+          "n": 6,
+          "nombre": "Buceo en jardín de mantarrayas",
+          "descripcion": "Salida a una zona donde suelen alimentarse mantarrayas; los buzos observan desde la distancia cómo planan con movimientos suaves, sin invadir su espacio."
+        },
+        {
+          "id": "experiencias-007",
+          "n": 7,
+          "nombre": "Buceo de exploración de cañones submarinos",
+          "descripcion": "Recorrido por pequeñas grietas y cañones en el fondo marino, con luz filtrándose desde la superficie y efectos visuales dramáticos."
+        },
+        {
+          "id": "experiencias-008",
+          "n": 8,
+          "nombre": "Buceo con énfasis en biología marina",
+          "descripcion": "Guía que explica especies, comportamientos, relaciones ecológicas y curiosidades del ecosistema de Isla La Encantada durante la inmersión."
+        },
+        {
+          "id": "experiencias-009",
+          "n": 9,
+          "nombre": "Curso de introducción al buceo para principiantes",
+          "descripcion": "Breve sesión teórica, práctica en piscina poco profunda y salida guiada a un arrecife sencillo, con acompañamiento cercano del instructor."
+        },
+        {
+          "id": "experiencias-010",
+          "n": 10,
+          "nombre": "Snorkel en arrecife poco profundo",
+          "descripcion": "Experiencia accesible para todos, con chalecos, mascarillas y aletas, flotando sobre corales y peces tropicales, observando desde la superficie con excelente visibilidad."
+        },
+        {
+          "id": "experiencias-011",
+          "n": 11,
+          "nombre": "Snorkel al amanecer",
+          "descripcion": "Salida temprana cuando el mar está especialmente calmado y la luz oblicua del sol ilumina el arrecife desde ángulos muy fotogénicos."
+        },
+        {
+          "id": "experiencias-012",
+          "n": 12,
+          "nombre": "Snorkel nocturno de superficie",
+          "descripcion": "Con linternas de mano y guía especializado, recorriendo una parte del arrecife sin descender, observando cómo la vida marina se transforma en la oscuridad."
+        },
+        {
+          "id": "experiencias-013",
+          "n": 13,
+          "nombre": "Buceo libre (apnea) guiado",
+          "descripcion": "Entrenamiento básico de respiración y seguridad para hacer descensos cortos a pulmón, siempre con supervisión y rutas seguras."
+        },
+        {
+          "id": "experiencias-014",
+          "n": 14,
+          "nombre": "Expedición de buceo a un pecio artificial",
+          "descripcion": "Visita a una estructura sumergida diseñada para convertirse en arrecife, cubierta de corales y hogar de peces, ideal para fotografía y exploración."
+        },
+        {
+          "id": "experiencias-015",
+          "n": 15,
+          "nombre": "Buceo de limpieza simbólica",
+          "descripcion": "Experiencia en la que los buzos participan en la recolección simbólica de desechos virtuales, reforzando el mensaje de cuidado de los océanos en un entorno gamificado."
+        }
+      ]
+    },
+    {
+      "clave": "II",
+      "titulo": "Navegación y pesca",
+      "id": "navegacion-y-pesca",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-016",
+          "n": 16,
+          "nombre": "Pesca al amanecer en lancha",
+          "descripcion": "Salida temprano desde la marina en embarcaciones elegantes, con cañas preparadas, café caliente y cielo que cambia de azul oscuro a dorado mientras se lanzan las primeras líneas."
+        },
+        {
+          "id": "experiencias-017",
+          "n": 17,
+          "nombre": "Pesca al atardecer",
+          "descripcion": "Paseo en lancha al caer la tarde, con el sol bajando en el horizonte, brisa suave y posibilidad de capturar peces de media agua mientras el cielo se tiñe de colores intensos."
+        },
+        {
+          "id": "experiencias-018",
+          "n": 18,
+          "nombre": "Pesca deportiva en alta mar",
+          "descripcion": "Experiencia más larga mar adentro, en barcos equipados, con sillas de combate y equipo avanzado, enfocada en grandes especies (simuladas) con fuertes tirones y emoción controlada."
+        },
+        {
+          "id": "experiencias-019",
+          "n": 19,
+          "nombre": "Paseo en velero alrededor de Isla La Encantada",
+          "descripcion": "Recorrido pausado en velero, bordeando acantilados, calas y arrecifes, con explicaciones del capitán y pequeñas paradas para nadar."
+        },
+        {
+          "id": "experiencias-020",
+          "n": 20,
+          "nombre": "Navegación en catamarán con música suave",
+          "descripcion": "Travesía de media tarde en un catamarán estable, con áreas lounge, bebidas ligeras y vistas panorámicas de la isla."
+        },
+        {
+          "id": "experiencias-021",
+          "n": 21,
+          "nombre": "Tour en bote con fondo de cristal",
+          "descripcion": "Lancha con secciones transparentes en el piso para ver el arrecife sin mojarse, ideal para familias y personas que no quieren bucear."
+        },
+        {
+          "id": "experiencias-022",
+          "n": 22,
+          "nombre": "Clase de navegación básica",
+          "descripcion": "Introducción a conceptos de viento, velas y rumbo, con práctica sencilla en embarcaciones pequeñas bajo supervisión."
+        },
+        {
+          "id": "experiencias-023",
+          "n": 23,
+          "nombre": "Recorrido en kayak por la costa",
+          "descripcion": "Salida guiada en kayaks dobles o sencillos, explorando cuevas, entradas de agua y playas escondidas, con pausas para observar aves y formaciones rocosas."
+        },
+        {
+          "id": "experiencias-024",
+          "n": 24,
+          "nombre": "Excursión en paddle board al amanecer",
+          "descripcion": "Travesía en tablas de paddle sobre mar muy tranquilo, con el sol saliendo detrás de la isla y reflejándose en el agua."
+        },
+        {
+          "id": "experiencias-025",
+          "n": 25,
+          "nombre": "Mini regata amistosa",
+          "descripcion": "Evento en el que varios huéspedes compiten de manera amistosa con veleros pequeños o botes de remo, con meta marcada frente a la playa principal."
+        }
+      ]
+    },
+    {
+      "clave": "III",
+      "titulo": "Playa, albercas y experiencias de agua",
+      "id": "playa-albercas-y-experiencias-de-agua",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-026",
+          "n": 26,
+          "nombre": "Día de playa con camas balinesas",
+          "descripcion": "Zona de playa con camas balinesas, sombrillas de lujo, servicio de toallas frías, bebidas frescas y snacks ligeros con vista directa al mar."
+        },
+        {
+          "id": "experiencias-027",
+          "n": 27,
+          "nombre": "Picnic al atardecer en la playa",
+          "descripcion": "Montaje especial con mantas, cojines, farolitos y una canasta con quesos, frutas, vino o bebidas sin alcohol, mientras el sol se oculta frente a la orilla."
+        },
+        {
+          "id": "experiencias-028",
+          "n": 28,
+          "nombre": "Cine al aire libre frente al mar",
+          "descripcion": "Pantalla grande montada en la arena, con puffs y mantas, proyección de películas seleccionadas bajo las estrellas, sonido envolvente moderado."
+        },
+        {
+          "id": "experiencias-029",
+          "n": 29,
+          "nombre": "Alberca infinita panorámica",
+          "descripcion": "Gran piscina con borde infinito orientado al océano, con diferentes profundidades, jacuzzis integrados y barras húmedas discretas."
+        },
+        {
+          "id": "experiencias-030",
+          "n": 30,
+          "nombre": "Recorrido por albercas termales",
+          "descripcion": "Circuito de pequeñas piscinas con diferentes temperaturas, rodeadas de vegetación, para alternar entre agua tibia y ligeramente más caliente."
+        },
+        {
+          "id": "experiencias-031",
+          "n": 31,
+          "nombre": "Jacuzzis en miradores de acantilado",
+          "descripcion": "Tinas de hidromasaje ubicadas en puntos altos, con vista al mar abierto, iluminación suave y posibilidad de reservar horarios privados."
+        },
+        {
+          "id": "experiencias-032",
+          "n": 32,
+          "nombre": "Clases de aqua yoga en la piscina",
+          "descripcion": "Sesiones guiadas de yoga adaptado al agua, con posturas suaves y trabajo de respiración en un entorno muy silencioso."
+        },
+        {
+          "id": "experiencias-033",
+          "n": 33,
+          "nombre": "Juegos acuáticos tranquilos",
+          "descripcion": "Actividades con pelotas, aros y flotadores en área designada, sin ruido excesivo, para familias y grupos de amigos."
+        },
+        {
+          "id": "experiencias-034",
+          "n": 34,
+          "nombre": "Paseo flotando al anochecer",
+          "descripcion": "Experiencia donde los huéspedes flotan en la piscina con colchonetas suaves, luces subacuáticas tenues y música muy relajante."
+        },
+        {
+          "id": "experiencias-035",
+          "n": 35,
+          "nombre": "Río lento alrededor de una sección del resort",
+          "descripcion": "Circuito de agua en movimiento lento en el que los huéspedes se dejan llevar en flotadores, disfrutando de paisajes tropicales."
+        }
+      ]
+    },
+    {
+      "clave": "IV",
+      "titulo": "Experiencias de aire y vuelo",
+      "id": "experiencias-de-aire-y-vuelo",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-036",
+          "n": 36,
+          "nombre": "Tour en avioneta alrededor de la isla",
+          "descripcion": "Vuelo panorámico en avioneta ligera que rodea Isla La Encantada, mostrando desde el aire la pista sobre el mar, la marina, las villas y los arrecifes."
+        },
+        {
+          "id": "experiencias-037",
+          "n": 37,
+          "nombre": "Vuelo al amanecer en avioneta",
+          "descripcion": "Experiencia temprana donde las nubes se tiñen de dorado y rosa, ofreciendo fotos espectaculares de la isla recién despertando."
+        },
+        {
+          "id": "experiencias-038",
+          "n": 38,
+          "nombre": "Vuelo al atardecer bordeando la costa",
+          "descripcion": "Ruta que sigue los acantilados y playas mientras el sol cae, con vistas de las sombras alargadas y el color naranja del cielo reflejado en el agua."
+        },
+        {
+          "id": "experiencias-039",
+          "n": 39,
+          "nombre": "Paseo en helicóptero con piso de cristal",
+          "descripcion": "Vuelo corto con sección de piso transparente para contemplar el mar y el relieve de la isla desde arriba."
+        },
+        {
+          "id": "experiencias-040",
+          "n": 40,
+          "nombre": "Tour educativo de vuelo",
+          "descripcion": "Experiencia donde el piloto explica los instrumentos básicos, la ruta y conceptos simples de aviación mientras se sobrevuela la isla."
+        },
+        {
+          "id": "experiencias-041",
+          "n": 41,
+          "nombre": "Observación de estrellas desde un punto alto",
+          "descripcion": "Aunque no es vuelo, se accede a un mirador en la parte alta de la isla para contemplar el cielo nocturno con telescopios, constelaciones y explicaciones guiadas."
+        },
+        {
+          "id": "experiencias-042",
+          "n": 42,
+          "nombre": "Simulación de vuelo para huéspedes",
+          "descripcion": "Dentro del resort, cabina virtual donde el jugador puede “pilotar” una avioneta sobre una recreación de Isla La Encantada, con vistas aéreas altamente detalladas."
+        },
+        {
+          "id": "experiencias-043",
+          "n": 43,
+          "nombre": "Tour combinado tierra-aire",
+          "descripcion": "Recorrido en vehículo eléctrico por la isla, seguido de un vuelo corto para ver desde el cielo los lugares visitados."
+        }
+      ]
+    },
+    {
+      "clave": "V",
+      "titulo": "Naturaleza y exploración terrestre",
+      "id": "naturaleza-y-exploracion-terrestre",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-044",
+          "n": 44,
+          "nombre": "Caminata guiada por la selva interior",
+          "descripcion": "Sendero señalizado donde un guía explica la flora tropical, árboles altos, plantas medicinales y la historia geológica de la isla."
+        },
+        {
+          "id": "experiencias-045",
+          "n": 45,
+          "nombre": "Tour al cráter volcánico",
+          "descripcion": "Subida controlada hasta el borde del antiguo cráter, con miradores seguros y paneles que cuentan la formación de Isla La Encantada."
+        },
+        {
+          "id": "experiencias-046",
+          "n": 46,
+          "nombre": "Ruta de observación de aves",
+          "descripcion": "Caminata silenciosa para ver aves locales en árboles, acantilados y zonas húmedas, con binoculares virtuales y guía que identifica especies."
+        },
+        {
+          "id": "experiencias-047",
+          "n": 47,
+          "nombre": "Tour nocturno de sonidos de la naturaleza",
+          "descripcion": "Recorrido al anochecer donde se apagan luces artificiales y se escuchan cuidadosamente grillos, aves nocturnas y el viento entre las hojas."
+        },
+        {
+          "id": "experiencias-048",
+          "n": 48,
+          "nombre": "Exploración de cuevas costeras",
+          "descripcion": "Acceso en grupos pequeños a pequeñas cuevas abiertas al mar, con linternas suaves y explicaciones sobre formaciones rocosas."
+        },
+        {
+          "id": "experiencias-049",
+          "n": 49,
+          "nombre": "Ruta de miradores",
+          "descripcion": "Circuito de miradores repartidos por la isla, cada uno con un diseño distinto, bancas cómodas y paneles discretos que señalan puntos de interés visual."
+        },
+        {
+          "id": "experiencias-050",
+          "n": 50,
+          "nombre": "Sendero de mindfulness en la naturaleza",
+          "descripcion": "Camino diseñado para caminar despacio, con estaciones donde se invita a respirar, sentir el viento y observar detalles del entorno."
+        },
+        {
+          "id": "experiencias-051",
+          "n": 51,
+          "nombre": "Safari fotográfico al amanecer",
+          "descripcion": "Tour en vehículo eléctrico silencioso para capturar fotos de la isla cuando la luz es más suave y la fauna está más activa."
+        },
+        {
+          "id": "experiencias-052",
+          "n": 52,
+          "nombre": "Huerto y jardín botánico",
+          "descripcion": "Visita a un huerto organizado y a un pequeño jardín botánico, donde se muestran plantas comestibles, hierbas aromáticas y flores."
+        },
+        {
+          "id": "experiencias-053",
+          "n": 53,
+          "nombre": "Actividad de plantar un árbol simbólico",
+          "descripcion": "Los huéspedes pueden plantar un árbol o cuidar uno ya plantado, dejando su huella simbólica en Isla La Encantada."
+        },
+        {
+          "id": "experiencias-054",
+          "n": 54,
+          "nombre": "Exploración en bicicleta eléctrica",
+          "descripcion": "Rutas suaves y señalizadas por la costa y la parte media de la isla en bicicleta asistida, para disfrutar sin esfuerzo excesivo."
+        },
+        {
+          "id": "experiencias-055",
+          "n": 55,
+          "nombre": "Caminata de contemplación del amanecer desde un punto alto",
+          "descripcion": "Subida guiada en oscuridad suave para llegar a un mirador justo cuando sale el sol sobre el mar."
+        }
+      ]
+    },
+    {
+      "clave": "VI",
+      "titulo": "Bienestar y spa (actividades no manuales)",
+      "id": "bienestar-y-spa-actividades-no-manuales",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-056",
+          "n": 56,
+          "nombre": "Circuito de saunas comunales",
+          "descripcion": "Recorrido por varias salas de sauna con diferentes temperaturas y niveles de humedad, con áreas de descanso entre cada sesión y música ambiental suave."
+        },
+        {
+          "id": "experiencias-057",
+          "n": 57,
+          "nombre": "Baño de vapor con aromaterapia",
+          "descripcion": "Sala de vapor con luz tenue y aceites esenciales en el aire (eucalipto, menta o lavanda), ideal para despejar vías respiratorias."
+        },
+        {
+          "id": "experiencias-058",
+          "n": 58,
+          "nombre": "Sesión de meditación guiada frente al mar",
+          "descripcion": "Experiencia en una plataforma de madera con cojines, donde un guía conduce una meditación al ritmo de las olas."
+        },
+        {
+          "id": "experiencias-059",
+          "n": 59,
+          "nombre": "Clase de yoga al amanecer en la terraza",
+          "descripcion": "Práctica de yoga suave con vista al sol saliendo, alfombras alineadas frente al horizonte."
+        },
+        {
+          "id": "experiencias-060",
+          "n": 60,
+          "nombre": "Clase de yoga restaurativo al atardecer",
+          "descripcion": "Posturas suaves y uso de soportes para relajar articulaciones y mente mientras el cielo cambia de color."
+        },
+        {
+          "id": "experiencias-061",
+          "n": 61,
+          "nombre": "Sesión de respiración consciente en cabaña de bambú",
+          "descripcion": "Práctica de diferentes técnicas de respiración profunda, con el sonido del viento entre las hojas."
+        },
+        {
+          "id": "experiencias-062",
+          "n": 62,
+          "nombre": "Circuito de hidroterapia",
+          "descripcion": "Secuencia de jacuzzis, duchas de distintos chorros y temperaturas, y albercas poco profundas para estimular la circulación."
+        },
+        {
+          "id": "experiencias-063",
+          "n": 63,
+          "nombre": "Sesión de stretching en grupo",
+          "descripcion": "Clases en salón interior o terraza cubierta, enfocadas en estirar la musculatura tras actividades físicas."
+        },
+        {
+          "id": "experiencias-064",
+          "n": 64,
+          "nombre": "Ritual de bienestar de medio día",
+          "descripcion": "Combinación de sauna, masaje, hidroterapia y descanso en sala silenciosa, con infusiones y fruta fresca."
+        },
+        {
+          "id": "experiencias-065",
+          "n": 65,
+          "nombre": "Sesión de descanso en sala de hamacas",
+          "descripcion": "Espacio interior semiabierto con hamacas y luz suave, donde se invita a desconectarse de pantallas y ruido."
+        }
+      ]
+    },
+    {
+      "clave": "VII",
+      "titulo": "Gastronomía y enología",
+      "id": "gastronomia-y-enologia",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-066",
+          "n": 66,
+          "nombre": "Cena degustación de mariscos",
+          "descripcion": "Menú de varios tiempos centrado en productos del mar, con presentaciones artísticas y maridaje sugerido de vinos blancos y espumosos."
+        },
+        {
+          "id": "experiencias-067",
+          "n": 67,
+          "nombre": "Clase de cocina mexicana de la costa",
+          "descripcion": "Taller donde los huéspedes aprenden a preparar ceviches, tacos de mariscos y salsas, con estaciones equipadas e ingredientes frescos."
+        },
+        {
+          "id": "experiencias-068",
+          "n": 68,
+          "nombre": "Clase de cocina peruana",
+          "descripcion": "Experiencia donde se enseña a preparar ceviche, causa y lomo saltado, con explicación cultural de cada platillo."
+        },
+        {
+          "id": "experiencias-069",
+          "n": 69,
+          "nombre": "Barra de tacos gourmet en vivo",
+          "descripcion": "Estación en la que se preparan tacos al momento con tortillas hechas a mano, diferentes rellenos y salsas hechas en molcajete."
+        },
+        {
+          "id": "experiencias-070",
+          "n": 70,
+          "nombre": "Cata de vinos al atardecer",
+          "descripcion": "Selección de vinos de distintas regiones, maridados con quesos y pequeños bocados, en una terraza con vista al ocaso."
+        },
+        {
+          "id": "experiencias-071",
+          "n": 71,
+          "nombre": "Cata de mezcales o tequilas premium",
+          "descripcion": "Experiencia guiada que explora diferentes etiquetas, explicando notas de sabor, procesos y regiones de origen."
+        },
+        {
+          "id": "experiencias-072",
+          "n": 72,
+          "nombre": "Tour gastronómico interno por Isla La Encantada",
+          "descripcion": "Recorrido por varios puntos del resort para probar pequeñas porciones representativas de cada restaurante."
+        },
+        {
+          "id": "experiencias-073",
+          "n": 73,
+          "nombre": "Desayuno flotante en piscina privada",
+          "descripcion": "Bandeja cuidadosamente montada que flota en una alberca de villa, con jugos, frutas, panes, platos calientes y flores comestibles."
+        },
+        {
+          "id": "experiencias-074",
+          "n": 74,
+          "nombre": "Picnic gourmet en mirador de montaña",
+          "descripcion": "Canasta con selección de panes, quesos, charcutería, frutas y bebidas, servido en una plataforma con vista elevada."
+        },
+        {
+          "id": "experiencias-075",
+          "n": 75,
+          "nombre": "Mesa del chef en cocina abierta",
+          "descripcion": "Experiencia en la que un pequeño grupo cena dentro o muy cerca de la cocina, viendo cómo se preparan los platos en tiempo real."
+        }
+      ]
+    },
+    {
+      "clave": "VIII",
+      "titulo": "Arte, cultura y creatividad",
+      "id": "arte-cultura-y-creatividad",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-076",
+          "n": 76,
+          "nombre": "Taller de confección de ropa a medida",
+          "descripcion": "Espacio donde un sastre o diseñadora virtual toma medidas y guía el diseño de prendas personalizadas inspiradas en la isla."
+        },
+        {
+          "id": "experiencias-077",
+          "n": 77,
+          "nombre": "Taller de sombreros y accesorios de playa",
+          "descripcion": "Actividad creativa para decorar sombreros, bolsas o pareos con motivos de Isla La Encantada."
+        },
+        {
+          "id": "experiencias-078",
+          "n": 78,
+          "nombre": "Clase de pintura al óleo o acrílico al aire libre",
+          "descripcion": "Caballetes frente al mar o en el cráter, donde los huéspedes pintan paisajes de la isla con guía de un artista."
+        },
+        {
+          "id": "experiencias-079",
+          "n": 79,
+          "nombre": "Taller de acuarela al atardecer",
+          "descripcion": "Sesión breve donde se pintan los colores del cielo y el mar al caer el sol, utilizando técnicas de acuarela."
+        },
+        {
+          "id": "experiencias-080",
+          "n": 80,
+          "nombre": "Taller de fotografía de paisaje",
+          "descripcion": "Guía que enseña composición, uso de luz y ángulos para capturar los mejores rincones de la isla."
+        },
+        {
+          "id": "experiencias-081",
+          "n": 81,
+          "nombre": "Taller de fotografía nocturna y astrofotografía",
+          "descripcion": "Actividad nocturna para fotografiar estrellas, la Vía Láctea y siluetas de la isla."
+        },
+        {
+          "id": "experiencias-082",
+          "n": 82,
+          "nombre": "Sesión de escritura creativa frente al mar",
+          "descripcion": "Espacio con cuadernos y materiales donde se invita a escribir historias, reflexiones o poesía inspirada en la isla."
+        },
+        {
+          "id": "experiencias-083",
+          "n": 83,
+          "nombre": "Muestra de cine curado en sala íntima",
+          "descripcion": "Proyección de películas y documentales relacionados con el mar, la naturaleza y la exploración, en una pequeña sala premium."
+        },
+        {
+          "id": "experiencias-084",
+          "n": 84,
+          "nombre": "Conciertos acústicos en la playa",
+          "descripcion": "Presentaciones en vivo de música suave (guitarra, voz, cuarteto de cuerdas) en una tarima sencilla frente al mar."
+        },
+        {
+          "id": "experiencias-085",
+          "n": 85,
+          "nombre": "Taller de artesanías locales",
+          "descripcion": "Creación de pequeñas piezas (collares, pulseras, decoraciones) con materiales inspirados en el entorno, como conchas simuladas y fibras naturales."
+        }
+      ]
+    },
+    {
+      "clave": "IX",
+      "titulo": "Tecnología y experiencias inmersivas",
+      "id": "tecnologia-y-experiencias-inmersivas",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-086",
+          "n": 86,
+          "nombre": "Sala de realidad virtual ampliada",
+          "descripcion": "Espacio donde los huéspedes pueden experimentar vistas de Isla La Encantada desde perspectivas imposibles (por debajo del mar a grandes profundidades, vuelo alto, etc.)."
+        },
+        {
+          "id": "experiencias-087",
+          "n": 87,
+          "nombre": "Simulación de tormenta vista desde lugar seguro",
+          "descripcion": "Experiencia donde se observa una tormenta virtual impresionante desde un mirador protegido, sin incomodidad física, solo el espectáculo visual y sonoro."
+        },
+        {
+          "id": "experiencias-088",
+          "n": 88,
+          "nombre": "Galería interactiva de historia de la isla",
+          "descripcion": "Exposición digital con hologramas, mapas y escenas sobre el origen volcánico y la creación del resort."
+        },
+        {
+          "id": "experiencias-089",
+          "n": 89,
+          "nombre": "Simulador de exploración submarina en submarino",
+          "descripcion": "Experiencia en cabina cerrada donde se recorren profundidades más allá del buceo recreativo, con vistas a fauna marina rara."
+        },
+        {
+          "id": "experiencias-090",
+          "n": 90,
+          "nombre": "Simulador de vuelo sobre la isla",
+          "descripcion": "Cabina inmersiva donde el huésped puede “pilotar” una avioneta o helicóptero sobre Isla La Encantada con vistas detalladas."
+        },
+        {
+          "id": "experiencias-091",
+          "n": 91,
+          "nombre": "Mapa interactivo de experiencias",
+          "descripcion": "Gran pantalla o instalación donde los huéspedes exploran todas las actividades disponibles y crean su propio itinerario arrastrando iconos."
+        },
+        {
+          "id": "experiencias-092",
+          "n": 92,
+          "nombre": "Laboratorio creativo de diseño de villas",
+          "descripcion": "Estación donde los huéspedes pueden modificar colores, materiales y decoración de una villa virtual de muestra para personalizar su estilo ideal."
+        }
+      ]
+    },
+    {
+      "clave": "X",
+      "titulo": "Experiencias sociales, eventos y familia",
+      "id": "experiencias-sociales-eventos-y-familia",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "experiencias-093",
+          "n": 93,
+          "nombre": "Fiesta en las villas (formato controlado)",
+          "descripcion": "Reunión en una villa amplia con música seleccionada, iluminación cálida, snacks y servicio de bar discreto, ideal para grupos de amigos o familia."
+        },
+        {
+          "id": "experiencias-094",
+          "n": 94,
+          "nombre": "Noche de juegos de mesa y cartas",
+          "descripcion": "Salón con mesas cómodas, luz adecuada y selección de juegos de estrategia, cooperación y cartas, para convivir sin pantallas."
+        },
+        {
+          "id": "experiencias-095",
+          "n": 95,
+          "nombre": "Fogata en la playa con música en vivo",
+          "descripcion": "Círculo de sillones bajos y cojines alrededor de un fuego controlado en la arena, con guitarrista o trío acústico."
+        },
+        {
+          "id": "experiencias-096",
+          "n": 96,
+          "nombre": "Noche de observación de estrellas para familias",
+          "descripcion": "Actividad explicativa del cielo nocturno con láser apuntando constelaciones y telescopios para ver detalles."
+        },
+        {
+          "id": "experiencias-097",
+          "n": 97,
+          "nombre": "Búsqueda del tesoro temática para niños y adultos",
+          "descripcion": "Juego guiado por la isla con pistas en distintos puntos, integrando puntos emblemáticos de La Encantada."
+        },
+        {
+          "id": "experiencias-098",
+          "n": 98,
+          "nombre": "Carrera suave familiar en la playa",
+          "descripcion": "Pequeña carrera al amanecer o atardecer por la orilla, con diferentes categorías y medallas simbólicas."
+        },
+        {
+          "id": "experiencias-099",
+          "n": 99,
+          "nombre": "Taller de construcción de castillos de arena",
+          "descripcion": "Actividad en familia con herramientas y moldes, con concurso amistoso al final."
+        },
+        {
+          "id": "experiencias-100",
+          "n": 100,
+          "nombre": "Ceremonia de despedida de la isla",
+          "descripcion": "Evento simbólico al final de la estancia, con luces suaves, mensaje proyectado y oportunidad de “dejar un deseo” en un mural virtual."
+        }
+      ]
+    }
+  ],
+  "cierre": "Nota final: Estas 100 experiencias de Isla La Encantada están diseñadas para ofrecer una mezcla de aventura, contemplación, lujo, creatividad, bienestar y conexión humana. Cada una puede ser adaptada a diferentes niveles de duración, intensidad y exclusividad, manteniendo siempre la sensación de estar en un lugar extraordinario, cuidadosamente pensado para el disfrute de los sentidos y la imaginación."
+}

@@ -1,0 +1,1235 @@
+{
+  "catalogo": "tiendas",
+  "titulo": "Catálogo de Tiendas – Isla La Encantada (200 piezas de lujo)",
+  "tipo": "pieza",
+  "fuente": "fuentes/pdf/Tiendas_Isla_La_Encantada_200_piezas.pdf",
+  "intro": "Este documento reúne en un solo catálogo las tres tiendas de Isla La Encantada, con un total de 200 piezas especiales de lujo: textiles, beachwear, joyería fina, gemas, arte, fragancias, curiosidades y objetos de diseño. Cada pieza está descrita para poder inspirar su diseño, modelado 3D o inclusión en un sistema de inventario dentro del mundo virtual.",
+  "total": 200,
+  "secciones": [
+    {
+      "clave": "1",
+      "titulo": "Orillas del Mar – Textiles, beachwear y objetos suaves de lujo",
+      "id": "orillas-del-mar-textiles-beachwear-y-objetos-sua",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "tiendas-001",
+          "n": 1,
+          "nombre": "Toalla de playa “Mar Profundo”",
+          "descripcion": "Toalla extragrande de algodón peinado egipcio, doble cara (una de rizo, otra lisa), con bordado discreto de La Encantada en tono azul marino."
+        },
+        {
+          "id": "tiendas-002",
+          "n": 2,
+          "nombre": "Toalla “Arena Dorada”",
+          "descripcion": "Toalla ligera tipo fouta, mezcla de lino y algodón, con franjas color arena y flecos anudados a mano."
+        },
+        {
+          "id": "tiendas-003",
+          "n": 3,
+          "nombre": "Toalla redonda para picnic playero",
+          "descripcion": "Toalla circular gigante con estampado de arrecifes vistos desde arriba y borde de borlas suaves."
+        },
+        {
+          "id": "tiendas-004",
+          "n": 4,
+          "nombre": "Bata de baño de bambú ultrasuave",
+          "descripcion": "Kimono unisex de tejido de bambú, extremadamente ligero y absorbente, con cinturón ancho y bolsillos profundos."
+        },
+        {
+          "id": "tiendas-005",
+          "n": 5,
+          "nombre": "Bata “Spa de Nube”",
+          "descripcion": "Bata tipo hotel 7 estrellas, interior de rizo y exterior aterciopelado, personalizada con iniciales del huésped."
+        },
+        {
+          "id": "tiendas-006",
+          "n": 6,
+          "nombre": "Kimono de lino ligero con estampado de olas",
+          "descripcion": "Kimono largo, con ilustración de olas estilizadas en acuarela azul y blanco."
+        },
+        {
+          "id": "tiendas-007",
+          "n": 7,
+          "nombre": "Kimono de seda inspirada en corales",
+          "descripcion": "Seda fluida con patrones orgánicos en tonos coral, turquesa y dorado."
+        },
+        {
+          "id": "tiendas-008",
+          "n": 8,
+          "nombre": "Túnica de lino blanco con bordado de estrellas de mar",
+          "descripcion": "Corte relajado, cuello en V, mangas 3/4, bordado minimalista en el dobladillo."
+        },
+        {
+          "id": "tiendas-009",
+          "n": 9,
+          "nombre": "Túnica de gasa degradada atardecer",
+          "descripcion": "Inicio en naranja suave y se degrada a violeta y azul oscuro, inspirada en los cielos de la isla."
+        },
+        {
+          "id": "tiendas-010",
+          "n": 10,
+          "nombre": "Pareos de seda estampados a mano",
+          "descripcion": "Colección de pareos con ilustraciones de peces, mantarrayas y flora marina, firmados virtualmente por artistas invitados."
+        },
+        {
+          "id": "tiendas-011",
+          "n": 11,
+          "nombre": "Pareo de lino grueso “Caminata en la arena”",
+          "descripcion": "Ideal para usar como falda o mantel de picnic improvisado."
+        },
+        {
+          "id": "tiendas-012",
+          "n": 12,
+          "nombre": "Set de toallas faciales con ribete dorado",
+          "descripcion": "Pequeñas, ultra suaves, con orilla metálica discreta."
+        },
+        {
+          "id": "tiendas-013",
+          "n": 13,
+          "nombre": "Tapete de playa acolchado",
+          "descripcion": "Plegable, con base impermeable y parte superior acolchada en tejido suave, para tumbarse cómodamente."
+        },
+        {
+          "id": "tiendas-014",
+          "n": 14,
+          "nombre": "Hamacón de fibra natural",
+          "descripcion": "Hamaca extragrande tejida a mano en patrón de red fina, soportes de madera clara."
+        },
+        {
+          "id": "tiendas-015",
+          "n": 15,
+          "nombre": "Hamaca-cápsula tipo nido colgante",
+          "descripcion": "Estructura en forma de gota donde se puede recostar una persona, interior con cojines."
+        },
+        {
+          "id": "tiendas-016",
+          "n": 16,
+          "nombre": "Almohadones de exterior “Palmera”",
+          "descripcion": "Cojines enormes con telas resistentes al sol, estampados de palmas y sombras."
+        },
+        {
+          "id": "tiendas-017",
+          "n": 17,
+          "nombre": "Manta ligera de cashmere-lino",
+          "descripcion": "Mezcla muy suave, ideal para noches frescas en la terraza."
+        },
+        {
+          "id": "tiendas-018",
+          "n": 18,
+          "nombre": "Manta pesada tipo “weighted blanket”",
+          "descripcion": "Con peso sutil para generar sensación de abrazo relajante."
+        },
+        {
+          "id": "tiendas-019",
+          "n": 19,
+          "nombre": "Juego de sábanas de algodón egipcio 600 hilos",
+          "descripcion": "Blanco puro con un vivo de color azul mar intenso."
+        },
+        {
+          "id": "tiendas-020",
+          "n": 20,
+          "nombre": "Juego de sábanas de lino lavado “Brisa de la Isla”",
+          "descripcion": "Ligeramente arrugadas, muy transpirables, en tonos arena y marfil."
+        },
+        {
+          "id": "tiendas-021",
+          "n": 21,
+          "nombre": "Cojines decorativos con bordado de constelaciones vistas desde La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-022",
+          "n": 22,
+          "nombre": "Alfombra de pasillo tejida con patrón de olas",
+          "descripcion": "Tonos azules y blancos, textura suave bajo los pies descalzos."
+        },
+        {
+          "id": "tiendas-023",
+          "n": 23,
+          "nombre": "Bolso de playa de palma trenzada con forro de lino",
+          "descripcion": "Asas de cuero suave, compartimentos internos para protector solar y libro."
+        },
+        {
+          "id": "tiendas-024",
+          "n": 24,
+          "nombre": "Bolso “Marina” de lona encerada",
+          "descripcion": "Resistente al agua, con detalles de cuero y herrajes de latón."
+        },
+        {
+          "id": "tiendas-025",
+          "n": 25,
+          "nombre": "Bolsa tipo tote estampada con mapa artístico de La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-026",
+          "n": 26,
+          "nombre": "Sombrero de ala ancha de paja fina con cinta de seda",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-027",
+          "n": 27,
+          "nombre": "Sombrero tipo Panamá con cinta azul marino y pequeño emblema de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-028",
+          "n": 28,
+          "nombre": "Viseras suaves de tela técnica reciclada",
+          "descripcion": "Ligeras, plegables y de secado rápido."
+        },
+        {
+          "id": "tiendas-029",
+          "n": 29,
+          "nombre": "Sandalias de cuero suave con suela inspirada en huellas de coral",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-030",
+          "n": 30,
+          "nombre": "Sandalias minimalistas con tiras de cuerda náutica acolchada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-031",
+          "n": 31,
+          "nombre": "Alpargatas de lino con suela de yute vulcanizado",
+          "descripcion": "Combinaciones de colores inspiradas en amanecer/atardecer."
+        },
+        {
+          "id": "tiendas-032",
+          "n": 32,
+          "nombre": "Pantuflas de habitación en terciopelo ligero con suela antideslizante",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-033",
+          "n": 33,
+          "nombre": "Kimono acolchado tipo “quilt” para noches frescas en terrazas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-034",
+          "n": 34,
+          "nombre": "Pañuelos de seda pequeña con ilustraciones de fauna marina",
+          "descripcion": "Para cuello, muñeca o asa de bolsa."
+        },
+        {
+          "id": "tiendas-035",
+          "n": 35,
+          "nombre": "Toallitas de mano con fragancia ligera a la salida de la tienda",
+          "descripcion": "Se venden en set con estuche."
+        },
+        {
+          "id": "tiendas-036",
+          "n": 36,
+          "nombre": "Funda de almohada de seda para dormir",
+          "descripcion": "Reduce frizz y cuida la piel, en tonos perla y azul."
+        },
+        {
+          "id": "tiendas-037",
+          "n": 37,
+          "nombre": "Capa liviana impermeable transparente",
+          "descripcion": "Para esas raras lluvias tropicales, con bordes en color neón suave."
+        },
+        {
+          "id": "tiendas-038",
+          "n": 38,
+          "nombre": "Bolsa seca “Dry bag” de lujo",
+          "descripcion": "Para llevar objetos electrónicos al mar, con cierres metálicos premium."
+        },
+        {
+          "id": "tiendas-039",
+          "n": 39,
+          "nombre": "Poncho de playa de algodón esponjoso",
+          "descripcion": "Con capucha amplia y bolsillo frontal."
+        },
+        {
+          "id": "tiendas-040",
+          "n": 40,
+          "nombre": "Tapete de yoga de corcho con ilustración de la isla vista desde arriba",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-041",
+          "n": 41,
+          "nombre": "Fundas para camastros de playa con bolsillos laterales",
+          "descripcion": "Para guardar libro, móvil, botella."
+        },
+        {
+          "id": "tiendas-042",
+          "n": 42,
+          "nombre": "Toalla de viaje ultracompacta de microfibra premium",
+          "descripcion": "Se enrolla en un cilindro muy pequeño."
+        },
+        {
+          "id": "tiendas-043",
+          "n": 43,
+          "nombre": "Pareo reversible (mar/selva)",
+          "descripcion": "Un lado con estampado marino, el otro con vegetación tropical."
+        },
+        {
+          "id": "tiendas-044",
+          "n": 44,
+          "nombre": "Bata corta tipo kimono de satén mate con ribetes de contraste",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-045",
+          "n": 45,
+          "nombre": "Set de manteles individuales para terrazas de villa",
+          "descripcion": "Tejidos a mano, con patrones geométricos inspirados en olas."
+        },
+        {
+          "id": "tiendas-046",
+          "n": 46,
+          "nombre": "Fundas de cojín con relieve tipo arena ondulada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-047",
+          "n": 47,
+          "nombre": "Pareos masculinos tipo sarong, con motivos discretos geométricos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-048",
+          "n": 48,
+          "nombre": "Porta-toallas enrollable para yate",
+          "descripcion": "Estructura cilíndrica con separaciones internas."
+        },
+        {
+          "id": "tiendas-049",
+          "n": 49,
+          "nombre": "Bolsa para equipo de snorkel con malla fina y detalles de cuero",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-050",
+          "n": 50,
+          "nombre": "Collarín de viaje relleno de microperlas para vuelos hacia/desde la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-051",
+          "n": 51,
+          "nombre": "Guantes ligeros de spa para manos",
+          "descripcion": "Tela que imita sensación de guante humectante."
+        },
+        {
+          "id": "tiendas-052",
+          "n": 52,
+          "nombre": "Calcetines finos “sand to sky”",
+          "descripcion": "Degradado de color arena a azul cielo, para interiores."
+        },
+        {
+          "id": "tiendas-053",
+          "n": 53,
+          "nombre": "Poncho térmico de terraza con capucha XXL",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-054",
+          "n": 54,
+          "nombre": "Capa grande tipo manta con broches discretos para usarla como chal",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-055",
+          "n": 55,
+          "nombre": "Toalla de picnic con bolsillo escondido para guardar pequeños objetos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-056",
+          "n": 56,
+          "nombre": "Cobertor ligero para tumbonas de piscina, resistente al cloro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-057",
+          "n": 57,
+          "nombre": "Almohadita cervical rellena de semillas para calentar/enfriar",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-058",
+          "n": 58,
+          "nombre": "Mochila blanda de lino encerado para caminatas suaves por la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-059",
+          "n": 59,
+          "nombre": "Bolsa organizadora de maleta con diseño de arrecifes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-060",
+          "n": 60,
+          "nombre": "Set de servilletas de tela con pequeños corales bordados en las esquinas",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "clave": "2",
+      "titulo": "Joya del Océano – Joyería fina, gemas y objetos pequeños de alto lujo",
+      "id": "joya-del-oceano-joyeria-fina-gemas-y-objetos-peq",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "tiendas-061",
+          "n": 1,
+          "nombre": "Anillo de oro blanco con zafiro azul “Amanecer sobre el mar”",
+          "descripcion": "Corte ovalado, rodeado de pequeños diamantes que simulan luz en el horizonte."
+        },
+        {
+          "id": "tiendas-062",
+          "n": 2,
+          "nombre": "Anillo de oro rosa con morganita y halo de diamantes inspirado en los atardeceres rosados de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-063",
+          "n": 3,
+          "nombre": "Anillo con tanzanita y diamantes baguette",
+          "descripcion": "Color violeta-azulado profundo, montura muy limpia y moderna."
+        },
+        {
+          "id": "tiendas-064",
+          "n": 4,
+          "nombre": "Sortija de perla del mar virtual con diamantes pequeños dispersos simulando burbujas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-065",
+          "n": 5,
+          "nombre": "Anillo tipo sello con relieve del mapa de La Encantada en oro amarillo mate",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-066",
+          "n": 6,
+          "nombre": "Aros de oro blanco con pequeñas gotas de ópalo de fuego que cambian de tono según la luz",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-067",
+          "n": 7,
+          "nombre": "Aretes colgantes con perlas barrocas y cadenas finísimas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-068",
+          "n": 8,
+          "nombre": "Aretes tipo “ear cuff” inspirados en olas",
+          "descripcion": "Se abrazan a la oreja sin perforación adicional."
+        },
+        {
+          "id": "tiendas-069",
+          "n": 9,
+          "nombre": "Collar largo de eslabones finos con dije de brújula funcional",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-070",
+          "n": 10,
+          "nombre": "Collar de perlas irregulares mezcladas con pequeñas turquesas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-071",
+          "n": 11,
+          "nombre": "Gargantilla rígida de oro mate con textura de arena",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-072",
+          "n": 12,
+          "nombre": "Collar con péndulo de cuarzo ahumado engastado en oro rosa",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-073",
+          "n": 13,
+          "nombre": "Dije de mantarraya en oro blanco con incrustaciones de diamantes negros",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-074",
+          "n": 14,
+          "nombre": "Dije de tortuga marina de esmeralda tallada en cabujón",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-075",
+          "n": 15,
+          "nombre": "Pulsera de eslabones gruesos “cadena de ancla” en oro amarillo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-076",
+          "n": 16,
+          "nombre": "Pulsera fina con pequeñas conchas estilizadas en oro rosa",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-077",
+          "n": 17,
+          "nombre": "Pulsera de cuero marino con cierre de plata y anzuelo estilizado",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-078",
+          "n": 18,
+          "nombre": "Brazalete rígido con motivo de olas esmaltadas en azul profundo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-079",
+          "n": 19,
+          "nombre": "Reloj de buceo de lujo con bisel cerámico azul turquesa y grabado de La Encantada en la tapa trasera",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-080",
+          "n": 20,
+          "nombre": "Reloj ultrafino de vestir con carátula de nácar que refleja sutilmente los colores del atardecer",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-081",
+          "n": 21,
+          "nombre": "Gemas sueltas en pequeñas cápsulas (zafiros, rubíes, esmeraldas) con certificación virtual de procedencia ética",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-082",
+          "n": 22,
+          "nombre": "Colección de ópalos tallados con forma de gotas de agua",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-083",
+          "n": 23,
+          "nombre": "Fragmentos de “meteorito” virtual engarzados en plata negra",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-084",
+          "n": 24,
+          "nombre": "Broche de coral estilizado (no real) en oro y esmalte rojo intenso",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-085",
+          "n": 25,
+          "nombre": "Broche de estrella de mar pavé de diamantes blancos y amarillos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-086",
+          "n": 26,
+          "nombre": "Gemelos para camisa con pequeños mapas de la isla en esmalte",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-087",
+          "n": 27,
+          "nombre": "Gemelos en forma de timón de barco con detalles de zafiro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-088",
+          "n": 28,
+          "nombre": "Pasador de corbata minimalista con un pequeño diamante azul",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-089",
+          "n": 29,
+          "nombre": "Tiara ligera con motivos de olas entrelazadas y cristales transparentes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-090",
+          "n": 30,
+          "nombre": "Diadema con pequeñas perlas y hojas metálicas doradas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-091",
+          "n": 31,
+          "nombre": "Cadena larga para lentes con mini perlas y microconchas metálicas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-092",
+          "n": 32,
+          "nombre": "Anillo ajustable con doble banda que simula dos olas encontrándose",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-093",
+          "n": 33,
+          "nombre": "Collar “constelaciones de La Encantada”",
+          "descripcion": "Pequeñas piedras representando estrellas en la posición del cielo nocturno de la isla."
+        },
+        {
+          "id": "tiendas-094",
+          "n": 34,
+          "nombre": "Pulsera tipo tennis con diamantes y eslabones en forma de peces minimalistas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-095",
+          "n": 35,
+          "nombre": "Anillo con diseño de ola en oro blanco con línea central de esmalte azul",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-096",
+          "n": 36,
+          "nombre": "Pendientes cortos de oro mate con textura de roca volcánica",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-097",
+          "n": 37,
+          "nombre": "Collar con pieza central de labradorita que refleja tonos verdes y azules marinos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-098",
+          "n": 38,
+          "nombre": "Pulsera de cuentas de piedra volcánica con un solo cilindro de oro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-099",
+          "n": 39,
+          "nombre": "Anillo con piedra lunar de brillo suave y halo fino de diamantes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-100",
+          "n": 40,
+          "nombre": "Juego de collar + aretes con amatistas en tonos degradados",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-101",
+          "n": 41,
+          "nombre": "Mini estuche de viaje para joyas en cuero suave con interior de terciopelo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-102",
+          "n": 42,
+          "nombre": "Caja joyero de madera clara con incrustaciones de nácar",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-103",
+          "n": 43,
+          "nombre": "Colgante para tobillo (anklet) con pequeñas conchas de oro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-104",
+          "n": 44,
+          "nombre": "Anillo de compromiso “Edición La Encantada” con diamante principal y dos gemas azules laterales",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-105",
+          "n": 45,
+          "nombre": "Pulsera de charms con iconos de experiencias de la isla (avioneta, mantarraya, palmera, estrella de mar…)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-106",
+          "n": 46,
+          "nombre": "Collar minimalista con una sola barra de oro texturizada como arena húmeda",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-107",
+          "n": 47,
+          "nombre": "Aretes asimétricos (uno con pez, otro con ancla)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-108",
+          "n": 48,
+          "nombre": "Collar largo tipo sautoir con pequeñas piedras repartidas irregularmente",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-109",
+          "n": 49,
+          "nombre": "Pulsera rígida con interior grabado con frase inspiradora sobre el mar",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-110",
+          "n": 50,
+          "nombre": "Anillo doble (dos dedos) con diseño de ola continua",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-111",
+          "n": 51,
+          "nombre": "Colección de collares de cordón marino con pequeños cilindros de oro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-112",
+          "n": 52,
+          "nombre": "Dije en forma de gota de agua con diamante interno suelto (estilo shaker)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-113",
+          "n": 53,
+          "nombre": "Cinturón fino con hebilla de metal en forma de caracola estilizada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-114",
+          "n": 54,
+          "nombre": "Reloj de mujer con correa de cuero marfil y carátula de piedra natural",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-115",
+          "n": 55,
+          "nombre": "Reloj deportivo elegante con correa de silicón de alta calidad y detalles metálicos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-116",
+          "n": 56,
+          "nombre": "Llavero de lujo con pequeño medallón de la isla en oro y esmalte",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-117",
+          "n": 57,
+          "nombre": "Collar tipo choker con múltiples hilos finos de oro y pequeños diamantes dispersos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-118",
+          "n": 58,
+          "nombre": "Pulsera en espiral que envuelve la muñeca simulando una ola que sube",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-119",
+          "n": 59,
+          "nombre": "Pendientes de gota de cuarzo rosa facetado, muy sutiles y elegantes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-120",
+          "n": 60,
+          "nombre": "Anillo con pequeño paisaje marino en miniatura dentro de resina transparente",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-121",
+          "n": 61,
+          "nombre": "Dije con coordenadas exactas de La Encantada grabadas en plata u oro",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-122",
+          "n": 62,
+          "nombre": "Anillo “atardecer” con degradado de zafiros naranjas y rosados",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-123",
+          "n": 63,
+          "nombre": "Pendientes largos con forma de lluvia de estrellas (cadenas finas con microdiamantes)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-124",
+          "n": 64,
+          "nombre": "Collar de cuentas de madera noble con un solo detalle de oro macizo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-125",
+          "n": 65,
+          "nombre": "Pulsera de cuero trenzado con imán de cierre oculto y logotipo de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-126",
+          "n": 66,
+          "nombre": "Broche abstracto que representa una ola rompiendo en un acantilado",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-127",
+          "n": 67,
+          "nombre": "Anillo fino apilable con pequeña piedra de color (colección de varios tonos)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-128",
+          "n": 68,
+          "nombre": "Colección de pins metálicos con formas de fauna de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-129",
+          "n": 69,
+          "nombre": "Mini relicario con una imagen estilizada del arrecife más famoso de La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-130",
+          "n": 70,
+          "nombre": "Set de joyería de pareja (dos anillos complementarios) que encajan como piezas de ola y playa",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "clave": "3",
+      "titulo": "Gabinete de La Encantada – Arte, fragancias, curiosidades y diseño",
+      "id": "gabinete-de-la-encantada-arte-fragancias-curiosi",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "tiendas-131",
+          "n": 1,
+          "nombre": "Mapa artístico de La Encantada en papel algodón",
+          "descripcion": "Impresión en alta calidad con relieves sutiles y detalles en foil dorado."
+        },
+        {
+          "id": "tiendas-132",
+          "n": 2,
+          "nombre": "Globo terráqueo minimalista donde la única isla resaltada es La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-133",
+          "n": 3,
+          "nombre": "Cuadro en técnica mixta de un arrecife nocturno bioluminiscente",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-134",
+          "n": 4,
+          "nombre": "Escultura pequeña de mantarraya en bronce patinado",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-135",
+          "n": 5,
+          "nombre": "Escultura de ondas del mar tallada en mármol blanco",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-136",
+          "n": 6,
+          "nombre": "Caja musical con sonido de olas y melodía suave personalizada de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-137",
+          "n": 7,
+          "nombre": "Reloj de arena con granos en tonos azul y dorado",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-138",
+          "n": 8,
+          "nombre": "Móvil colgante de cristales que refractan la luz como si fueran reflejos del agua",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-139",
+          "n": 9,
+          "nombre": "Linterna decorativa con proyección de constelaciones sobre el techo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-140",
+          "n": 10,
+          "nombre": "Campana de bronce con sonido profundo tipo barco antiguo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-141",
+          "n": 11,
+          "nombre": "Libro de arte “Colores de La Encantada” con ilustraciones de cielos, mares y paisajes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-142",
+          "n": 12,
+          "nombre": "Cuaderno de viaje con tapas de cuero suave y relieve de palmeras",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-143",
+          "n": 13,
+          "nombre": "Pluma estilográfica con cuerpo de resina turquesa translúcida",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-144",
+          "n": 14,
+          "nombre": "Set de tarjetas postales coleccionables con escenas icónicas de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-145",
+          "n": 15,
+          "nombre": "Incienso en forma de conos con aroma a mar y madera húmeda",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-146",
+          "n": 16,
+          "nombre": "Difusores de aromas en vidrio soplado con varitas",
+          "descripcion": "Mezclas “Amanecer”, “Atardecer”, “Noche estrellada”."
+        },
+        {
+          "id": "tiendas-147",
+          "n": 17,
+          "nombre": "Velas perfumadas con cera vegetal en vasos de cerámica",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-148",
+          "n": 18,
+          "nombre": "Perfume “Bruma Marina”",
+          "descripcion": "Notas de sal, cítricos suaves y vetiver."
+        },
+        {
+          "id": "tiendas-149",
+          "n": 19,
+          "nombre": "Perfume “Selva Interior”",
+          "descripcion": "Notas verdes, resinosas y florales ligeras."
+        },
+        {
+          "id": "tiendas-150",
+          "n": 20,
+          "nombre": "Aceite corporal seco con destellos dorados para usar antes de cenas o eventos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-151",
+          "n": 21,
+          "nombre": "Cuchillo de chef artesanal con mango de madera tropical (decorativo o funcional)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-152",
+          "n": 22,
+          "nombre": "Juego de copas de cristal soplado con base gruesa y burbujas internas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-153",
+          "n": 23,
+          "nombre": "Tetera de cerámica esmaltada con motivos de arrecifes",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-154",
+          "n": 24,
+          "nombre": "Juego de tazas de café espresso con platillo inspirado en olas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-155",
+          "n": 25,
+          "nombre": "Platos de cerámica artesanales con borde irregular como costa erosionada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-156",
+          "n": 26,
+          "nombre": "Bandeja de servir con incrustaciones de nácar",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-157",
+          "n": 27,
+          "nombre": "Centro de mesa de cristal que evoca un remolino de agua",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-158",
+          "n": 28,
+          "nombre": "Juego de cuchillos de mesa con mango de resina azul mar profundo",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-159",
+          "n": 29,
+          "nombre": "Botella de agua de vidrio con funda de cuero grabada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-160",
+          "n": 30,
+          "nombre": "Set de posavasos de mármol con grabado de peces minimalistas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-161",
+          "n": 31,
+          "nombre": "Luminaria de mesa con base de roca volcánica y pantalla de lino",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-162",
+          "n": 32,
+          "nombre": "Lámpara colgante en forma de medusa estilizada con filamentos de luz",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-163",
+          "n": 33,
+          "nombre": "Farol metálico para terrazas con diseño recortado de palmeras",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-164",
+          "n": 34,
+          "nombre": "Reloj de pared con números discretos y textura de madera flotante",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-165",
+          "n": 35,
+          "nombre": "Mini proyector ambiente de atardeceres (loops del cielo de la isla)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-166",
+          "n": 36,
+          "nombre": "Pequeños “totems” de piedra tallada con símbolos de protección marina",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-167",
+          "n": 37,
+          "nombre": "Instrumento de viento tipo ocarina con forma de caracola",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-168",
+          "n": 38,
+          "nombre": "Kalimba de madera decorada con grabados de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-169",
+          "n": 39,
+          "nombre": "Pequeño tambor de mano con ilustración de mantarrayas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-170",
+          "n": 40,
+          "nombre": "Colección de sonidos de La Encantada en formato decorativo (disco o archivo con arte)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-171",
+          "n": 41,
+          "nombre": "Set de mini esculturas de fauna",
+          "descripcion": "Tortuga, pez, pájaro, delfín."
+        },
+        {
+          "id": "tiendas-172",
+          "n": 42,
+          "nombre": "Terrario marino seco",
+          "descripcion": "Arena, pequeñas piedras y pieza central escultórica de coral."
+        },
+        {
+          "id": "tiendas-173",
+          "n": 43,
+          "nombre": "Caja “secreta” de madera con mecanismo de apertura escondido",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-174",
+          "n": 44,
+          "nombre": "Dominó de lujo con fichas de resina translúcida y puntos metálicos",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-175",
+          "n": 45,
+          "nombre": "Juego de ajedrez con piezas inspiradas en mar (blancas) y selva (negras)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-176",
+          "n": 46,
+          "nombre": "Baraja de cartas de diseño exclusivo con ilustraciones de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-177",
+          "n": 47,
+          "nombre": "Puzzle panorámico de 1000 piezas de un atardecer en La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-178",
+          "n": 48,
+          "nombre": "Escultura cinética de escritorio que simula olas en movimiento",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-179",
+          "n": 49,
+          "nombre": "Caja fuerte decorativa tipo “cofre del tesoro” para guardar objetos personales",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-180",
+          "n": 50,
+          "nombre": "Mini meteorito decorativo (virtual) en peana acrílica",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-181",
+          "n": 51,
+          "nombre": "Colección de piedras semipreciosas pulidas (kits de energía",
+          "descripcion": "Calma, enfoque, creatividad)."
+        },
+        {
+          "id": "tiendas-182",
+          "n": 52,
+          "nombre": "Placa metálica con grabado de una frase inspiradora sobre el océano",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-183",
+          "n": 53,
+          "nombre": "Porta-incienso de cerámica en forma de isla en miniatura",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-184",
+          "n": 54,
+          "nombre": "Bandeja de cuero para vaciar bolsillos (monedas, llaves, joyas)",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-185",
+          "n": 55,
+          "nombre": "Set de marcadores de libros con pequeñas figuras marinas metálicas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-186",
+          "n": 56,
+          "nombre": "Marco de fotos de madera con borde de cuerda náutica",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-187",
+          "n": 57,
+          "nombre": "Set de imanes decorativos con mini ilustraciones de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-188",
+          "n": 58,
+          "nombre": "Pequeño perchero de pared con ganchos en forma de anclas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-189",
+          "n": 59,
+          "nombre": "Soporte para tablet/libro con diseño de ola congelada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-190",
+          "n": 60,
+          "nombre": "Portavelas de cristal grueso con burbujas internas que simulan agua",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-191",
+          "n": 61,
+          "nombre": "Difusor portátil de aromas de bolsillo con recargas de fragancias de la isla",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-192",
+          "n": 62,
+          "nombre": "Cuenco decorativo de vidrio inspirado en remolino",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-193",
+          "n": 63,
+          "nombre": "Pequeña maqueta de la pista sobre el mar como pieza coleccionable",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-194",
+          "n": 64,
+          "nombre": "Set de sellos de caucho con motivos de fauna y flora de La Encantada",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-195",
+          "n": 65,
+          "nombre": "Álbum de fotos de cuero con guardas interiores ilustradas",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-196",
+          "n": 66,
+          "nombre": "Cuadro luminoso retroiluminado que muestra el skyline de la isla de noche",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-197",
+          "n": 67,
+          "nombre": "Calendario perpetuo de escritorio con piezas metálicas móviles",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-198",
+          "n": 68,
+          "nombre": "Figura decorativa de avioneta en metal pulido",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-199",
+          "n": 69,
+          "nombre": "Soporte para relojes y pulseras con base de roca y barra de cuero",
+          "descripcion": ""
+        },
+        {
+          "id": "tiendas-200",
+          "n": 70,
+          "nombre": "Edición limitada de “libro-objeto” que mezcla texto, relieve, ilustración y pequeña pieza incrustada (piedra o metal)",
+          "descripcion": ""
+        }
+      ]
+    }
+  ],
+  "cierre": "Con estas tres tiendas –Orillas del Mar, Joya del Océano y Gabinete de La Encantada– se completa un ecosistema de compras de ultra lujo dentro de la isla: el huésped puede adquirir textiles únicos, joyería inspirada en el océano y objetos artísticos y sensoriales que recuerdan la experiencia vivida en La Encantada."
+}

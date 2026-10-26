@@ -1,0 +1,121 @@
+# Villa Horizonte 50 – Descripción Detallada
+
+> Transcripción fiel de [`fuentes/pdf/Villa_Horizonte_50_Descripcion.pdf`](../../fuentes/pdf/Villa_Horizonte_50_Descripcion.pdf). No editar el sentido: los cambios de diseño van en un documento nuevo con versión.
+
+[← Biblia de diseño](README.md)
+
+## Índice
+
+1. [Concepto general](#1-concepto-general)
+2. [Implantación y vistas](#2-implantación-y-vistas)
+3. [Zona social principal](#3-zona-social-principal)
+4. [Alberca infinita, jacuzzi y bar en la alberca](#4-alberca-infinita-jacuzzi-y-bar-en-la-alberca)
+5. [Área de wellness: sauna, spa y fitness](#5-área-de-wellness-sauna-spa-y-fitness)
+6. [Entretenimiento: cine, billar, piano bar](#6-entretenimiento-cine-billar-piano-bar)
+7. [Habitaciones y suites](#7-habitaciones-y-suites)
+8. [Terrazas, rooftop y espacios exteriores](#8-terrazas-rooftop-y-espacios-exteriores)
+9. [Circulación y operación para atender a 50 huéspedes](#9-circulación-y-operación-para-atender-a-50-huéspedes)
+10. [Tecnología y confort](#10-tecnología-y-confort)
+11. [Resumen funcional](#11-resumen-funcional)
+
+---
+
+Este documento describe la Villa Horizonte 50, una villa de ultra lujo diseñada para alojar cómodamente hasta 50 personas, con todas las áreas necesarias de descanso, convivencia, entretenimiento, bienestar y operación para servicio tipo hotel 7 estrellas.
+
+## 1. Concepto general
+
+**Capacidad:** hasta 50 huéspedes con comodidad real, distribuidos en 10 suites Master (para 2–4 personas) y 10 suites Junior (para 2–3 personas).
+
+**Superficie construida aproximada:** 3,500–4,000 m² más terrazas y exteriores.
+
+**Estilo arquitectónico:** lujo tropical contemporáneo, con líneas limpias, techos altos, mucha madera cálida, piedra clara, ventanales de piso a techo e integración completa con el mar.
+
+La villa está pensada para que un grupo grande tenga todo sin salir: descanso, fiesta, trabajo, wellness, entretenimiento y operación fluida con staff.
+
+## 2. Implantación y vistas
+
+Ubicación en una península privada de la isla, con vista de 270° al mar.
+
+Tres niveles principales: (1) nivel playa/alberca para vida social y diversión; (2) nivel social intermedio con sala monumental, comedor, cocina show, piano bar y terrazas; (3) nivel superior con suites principales, rooftop y áreas de contemplación.
+
+La orientación permite ver tanto el amanecer como el atardecer desde distintos puntos clave de la villa.
+
+## 3. Zona social principal
+
+**Lobby-sala monumental:** Doble altura de 8–9 m con ventanal completo al mar, piso de piedra caliza clara, escalera escultórica curva hacia las suites, sofás modulares gigantes en forma de U, mesas bajas de madera orgánica, iluminación cálida indirecta y una pieza de arte colgante que simula un cardumen metálico flotando.
+
+**Comedor central:** Mesa principal para 30 personas en una sola pieza de madera maciza con forma orgánica, más un comedor auxiliar para 20 personas. Ventanales corredizos desaparecen por completo para unir el comedor con la terraza.
+
+**Cocina show + cocina de producción:** La cocina show abierta tiene una isla central con barra de mármol, parrilla de inducción y bancos altos para 8 personas. Detrás, una cocina de producción oculta con cámaras frigoríficas, almacenes, hornos y zona de lavado industrial; el staff se mueve por circulaciones de servicio separadas para no interferir con los huéspedes.
+
+## 4. Alberca infinita, jacuzzi y bar en la alberca
+
+**Alberca infinita principal:** Aproximadamente 40 m de largo, con borde infinito hacia el mar, zonas de nado, juego y relax, camastros dentro del agua y mosaico turquesa que se funde visualmente con el océano. Iluminación subacuática con escenas programables.
+
+**Jacuzzi gigante:** Jacuzzi ovalado para unas 20 personas cómodas, integrado al conjunto de la alberca pero con bordes propios, diferentes tipos de jets (espalda, piernas, cuello) y asientos escalonados.
+
+**Pool bar:** Barra doble con sillas sumergidas del lado de la alberca y barra seca del otro. Techo de madera y palma sintética, contra-barra iluminada, estación de coctelería completa y ventiladores silenciosos.
+
+## 5. Área de wellness: sauna, spa y fitness
+
+**Sauna enorme:** Sauna seca panorámica con panel frontal de vidrio hacia un jardín privado. Capacidad para 20 personas sentadas, bancas en dos niveles de madera de cedro tratada e iluminación lineal bajo los asientos.
+
+**Baño de vapor y duchas de experiencia:** Sala de vapor revestida en mosaico claro, techo abovedado y, a la salida, corredor de duchas de experiencia con efectos de lluvia tropical, cascada, niebla fría y cromoterapia.
+
+**Cabinas de tratamiento:** Cuatro cabinas dobles de masaje, cada una con camillas, lavabo, iluminación muy suave y sonido ambiental de mar/selva.
+
+**Gimnasio y sala de yoga:** Gimnasio con vista al mar, equipo de cardio y fuerza para atender grupos grandes; sala de yoga/pilates con piso de madera, espejos discretos y almacenamiento de mats y accesorios.
+
+## 6. Entretenimiento: cine, billar, piano bar
+
+**Cine privado:** Sala tipo mini cinema para 30 personas sentadas en butacas reclinables más 20 en pufs y camas lounge. Pantalla gigante con proyección láser, sonido envolvente 7.1, pequeño candy bar y control central de iluminación por escenas.
+
+**Sala de juegos y billar:** Mesa de billar profesional, mesa de cartas con sillas cómodas, juegos de mesa de diseño, barra pequeña y ventanales que se abren hacia una terraza cubierta.
+
+**Piano bar:** Espacio íntimo con piano de cola sobre plataforma elevada, barra elegante con botellas retroiluminadas, sofás curvos y mesas bajas. Iluminación cálida que recuerda un club privado.
+
+## 7. Habitaciones y suites
+
+**Distribución general:** 20 suites en total: 10 Master Suites de 50–70 m² (muchas con jacuzzi o pequeña piscina privada) y 10 Junior Suites de 35–45 m². Todas con camas king o doble queen, baños completos con ducha tipo lluvia, doble lavabo y WC cerrado tipo washlet, además de terraza o balcón privado.
+
+**Suites especiales:** Una o dos Suites Presidenciales con sala privada, escritorio, comedor pequeño y terraza enorme con plunge pool; suites familiares con habitaciones conectadas; y suites swim-up con acceso directo a canales de alberca compartidos.
+
+**Diseño interior:** Mobiliario diseñado con medidas ergonómicas: camas a 55–60 cm de altura, burós a ~50–55 cm, escritorios funcionales con enchufes accesibles, iluminación de lectura y cortinas blackout más velo. Paleta de colores neutros con acentos azules y verdes y mucha madera cálida.
+
+## 8. Terrazas, rooftop y espacios exteriores
+
+Rooftop mirador con bar reducido, área lounge de sofás bajos, fogateros de gas y telescopios para observación de estrellas.
+
+Terrazas intermedias con rincones de lectura, hamacas colgantes y jardines con palmeras y plantas aromáticas.
+
+Zona de BBQ/asador con parrilla profesional, horno de pizza, barra de preparación y mesa larga exterior para comidas al aire libre.
+
+## 9. Circulación y operación para atender a 50 huéspedes
+
+**Back-of-house completo:** Área de personal con vestidores, comedor de staff y zonas de descanso. Lavandería de alta capacidad para sábanas, toallas y mantelería.
+
+Pasillos de servicio paralelos a los de huéspedes para que el staff se mueva sin interrumpir la experiencia.
+
+Áreas de almacenamiento para toallas, amenities, equipo deportivo y mobiliario extra.
+
+Cocina de soporte nocturna para servicio a habitaciones 24/7.
+
+## 10. Tecnología y confort
+
+Sistema centralizado de iluminación por escenas, aire acondicionado silencioso, sonido ambiental, WiFi de alta velocidad y controles mediante pantallas táctiles o app.
+
+Generador de respaldo y sistemas de tratamiento de agua adecuados al contexto isleño, asegurando continuidad del servicio y sostenibilidad básica.
+
+## 11. Resumen funcional
+
+La Villa Horizonte 50 integra todo lo que un grupo grande de hasta 50 personas puede necesitar:
+
+- **Dormir:** 20 suites de alto nivel con vistas al mar y terrazas.
+- **Socializar:** sala monumental, terrazas, salón de juegos, piano bar y rooftop.
+- **Agua y sol:** alberca infinita de gran formato, jacuzzi masivo, pool bar y acceso directo a la playa.
+- **Bienestar:** sauna enorme, vapor, spa, gimnasio y sala de yoga.
+- **Entretenimiento:** cine privado, billar, juegos de mesa, música en vivo.
+- **Comida y bebida:** cocina show, cocina de producción, zonas de asador y cenas privadas.
+- **Operación:** back-of-house fuerte para ofrecer servicio de hotel 7 estrellas con la intimidad de una villa privada.
+
+<!-- RLR · Ricardo López Reyero · rev 181218 -->

@@ -1,0 +1,779 @@
+{
+  "catalogo": "masajes",
+  "titulo": "Menú Maestro de Masajes – Isla Virtual de Lujo",
+  "tipo": "masaje",
+  "fuente": "fuentes/pdf/Menu_Masajes_Isla_Virtual_100_tipos.pdf",
+  "intro": "Este documento presenta un menú maestro de 100 tipos de masaje, diseñado para la isla virtual de lujo. Todos los masajes están descritos desde un enfoque profesional, terapéutico y de bienestar, sin contenido sexual, respetando límites claros y cuidando la experiencia del huésped. Se organizan por zona del cuerpo y por tipo de técnica, de modo que cada persona pueda elegir exactamente el tipo de masaje y la intensidad que prefiere.",
+  "total": 120,
+  "secciones": [
+    {
+      "clave": "I",
+      "titulo": "Masajes de cuerpo completo",
+      "id": "masajes-de-cuerpo-completo",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-001",
+          "n": 1,
+          "nombre": "Masaje relajante clásico de cuerpo completo",
+          "descripcion": "Presión suave y continua, movimientos largos y envolventes desde pies hasta hombros, con aceites neutros tibios, enfocado en reducir el estrés general."
+        },
+        {
+          "id": "masajes-002",
+          "n": 2,
+          "nombre": "Masaje sueco de cuerpo completo",
+          "descripcion": "Combinación de amasamientos, fricciones y deslizamientos firmes, diseñado para mejorar la circulación, aliviar tensión muscular ligera y generar sensación de ligereza general."
+        },
+        {
+          "id": "masajes-003",
+          "n": 3,
+          "nombre": "Masaje de cuerpo completo con aromaterapia cítrica",
+          "descripcion": "Masaje relajante con presión suave-media utilizando aceites esenciales cítricos (naranja, bergamota) para elevar el ánimo y aportar sensación de frescura."
+        },
+        {
+          "id": "masajes-004",
+          "n": 4,
+          "nombre": "Masaje de cuerpo completo con aromaterapia floral",
+          "descripcion": "Aceite base con notas de lavanda y jazmín, presión suave, ideal para personas que buscan calma profunda antes de dormir."
+        },
+        {
+          "id": "masajes-005",
+          "n": 5,
+          "nombre": "Masaje profundo de tejido profundo (deep tissue) de cuerpo completo",
+          "descripcion": "Presión media-firme, trabajo puntual en zonas de contractura (espalda baja, hombros, glúteos), con pausas para respiración consciente."
+        },
+        {
+          "id": "masajes-006",
+          "n": 6,
+          "nombre": "Masaje descontracturante global",
+          "descripcion": "Enfoque en eliminar puntos de tensión específicos en todo el cuerpo, utilizando técnicas de presión sostenida con dedos, nudillos y antebrazos."
+        },
+        {
+          "id": "masajes-007",
+          "n": 7,
+          "nombre": "Masaje deportivo de cuerpo completo",
+          "descripcion": "Ideal para personas activas; combina estiramientos asistidos, fricciones vigorosas y amasamientos, para preparar o recuperar la musculatura."
+        },
+        {
+          "id": "masajes-008",
+          "n": 8,
+          "nombre": "Masaje con piedras calientes de cuerpo completo",
+          "descripcion": "Colocación de piedras volcánicas tibias en espalda, piernas y manos, con deslizamientos suaves que mezclan calor profundo y relajación muscular."
+        },
+        {
+          "id": "masajes-009",
+          "n": 9,
+          "nombre": "Masaje de cuerpo completo con bambú",
+          "descripcion": "Uso de cañas de bambú pulidas para aplicar presión uniforme a lo largo de piernas, espalda y brazos, ayudando a drenar y relajar músculos grandes."
+        },
+        {
+          "id": "masajes-010",
+          "n": 10,
+          "nombre": "Masaje holístico de equilibrio energético",
+          "descripcion": "Integración de técnicas suaves, toques ligeros y enfoque en chakras, combinado con respiración guiada para sensación de armonía global."
+        },
+        {
+          "id": "masajes-011",
+          "n": 11,
+          "nombre": "Masaje antiestrés integral",
+          "descripcion": "Enfoque en cuello, hombros, espalda y cabeza, complementado con maniobras suaves en brazos y piernas para liberar la sensación de pesadez."
+        },
+        {
+          "id": "masajes-012",
+          "n": 12,
+          "nombre": "Masaje de cuerpo completo con aceites calientes",
+          "descripcion": "Aceite ligeramente más tibio de lo habitual, aplicado con movimientos lentos y envolventes para generar sensación de abrazo cálido en todo el cuerpo."
+        },
+        {
+          "id": "masajes-013",
+          "n": 13,
+          "nombre": "Masaje de estiramiento corporal completo estilo inspirado en Thai (en camilla)",
+          "descripcion": "Movimientos asistidos de estiramiento suave para piernas, cadera, espalda y brazos, sin sobrepasar límites de flexibilidad."
+        },
+        {
+          "id": "masajes-014",
+          "n": 14,
+          "nombre": "Masaje de cuerpo completo con enfoque en respiración",
+          "descripcion": "El terapeuta invita a sincronizar respiración con los movimientos, ayudando a soltar tensión en cada exhalación."
+        },
+        {
+          "id": "masajes-015",
+          "n": 15,
+          "nombre": "Masaje reequilibrante de largas estancias",
+          "descripcion": "Diseñado para huéspedes que pasan muchos días en la isla; combina técnicas suaves y profundas en una misma sesión para un reinicio corporal completo."
+        },
+        {
+          "id": "masajes-016",
+          "n": 16,
+          "nombre": "Masaje de cuerpo completo con enfoque en postura",
+          "descripcion": "Trabajo más detallado en espalda alta, hombros y cadera para ayudar a liberar patrones posturales tensos."
+        },
+        {
+          "id": "masajes-017",
+          "n": 17,
+          "nombre": "Masaje linfático suave de cuerpo completo",
+          "descripcion": "Movimientos muy ligeros, rítmicos, siguiendo líneas linfáticas, ayudando a disminuir retención de líquidos y sensación de hinchazón."
+        },
+        {
+          "id": "masajes-018",
+          "n": 18,
+          "nombre": "Masaje sensorial de cuerpo completo con texturas",
+          "descripcion": "Uso de aceites, toallas tibias y ligeras variaciones de presión para crear una experiencia rica en sensaciones táctiles sin contenido sexual."
+        },
+        {
+          "id": "masajes-019",
+          "n": 19,
+          "nombre": "Masaje de cuerpo completo para fatiga extrema",
+          "descripcion": "Ritmo algo más lento, presión media, atención especial en pies, piernas y espalda baja, ideal para quienes llegan agotados."
+        },
+        {
+          "id": "masajes-020",
+          "n": 20,
+          "nombre": "Masaje de rehidratación de piel de cuerpo completo",
+          "descripcion": "Uso de aceites más densos y nutritivos, con movimientos amplios, para dejar la piel suave y la musculatura relajada."
+        }
+      ]
+    },
+    {
+      "clave": "II",
+      "titulo": "Espalda, cuello y hombros",
+      "id": "espalda-cuello-y-hombros",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-021",
+          "n": 21,
+          "nombre": "Masaje focal de espalda alta y cuello",
+          "descripcion": "Presión media-firme en trapecios, cuello y zona interescapular, para aliviar tensión de escritorio o dispositivos."
+        },
+        {
+          "id": "masajes-022",
+          "n": 22,
+          "nombre": "Masaje de espalda baja y zona lumbar",
+          "descripcion": "Enfoque en zona lumbar, sacro y glúteos superiores, con maniobras profundas para liberar tensión acumulada por largas horas sentado."
+        },
+        {
+          "id": "masajes-023",
+          "n": 23,
+          "nombre": "Masaje de cuello y hombros en silla",
+          "descripcion": "Sesión breve en posición sentada, con trabajo en cervicales, base del cráneo y hombros, ideal para pausas entre actividades."
+        },
+        {
+          "id": "masajes-024",
+          "n": 24,
+          "nombre": "Masaje de espalda con piedras calientes",
+          "descripcion": "Aplicación de piedras tibias a lo largo de la columna y deslizamientos suaves con aceite para calentar y relajar profundamente la musculatura."
+        },
+        {
+          "id": "masajes-025",
+          "n": 25,
+          "nombre": "Masaje descontracturante de trapecios",
+          "descripcion": "Trabajo muy localizado con presión sostenida en puntos gatillo sobre trapecios y músculos del cuello."
+        },
+        {
+          "id": "masajes-026",
+          "n": 26,
+          "nombre": "Masaje de espalda con rodillos de madera",
+          "descripcion": "Uso de rodillos suaves para generar presión rítmica en toda la columna y musculatura paravertebral."
+        },
+        {
+          "id": "masajes-027",
+          "n": 27,
+          "nombre": "Masaje de cuello y cuero cabelludo combinado",
+          "descripcion": "Movimientos circulares en base del cráneo y nuca, seguido de masaje en cuero cabelludo para máxima sensación de alivio mental."
+        },
+        {
+          "id": "masajes-028",
+          "n": 28,
+          "nombre": "Masaje de espalda media y dorsal",
+          "descripcion": "Enfoque en zona dorsal, justo detrás del pecho, para liberar tensión relacionada con respiración superficial o estrés emocional."
+        },
+        {
+          "id": "masajes-029",
+          "n": 29,
+          "nombre": "Masaje de hombros y omóplatos",
+          "descripcion": "Amasamientos profundos alrededor de las escápulas, con movilizaciones suaves del hombro para mejorar rango de movimiento."
+        },
+        {
+          "id": "masajes-030",
+          "n": 30,
+          "nombre": "Masaje de espalda anti-fatiga",
+          "descripcion": "Trabajo en toda la espalda con combinaciones de presión media, percusiones suaves y movimientos de vaivén relajantes."
+        },
+        {
+          "id": "masajes-031",
+          "n": 31,
+          "nombre": "Masaje suave de cuello para personas sensibles",
+          "descripcion": "Presión ligera, maniobras cuidadosas, ideal para quienes tienen molestias cervicales recurrentes."
+        },
+        {
+          "id": "masajes-032",
+          "n": 32,
+          "nombre": "Masaje correctivo de postura en espalda alta",
+          "descripcion": "Énfasis en músculos que se tensan por encorvarse; incluye apertura de pecho y movilización de hombros."
+        },
+        {
+          "id": "masajes-033",
+          "n": 33,
+          "nombre": "Masaje de espalda y cuello con aromaterapia relajante",
+          "descripcion": "Uso de aceites esenciales de lavanda o manzanilla para potenciar el efecto calmante."
+        },
+        {
+          "id": "masajes-034",
+          "n": 34,
+          "nombre": "Masaje de cuello y parte superior de la espalda para migrañas tensionales",
+          "descripcion": "Muy delicado, se enfoca en base del cráneo, occipitales y trapecios."
+        },
+        {
+          "id": "masajes-035",
+          "n": 35,
+          "nombre": "Masaje de espalda con técnica de fricción profunda",
+          "descripcion": "Movimientos más intensos para liberar tejidos adheridos en zona dorsal y lumbar."
+        },
+        {
+          "id": "masajes-036",
+          "n": 36,
+          "nombre": "Masaje de espalda corta (sesión express)",
+          "descripcion": "Rutina optimizada de 20–30 minutos en toda la espalda para alivio rápido."
+        },
+        {
+          "id": "masajes-037",
+          "n": 37,
+          "nombre": "Masaje de espalda con toallas calientes",
+          "descripcion": "Aplicación de paños tibios antes del masaje para preparar la musculatura y mejorar el confort."
+        },
+        {
+          "id": "masajes-038",
+          "n": 38,
+          "nombre": "Masaje de cuello y hombros con estiramientos suaves",
+          "descripcion": "Combinando presión con movilizaciones guiadas para abrir la zona."
+        },
+        {
+          "id": "masajes-039",
+          "n": 39,
+          "nombre": "Masaje para espalda rígida por viaje",
+          "descripcion": "Pensado para después de vuelos largos; incluye foco en zona lumbar y entre omóplatos."
+        },
+        {
+          "id": "masajes-040",
+          "n": 40,
+          "nombre": "Masaje de espalda para deportistas",
+          "descripcion": "Énfasis en dorsales, romboides y lumbares, con movilidad activa y fricciones rápidas donde se requiera."
+        }
+      ]
+    },
+    {
+      "clave": "III",
+      "titulo": "Piernas y pies",
+      "id": "piernas-y-pies",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-041",
+          "n": 41,
+          "nombre": "Masaje de piernas completo",
+          "descripcion": "Desde pies hasta muslos, con presión media-firme, ideal para aliviar cansancio por caminatas o ejercicio."
+        },
+        {
+          "id": "masajes-042",
+          "n": 42,
+          "nombre": "Masaje de drenaje en piernas",
+          "descripcion": "Movimientos suaves y ascendentes para ayudar a reducir sensación de pesadez y retención de líquidos."
+        },
+        {
+          "id": "masajes-043",
+          "n": 43,
+          "nombre": "Masaje de pies reflexológico",
+          "descripcion": "Presión en puntos específicos de la planta del pie, relacionados con zonas del cuerpo, para promover equilibrio general."
+        },
+        {
+          "id": "masajes-044",
+          "n": 44,
+          "nombre": "Masaje de gemelos y pantorrillas",
+          "descripcion": "Trabajo focal en gemelos, Aquiles y pies, ideal para corredores o personas que pasan mucho tiempo de pie."
+        },
+        {
+          "id": "masajes-045",
+          "n": 45,
+          "nombre": "Masaje de muslos y cadera",
+          "descripcion": "Maniobras profundas en cuadríceps, isquiotibiales y músculos de cadera para mejorar flexibilidad y alivio muscular."
+        },
+        {
+          "id": "masajes-046",
+          "n": 46,
+          "nombre": "Masaje de pies con baño tibio previo",
+          "descripcion": "Remojo de pies en agua tibia con sales, seguido de masaje detallado de dedos, planta y empeine."
+        },
+        {
+          "id": "masajes-047",
+          "n": 47,
+          "nombre": "Masaje de piernas con enfoque deportivo",
+          "descripcion": "Combinación de fricciones rápidas y estiramientos suaves para preparación o recuperación muscular."
+        },
+        {
+          "id": "masajes-048",
+          "n": 48,
+          "nombre": "Masaje de pies con aceites mentolados",
+          "descripcion": "Sensación de frescor intenso y alivio, ideal para climas cálidos o después de largos recorridos."
+        },
+        {
+          "id": "masajes-049",
+          "n": 49,
+          "nombre": "Masaje de piernas y pies para circulación",
+          "descripcion": "Movimientos rítmicos siguiendo el retorno venoso, con elevación ligera de piernas en camilla."
+        },
+        {
+          "id": "masajes-050",
+          "n": 50,
+          "nombre": "Masaje de pies antiestrés",
+          "descripcion": "Sesión enfocada solo en pies, con presión firme pero agradable en puntos clave, ideal antes de dormir."
+        },
+        {
+          "id": "masajes-051",
+          "n": 51,
+          "nombre": "Masaje de piernas con bambú",
+          "descripcion": "Cañas de bambú aplicando presión homogénea a lo largo de toda la pierna, muy útil para músculos grandes."
+        },
+        {
+          "id": "masajes-052",
+          "n": 52,
+          "nombre": "Masaje de piernas para viajeros",
+          "descripcion": "Diseñado para personas que llegan de vuelos largos, con énfasis en mejorar circulación y movilidad."
+        },
+        {
+          "id": "masajes-053",
+          "n": 53,
+          "nombre": "Masaje de tobillos y pies para sensibilidad articular",
+          "descripcion": "Presión moderada y movilizaciones suaves, respetando límites de movimiento."
+        },
+        {
+          "id": "masajes-054",
+          "n": 54,
+          "nombre": "Masaje de piernas con aceites relajantes",
+          "descripcion": "Aceite de lavanda o romero para relajar y aportar una sensación de descanso profundo."
+        },
+        {
+          "id": "masajes-055",
+          "n": 55,
+          "nombre": "Masaje de pies detallado dedo por dedo",
+          "descripcion": "Trabajo minucioso en cada dedo, articulaciones, planta y arco del pie, liberando microtensiones."
+        },
+        {
+          "id": "masajes-056",
+          "n": 56,
+          "nombre": "Masaje de piernas posterior",
+          "descripcion": "Enfoque en cadena posterior (pantorrillas, isquiotibiales, glúteos superiores) para liberar carga."
+        },
+        {
+          "id": "masajes-057",
+          "n": 57,
+          "nombre": "Masaje de piernas anterior",
+          "descripcion": "Énfasis en cuadríceps y músculos frontales, ideal para ciclistas o escaladores."
+        },
+        {
+          "id": "masajes-058",
+          "n": 58,
+          "nombre": "Masaje de plantas de los pies con presión gradual",
+          "descripcion": "Presión de menor a mayor intensidad adaptada a la tolerancia de cada huésped."
+        },
+        {
+          "id": "masajes-059",
+          "n": 59,
+          "nombre": "Masaje de pies con piedras tibias",
+          "descripcion": "Colocación de piedras suaves y calientes en puntos específicos de la planta y el empeine."
+        },
+        {
+          "id": "masajes-060",
+          "n": 60,
+          "nombre": "Masaje de piernas y pies con enfoque en relajación profunda",
+          "descripcion": "Ritmo lento, presión media, ambiente silencioso y música suave."
+        }
+      ]
+    },
+    {
+      "clave": "IV",
+      "titulo": "Cabeza, rostro y cuello",
+      "id": "cabeza-rostro-y-cuello",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-061",
+          "n": 61,
+          "nombre": "Masaje de cuero cabelludo relajante",
+          "descripcion": "Movimientos circulares y continuos desde la nuca hasta la frente, ideal para liberar tensión mental."
+        },
+        {
+          "id": "masajes-062",
+          "n": 62,
+          "nombre": "Masaje facial hidratante",
+          "descripcion": "Maniobras suaves en rostro con crema ligera o aceite facial, ayudando a relajar los músculos faciales y mejorar la circulación."
+        },
+        {
+          "id": "masajes-063",
+          "n": 63,
+          "nombre": "Masaje de sienes y frente para alivio de tensión",
+          "descripcion": "Trabajo delicado en sienes, cejas y frente, enfocado en personas con estrés o trabajo visual intenso."
+        },
+        {
+          "id": "masajes-064",
+          "n": 64,
+          "nombre": "Masaje craneal profundo",
+          "descripcion": "Énfasis en base del cráneo, occipitales y zona detrás de las orejas, con presión cómoda y constante."
+        },
+        {
+          "id": "masajes-065",
+          "n": 65,
+          "nombre": "Masaje de cabeza y cuello combinado",
+          "descripcion": "Alternancia de maniobras en cuero cabelludo, nuca y parte superior de hombros."
+        },
+        {
+          "id": "masajes-066",
+          "n": 66,
+          "nombre": "Masaje de contorno mandibular",
+          "descripcion": "Trabajo suave en mandíbula, maseteros y zona alrededor de la boca, ideal para personas que aprietan dientes o sienten tensión al hablar."
+        },
+        {
+          "id": "masajes-067",
+          "n": 67,
+          "nombre": "Masaje drenante facial",
+          "descripcion": "Movimientos muy suaves hacia ganglios linfáticos cervicales y preauriculares, para reducir hinchazón."
+        },
+        {
+          "id": "masajes-068",
+          "n": 68,
+          "nombre": "Masaje facial antiestrés con toallas tibias",
+          "descripcion": "Aplicación de paños calientes breves y maniobras lentas en mejillas, frente y cuello."
+        },
+        {
+          "id": "masajes-069",
+          "n": 69,
+          "nombre": "Masaje de cabeza para mejorar sueño",
+          "descripcion": "Secuencia relajante enfocada en preparar al huésped para descansar profundamente."
+        },
+        {
+          "id": "masajes-070",
+          "n": 70,
+          "nombre": "Masaje de rostro y cuello con aromaterapia suave",
+          "descripcion": "Uso de aceites esenciales diluidos (lavanda, manzanilla) para potenciar relajación."
+        },
+        {
+          "id": "masajes-071",
+          "n": 71,
+          "nombre": "Masaje de ojos y cejas",
+          "descripcion": "Presión muy ligera alrededor de órbitas, cejas y puente de la nariz, para aliviar fatiga visual."
+        },
+        {
+          "id": "masajes-072",
+          "n": 72,
+          "nombre": "Masaje de cuero cabelludo para revitalización",
+          "descripcion": "Ritmo algo más dinámico, pensado para dar sensación de energía sin perder confort."
+        },
+        {
+          "id": "masajes-073",
+          "n": 73,
+          "nombre": "Masaje de cuello muy suave para personas sensibles",
+          "descripcion": "Maniobras casi superficiales, sin movimientos bruscos, ideal para quienes temen el trabajo cervical."
+        },
+        {
+          "id": "masajes-074",
+          "n": 74,
+          "nombre": "Masaje de rostro estilo lifting manual",
+          "descripcion": "Maniobras ascendentes en mejillas, mandíbula y frente, sin ser tratamiento estético médico, solo bienestar."
+        },
+        {
+          "id": "masajes-075",
+          "n": 75,
+          "nombre": "Masaje de cara y cráneo con enfoque en respiración",
+          "descripcion": "El terapeuta guía respiraciones profundas mientras trabaja la zona craneal y facial."
+        },
+        {
+          "id": "masajes-076",
+          "n": 76,
+          "nombre": "Masaje de cabeza con puntos de acupresión",
+          "descripcion": "Presión controlada sobre puntos específicos para liberar sensación de congestión mental."
+        },
+        {
+          "id": "masajes-077",
+          "n": 77,
+          "nombre": "Masaje de nuca y base del cráneo para migrañas tensionales",
+          "descripcion": "Trabajo delicado, evitando cualquier acción brusca, integrando pausas."
+        },
+        {
+          "id": "masajes-078",
+          "n": 78,
+          "nombre": "Masaje relajante de orejas y zona periauricular",
+          "descripcion": "Maniobras suaves en lóbulos, contorno y detrás de las orejas, aportando sensación de calma."
+        },
+        {
+          "id": "masajes-079",
+          "n": 79,
+          "nombre": "Masaje de rostro con rodillos de piedra suave",
+          "descripcion": "Uso de rodillos de jade o cuarzo para masaje frío-caliente en mejillas, frente y cuello."
+        },
+        {
+          "id": "masajes-080",
+          "n": 80,
+          "nombre": "Masaje facial completo + cuero cabelludo",
+          "descripcion": "Combinación integral que abarca toda la cabeza y rostro en una sola sesión."
+        }
+      ]
+    },
+    {
+      "clave": "V",
+      "titulo": "Masajes especiales terapéuticos y de bienestar",
+      "id": "masajes-especiales-terapeuticos-y-de-bienestar",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-081",
+          "n": 81,
+          "nombre": "Masaje prenatal (seguro)",
+          "descripcion": "Adaptado para futuras madres, con posiciones cómodas y apoyo de cojines, evitando presión en zonas contraindicadas."
+        },
+        {
+          "id": "masajes-082",
+          "n": 82,
+          "nombre": "Masaje post-entrenamiento intenso",
+          "descripcion": "Diseñado para después de sesiones fuertes de ejercicio, con énfasis en músculos utilizados y estiramientos suaves."
+        },
+        {
+          "id": "masajes-083",
+          "n": 83,
+          "nombre": "Masaje para espalda sensible",
+          "descripcion": "Técnicas muy suaves, sin presiones profundas, ideal para personas con molestias crónicas leves."
+        },
+        {
+          "id": "masajes-084",
+          "n": 84,
+          "nombre": "Masaje para personas mayores",
+          "descripcion": "Maniobras lentas, presión moderada y atención a articulaciones, priorizando comodidad y seguridad."
+        },
+        {
+          "id": "masajes-085",
+          "n": 85,
+          "nombre": "Masaje de recuperación tras jornada laboral larga (versión ejecutiva)",
+          "descripcion": "Combinación de cuello, hombros, espalda y pies para alivio global."
+        },
+        {
+          "id": "masajes-086",
+          "n": 86,
+          "nombre": "Masaje de manos y antebrazos",
+          "descripcion": "Ideal para quienes usan computadora, combina estiramientos de dedos, palmas y músculos flexores/extensores."
+        },
+        {
+          "id": "masajes-087",
+          "n": 87,
+          "nombre": "Masaje de manos con parafina tibia",
+          "descripcion": "Tratamiento donde se sumerge la mano en parafina caliente antes del masaje para suavizar piel y articulaciones."
+        },
+        {
+          "id": "masajes-088",
+          "n": 88,
+          "nombre": "Masaje linfático parcial (zona específica)",
+          "descripcion": "Enfoque en una región concreta (por ejemplo, piernas o brazos) con movimientos linfáticos suaves."
+        },
+        {
+          "id": "masajes-089",
+          "n": 89,
+          "nombre": "Masaje con enfoque respiratorio y mindfulness",
+          "descripcion": "El terapeuta guía una respiración consciente mientras aplica maniobras suaves en espalda y pecho (sin tocar áreas íntimas)."
+        },
+        {
+          "id": "masajes-090",
+          "n": 90,
+          "nombre": "Masaje de liberación miofascial",
+          "descripcion": "Presión sostenida y lenta en zonas donde la fascia está más tensa, respetando la tolerancia del huésped."
+        },
+        {
+          "id": "masajes-091",
+          "n": 91,
+          "nombre": "Masaje de manos y pies combinado",
+          "descripcion": "Trabajo conjunto en extremidades más distales para generar una sensación de descanso global."
+        },
+        {
+          "id": "masajes-092",
+          "n": 92,
+          "nombre": "Masaje de relajación corta (20 minutos)",
+          "descripcion": "Protocolo rápido pero ordenado para reducir estrés en poco tiempo."
+        },
+        {
+          "id": "masajes-093",
+          "n": 93,
+          "nombre": "Masaje caliente con compresas de hierbas",
+          "descripcion": "Compresas tibias con hierbas aromáticas colocadas en espalda y hombros, seguidas de masaje con aceite."
+        },
+        {
+          "id": "masajes-094",
+          "n": 94,
+          "nombre": "Masaje con enfoque en articulaciones",
+          "descripcion": "Movimientos suaves de movilización y masaje alrededor de rodillas, codos y hombros."
+        },
+        {
+          "id": "masajes-095",
+          "n": 95,
+          "nombre": "Masaje sedante general",
+          "descripcion": "Presión suave, ritmo lento y continuo, ideal para personas muy ansiosas o con insomnio."
+        },
+        {
+          "id": "masajes-096",
+          "n": 96,
+          "nombre": "Masaje energizante matutino",
+          "descripcion": "Presión algo más firme, ritmo algo más rápido, pensado para activar al huésped al inicio del día."
+        },
+        {
+          "id": "masajes-097",
+          "n": 97,
+          "nombre": "Masaje crepuscular (previo al atardecer)",
+          "descripcion": "Maniobras largas y calmadas para preparar cuerpo y mente para ver el atardecer relajado."
+        },
+        {
+          "id": "masajes-098",
+          "n": 98,
+          "nombre": "Masaje para cuello y pecho alto (no invasivo)",
+          "descripcion": "Maniobras suaves en pecho alto, clavículas y cuellos, sin tocar zonas íntimas, promoviendo apertura postural."
+        },
+        {
+          "id": "masajes-099",
+          "n": 99,
+          "nombre": "Masaje de relajación guiada con visualización",
+          "descripcion": "El terapeuta invita al huésped a imaginar escenas de calma mientras realiza maniobras suaves."
+        },
+        {
+          "id": "masajes-100",
+          "n": 100,
+          "nombre": "Masaje personalizado",
+          "descripcion": "Sesión donde el huésped elige las zonas principales y la intensidad, y el terapeuta combina técnicas adecuadas."
+        }
+      ]
+    },
+    {
+      "clave": "VI",
+      "titulo": "Masajes en pareja y experiencias compartidas (no sexuales)",
+      "id": "masajes-en-pareja-y-experiencias-compartidas-no-",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "masajes-101",
+          "n": 101,
+          "nombre": "Masaje relajante en pareja de cuerpo completo",
+          "descripcion": "Dos camillas en la misma sala, cada huésped con su terapeuta, maniobras suaves y sincronizadas, ambiente de luz cálida y música suave."
+        },
+        {
+          "id": "masajes-102",
+          "n": 102,
+          "nombre": "Masaje de espalda en pareja",
+          "descripcion": "Sesión enfocada en espalda, cuello y hombros, para compartir un momento de descanso juntos."
+        },
+        {
+          "id": "masajes-103",
+          "n": 103,
+          "nombre": "Masaje de pies en pareja",
+          "descripcion": "Cada persona recibe masaje detallado en pies mientras se miran o conversan, ideal para cierre de día."
+        },
+        {
+          "id": "masajes-104",
+          "n": 104,
+          "nombre": "Masaje de piernas y espalda en pareja",
+          "descripcion": "Combinación de trabajos en piernas y espalda, con sincronización aproximada en tiempos."
+        },
+        {
+          "id": "masajes-105",
+          "n": 105,
+          "nombre": "Masaje con piedras calientes en pareja",
+          "descripcion": "Experiencia compartida con colocación de piedras tibias y masaje suave en espalda y cuello."
+        },
+        {
+          "id": "masajes-106",
+          "n": 106,
+          "nombre": "Masaje de cabeza y cuello en pareja",
+          "descripcion": "Los dos reciben masaje craneal y cervical, pensado para liberar tensión mental conjunta."
+        },
+        {
+          "id": "masajes-107",
+          "n": 107,
+          "nombre": "Masaje personalizado en pareja",
+          "descripcion": "Cada uno elige las zonas prioritarias, pero comparten la misma cabina y ambiente."
+        },
+        {
+          "id": "masajes-108",
+          "n": 108,
+          "nombre": "Masaje antiestrés para parejas con vidas muy ocupadas",
+          "descripcion": "Protocolo centrado en cuello, hombros y espalda, con enfoque extra en respiración."
+        },
+        {
+          "id": "masajes-109",
+          "n": 109,
+          "nombre": "Masaje en pareja con aromaterapia",
+          "descripcion": "Selección conjunta de aceites esenciales (relajantes, equilibrantes o energizantes) para ambos."
+        },
+        {
+          "id": "masajes-110",
+          "n": 110,
+          "nombre": "Masaje de manos en pareja",
+          "descripcion": "Se trabaja manos y antebrazos, ideal como complemento suave a otras experiencias del resort."
+        },
+        {
+          "id": "masajes-111",
+          "n": 111,
+          "nombre": "Masaje corto de bienvenida en pareja",
+          "descripcion": "Mini sesión de 20–25 minutos para introducirse al spa de manera conjunta."
+        },
+        {
+          "id": "masajes-112",
+          "n": 112,
+          "nombre": "Masaje de tarde-noche en pareja",
+          "descripcion": "Diseñado para hacerse justo antes de la cena, para llegar relajados y con sensación de ligereza."
+        },
+        {
+          "id": "masajes-113",
+          "n": 113,
+          "nombre": "Masaje de relajación silenciosa en pareja",
+          "descripcion": "Se invita a no hablar durante la sesión, enfocándose en respirar y sentir el masaje."
+        },
+        {
+          "id": "masajes-114",
+          "n": 114,
+          "nombre": "Masaje en cabaña frente al mar para parejas",
+          "descripcion": "Misma técnica que un masaje relajante, pero en una ubicación especial con sonido de olas."
+        },
+        {
+          "id": "masajes-115",
+          "n": 115,
+          "nombre": "Masaje de espalda y pies en pareja",
+          "descripcion": "Combinación muy apreciada, enfocada en liberar carga en la parte posterior del cuerpo."
+        },
+        {
+          "id": "masajes-116",
+          "n": 116,
+          "nombre": "Masaje en pareja post-actividad (después de buceo o senderismo)",
+          "descripcion": "Énfasis en piernas, espalda baja y hombros."
+        },
+        {
+          "id": "masajes-117",
+          "n": 117,
+          "nombre": "Masaje combinando técnicas suaves y medias en pareja",
+          "descripcion": "Uno puede elegir presión más suave y el otro más firme, coordinado por el spa."
+        },
+        {
+          "id": "masajes-118",
+          "n": 118,
+          "nombre": "Masaje en pareja con estiramientos suaves",
+          "descripcion": "Incluye estiramientos asistidos en piernas y brazos, siempre dentro de rangos cómodos."
+        },
+        {
+          "id": "masajes-119",
+          "n": 119,
+          "nombre": "Masaje de relajación profunda en pareja",
+          "descripcion": "Ritmo lento, ambiente muy calmado, ideal para reset mental compartido."
+        },
+        {
+          "id": "masajes-120",
+          "n": 120,
+          "nombre": "Masaje de cierre de estancia en pareja",
+          "descripcion": "Protocolo especial para el último día en la isla, trabajando las zonas preferidas de cada persona."
+        }
+      ]
+    }
+  ],
+  "cierre": "Nota importante: Todos los masajes descritos en este menú están diseñados desde un enfoque profesional, terapéutico y de bienestar, sin contenido sexual ni erótico. Las descripciones pueden usarse como base para el modelado de servicios de spa en el mundo virtual de la isla, permitiendo a los huéspedes elegir según zona del cuerpo, profundidad de la presión y estilo de experiencia que desean vivir."
+}

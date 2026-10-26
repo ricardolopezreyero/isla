@@ -1,0 +1,651 @@
+{
+  "catalogo": "platillos",
+  "titulo": "Menú Maestro – Isla Virtual de Lujo",
+  "tipo": "platillo",
+  "fuente": "fuentes/pdf/Menu_Isla_Virtual_100_platillos_premium.pdf",
+  "intro": "Este documento describe un menú maestro de más de 100 platillos premium disponibles en la isla virtual de lujo. Está pensado para todos los gustos, con énfasis en cocina mexicana, de Estados Unidos y de Perú, además de opciones internacionales. Cada platillo está descrito con lujo de detalles: ingredientes, estilo de preparación y sensación que debe transmitir al huésped.",
+  "total": 100,
+  "secciones": [
+    {
+      "clave": "I",
+      "titulo": "Cocina Mexicana Premium",
+      "id": "cocina-mexicana-premium",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "platillos-001",
+          "n": 1,
+          "nombre": "Taco de camarón al pastor",
+          "descripcion": "Tortilla de maíz hecha a mano, camarones marinados en adobo de achiote, piña asada en cubos, cebolla morada encurtida, cilantro fresco y salsa de chile de árbol ligeramente ahumada."
+        },
+        {
+          "id": "platillos-002",
+          "n": 2,
+          "nombre": "Taco de rib eye con tuétano",
+          "descripcion": "Rib eye a la parrilla en término medio, láminas finas de tuétano sellado, cebolla asada, guacamole de textura rústica y tortillas de maíz azul recién hechas."
+        },
+        {
+          "id": "platillos-003",
+          "n": 3,
+          "nombre": "Tostadas de atún fresco estilo Baja",
+          "descripcion": "Láminas de atún crudo marinadas en salsa de soya cítrica, mayonesa de chipotle suave, láminas de pepino, aguacate, cebolla frita crujiente y ajonjolí tostado sobre tostada delgada y crujiente."
+        },
+        {
+          "id": "platillos-004",
+          "n": 4,
+          "nombre": "Ceviche de pescado estilo Acapulco",
+          "descripcion": "Pescado blanco fresco en cubos pequeños, jugo de limón, jitomate, cebolla, cilantro, chile serrano, trozos de aguacate, ligeramente más jugoso para comerse con cuchara o totopos de maíz."
+        },
+        {
+          "id": "platillos-005",
+          "n": 5,
+          "nombre": "Enchiladas suizas de pollo orgánico",
+          "descripcion": "Tortillas de maíz suaves rellenas de pollo deshebrado, bañadas en salsa verde cremosa, gratinadas con queso Oaxaca y manchego, servidas con crema ácida y frijoles negros refritos suaves."
+        },
+        {
+          "id": "platillos-006",
+          "n": 6,
+          "nombre": "Mole poblano con pechuga de pato",
+          "descripcion": "Pechuga de pato confitada y luego sellada, montada sobre cama de mole poblano aterciopelado, con ajonjolí tostado, arroz blanco con plátano macho frito y tortilla de maíz caliente."
+        },
+        {
+          "id": "platillos-007",
+          "n": 7,
+          "nombre": "Chiles en nogada (versión de temporada todo el año)",
+          "descripcion": "Chile poblano asado y pelado, relleno de carne de res y cerdo mezclada con frutas, cubierto con nogada de nuez de Castilla ligeramente dulce, granada fresca y perejil."
+        },
+        {
+          "id": "platillos-008",
+          "n": 8,
+          "nombre": "Sopa de tortilla ahumada",
+          "descripcion": "Caldo de jitomate y chile pasilla, tiras de tortilla frita, aguacate en cubos, queso fresco, crema y chile ancho en julianas crujientes."
+        },
+        {
+          "id": "platillos-009",
+          "n": 9,
+          "nombre": "Esquites de la casa",
+          "descripcion": "Granos de elote tierno salteados con mantequilla, epazote y chile de árbol, servidos en vaso grande con mayonesa ligera, queso Cotija, limón y polvo de chile."
+        },
+        {
+          "id": "platillos-010",
+          "n": 10,
+          "nombre": "Aguachile verde de camarón",
+          "descripcion": "Camarón crudo marinado en salsa de chile serrano, pepino, cilantro y limón, con rebanadas finísimas de cebolla morada y pepino, terminado con gotas de aceite de aguacate."
+        },
+        {
+          "id": "platillos-011",
+          "n": 11,
+          "nombre": "Quesadilla de flor de calabaza y huitlacoche",
+          "descripcion": "Tortilla de maíz nixtamalizado, rellena de flor de calabaza fresca, huitlacoche salteado, queso Oaxaca y epazote, servida con salsa verde tatemada."
+        },
+        {
+          "id": "platillos-012",
+          "n": 12,
+          "nombre": "Tamales gourmet tricolor",
+          "descripcion": "Selección de tamal de cochinita pibil, tamal de rajas con queso y tamal de elote dulce, servidos en plato degustación con tres salsas distintas."
+        },
+        {
+          "id": "platillos-013",
+          "n": 13,
+          "nombre": "Flautas de res crujientes",
+          "descripcion": "Tortillas enrolladas rellenas de carne de res deshebrada, fritas hasta quedar doradas, montadas en cama de lechuga, crema, queso fresco rallado, aguacate y salsa roja."
+        },
+        {
+          "id": "platillos-014",
+          "n": 14,
+          "nombre": "Pulpo a las brasas con adobo de chile ancho",
+          "descripcion": "Pulpo tierno asado en parrilla, glaseado con adobo ligeramente picante, servido sobre puré de papa con aceite de oliva y reducción de vino tinto."
+        },
+        {
+          "id": "platillos-015",
+          "n": 15,
+          "nombre": "Tlayuda oaxaqueña de mariscos",
+          "descripcion": "Tortilla grande y crujiente, frijoles negros untados, queso Oaxaca, mezcla de mariscos salteados, lechuga, cebolla morada, aguacate y salsa de chile pasilla."
+        }
+      ]
+    },
+    {
+      "clave": "II",
+      "titulo": "Cocina de Estados Unidos Premium",
+      "id": "cocina-de-estados-unidos-premium",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "platillos-016",
+          "n": 1,
+          "nombre": "Burger de wagyu con trufa",
+          "descripcion": "Medallón de carne wagyu a la parrilla, queso cheddar añejo, cebolla caramelizada, láminas de trufa negra, lechuga crujiente y alioli de ajo rostizado en pan brioche tostado."
+        },
+        {
+          "id": "platillos-017",
+          "n": 2,
+          "nombre": "Rib eye USDA Prime a la parrilla",
+          "descripcion": "Corte grueso en término medio, mantequilla de hierbas encima, acompañado de puré de papa cremoso con piel y espárragos a la parrilla."
+        },
+        {
+          "id": "platillos-018",
+          "n": 3,
+          "nombre": "Costillas BBQ ahumadas lentamente",
+          "descripcion": "Costillas de cerdo marinadas 24 horas, cocinadas a baja temperatura hasta que la carne se desprende del hueso, glaseadas en salsa BBQ artesanal con toque de miel y bourbon."
+        },
+        {
+          "id": "platillos-019",
+          "n": 4,
+          "nombre": "Mac & cheese trufado",
+          "descripcion": "Pasta codo al dente, mezcla cremosa de quesos cheddar, gruyere y parmesano, perfumada con aceite de trufa y horneada hasta formar una costra dorada."
+        },
+        {
+          "id": "platillos-020",
+          "n": 5,
+          "nombre": "Lobster roll estilo Nueva Inglaterra",
+          "descripcion": "Pan brioche ligeramente dulce, relleno de carne de langosta fresca mezclada con mayonesa de limón, apio picado fino y cebollín, servido con papas fritas de corte grueso."
+        },
+        {
+          "id": "platillos-021",
+          "n": 6,
+          "nombre": "Chicken & waffles de lujo",
+          "descripcion": "Waffles belgas crujientes por fuera y suaves por dentro, coronados con pollo frito estilo buttermilk, miel de maple caliente y mantequilla salada."
+        },
+        {
+          "id": "platillos-022",
+          "n": 7,
+          "nombre": "Clam chowder de Nueva Inglaterra",
+          "descripcion": "Crema espesa de almejas, papa, cebolla y apio, servida en tazón hondo con trozos de tocino y crutones de mantequilla."
+        },
+        {
+          "id": "platillos-023",
+          "n": 8,
+          "nombre": "New York strip steak con salsa de pimienta",
+          "descripcion": "Corte grueso sellado en sartén de hierro, terminado en horno, acompañado de salsa cremosa de pimienta negra y papas fritas tipo steakhouse."
+        },
+        {
+          "id": "platillos-024",
+          "n": 9,
+          "nombre": "Sandwich Reuben gourmet",
+          "descripcion": "Pan de centeno tostado, pastrami casero, sauerkraut tibio, queso suizo derretido y aderezo ruso, prensado hasta quedar crujiente."
+        },
+        {
+          "id": "platillos-025",
+          "n": 10,
+          "nombre": "Pancakes de buttermilk con frutos del bosque",
+          "descripcion": "Altos y esponjosos, servidos con mezcla de berries frescos, mantequilla y jarabe de maple puro."
+        },
+        {
+          "id": "platillos-026",
+          "n": 11,
+          "nombre": "Alitas de pollo estilo buffalo",
+          "descripcion": "Alitas crujientes bañadas en salsa buffalo picante y ácida, acompañadas de bastones de apio y dip de queso azul."
+        },
+        {
+          "id": "platillos-027",
+          "n": 12,
+          "nombre": "Filete de salmón a la parrilla",
+          "descripcion": "Salmón fresco con piel crujiente, glaseado con miel y mostaza Dijon, servido sobre cama de quinoa con vegetales."
+        },
+        {
+          "id": "platillos-028",
+          "n": 13,
+          "nombre": "Caesar salad clásica con pollo orgánico",
+          "descripcion": "Lechuga romana fresca, crutones de pan artesanal, parmesano en láminas y aderezo Caesar casero, coronada con pechuga de pollo a la parrilla."
+        },
+        {
+          "id": "platillos-029",
+          "n": 14,
+          "nombre": "Cheesecake estilo Nueva York",
+          "descripcion": "Rebanada alta y cremosa, base de galleta, servida con coulis de frambuesa y frutos rojos frescos."
+        },
+        {
+          "id": "platillos-030",
+          "n": 15,
+          "nombre": "Brownie de chocolate caliente con helado de vainilla",
+          "descripcion": "Brownie denso de chocolate amargo recién horneado, servido con helado de vainilla natural y salsa de caramelo salado."
+        }
+      ]
+    },
+    {
+      "clave": "III",
+      "titulo": "Cocina Peruana Premium",
+      "id": "cocina-peruana-premium",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "platillos-031",
+          "n": 1,
+          "nombre": "Ceviche clásico peruano de corvina",
+          "descripcion": "Cubos de corvina fresca, marinados en leche de tigre de limón con ají limo, cebolla morada, cilantro y maíz cancha crocante, servido con camote glaseado."
+        },
+        {
+          "id": "platillos-032",
+          "n": 2,
+          "nombre": "Ceviche mixto de mariscos",
+          "descripcion": "Mezcla de pescado blanco, camarón, pulpo y calamar en leche de tigre cítrica, acompañado de choclo, camote y algas marinas."
+        },
+        {
+          "id": "platillos-033",
+          "n": 3,
+          "nombre": "Tiradito de atún con ají amarillo",
+          "descripcion": "Finas láminas de atún crudo, bañadas en crema de ají amarillo, con gotas de aceite de sésamo y cilantro, decorado con rabanitos en láminas."
+        },
+        {
+          "id": "platillos-034",
+          "n": 4,
+          "nombre": "Lomo saltado clásico",
+          "descripcion": "Tiras de lomo de res salteadas en wok con cebolla, jitomate, ají amarillo y salsa de soya, servido con papas fritas gruesas y arroz blanco."
+        },
+        {
+          "id": "platillos-035",
+          "n": 5,
+          "nombre": "Aji de gallina",
+          "descripcion": "Pollo deshebrado en salsa cremosa de ají amarillo, queso y nueces, servido sobre papas cocidas y decorado con huevo duro y aceitunas negras."
+        },
+        {
+          "id": "platillos-036",
+          "n": 6,
+          "nombre": "Arroz chaufa de mariscos",
+          "descripcion": "Arroz salteado al wok con mariscos mixtos, huevo, cebollín, salsa de soya y toque de ajonjolí tostado."
+        },
+        {
+          "id": "platillos-037",
+          "n": 7,
+          "nombre": "Pulpo al olivo",
+          "descripcion": "Láminas de pulpo tierno sobre papa cocida, cubiertas con salsa cremosa de aceituna botija, con gotas de aceite de oliva."
+        },
+        {
+          "id": "platillos-038",
+          "n": 8,
+          "nombre": "Causa limeña de camarón",
+          "descripcion": "Pastel frío de papa amarilla sazonada con limón y ají amarillo, relleno de camarones en mayonesa ligera, aguacate y jitomate."
+        },
+        {
+          "id": "platillos-039",
+          "n": 9,
+          "nombre": "Anticuchos de corazón de res",
+          "descripcion": "Trozos de corazón marinados en ají panca, ajo y vinagre, asados a la parrilla, servidos con papas doradas y salsa de ají."
+        },
+        {
+          "id": "platillos-040",
+          "n": 10,
+          "nombre": "Sudado de pescado",
+          "descripcion": "Filete de pescado cocido al vapor en caldo de jitomate, cebolla, ají, vino blanco y cilantro, servido en plato hondo con yuca o papa."
+        },
+        {
+          "id": "platillos-041",
+          "n": 11,
+          "nombre": "Tacu tacu con lomo",
+          "descripcion": "Mezcla de arroz y frijoles dorada en sartén, servida con lomo saltado encima y salsa de la cocción."
+        },
+        {
+          "id": "platillos-042",
+          "n": 12,
+          "nombre": "Picarones con miel de chancaca",
+          "descripcion": "Buñuelos de zapallo y camote fritos, servidos con jarabe espeso de chancaca aromatizado con canela y naranja."
+        },
+        {
+          "id": "platillos-043",
+          "n": 13,
+          "nombre": "Suspiro limeño",
+          "descripcion": "Postre en copa con manjar blanco espeso y merengue italiano aromatizado con oporto o vino dulce."
+        },
+        {
+          "id": "platillos-044",
+          "n": 14,
+          "nombre": "Leche de tigre en vaso",
+          "descripcion": "Versión bebible del jugo del ceviche, servida en vaso pequeño con trozos de mariscos, cebolla y maíz cancha."
+        },
+        {
+          "id": "platillos-045",
+          "n": 15,
+          "nombre": "Papa a la huancaína",
+          "descripcion": "Rebanadas de papa sobre lechuga, bañadas en salsa cremosa de ají amarillo y queso fresco, con huevo duro y aceituna."
+        }
+      ]
+    },
+    {
+      "clave": "IV",
+      "titulo": "Cocina Internacional y Postres Premium",
+      "id": "cocina-internacional-y-postres-premium",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "platillos-046",
+          "n": 1,
+          "nombre": "Risotto de hongos porcini",
+          "descripcion": "Arroz arborio cocinado lentamente en caldo de vegetales, con hongos porcini salteados, mantequilla y parmesano rallado, terminado con aceite de trufa."
+        },
+        {
+          "id": "platillos-047",
+          "n": 2,
+          "nombre": "Pasta fresca al tartufo",
+          "descripcion": "Tagliatelle caseros en salsa de mantequilla y parmesano, con láminas de trufa negra y pimienta recién molida."
+        },
+        {
+          "id": "platillos-048",
+          "n": 3,
+          "nombre": "Sushi omakase de la isla",
+          "descripcion": "Selección de nigiri de pescado fresco, sashimi y makis finos, presentados en tabla de madera, con wasabi fresco y jengibre encurtido."
+        },
+        {
+          "id": "platillos-049",
+          "n": 4,
+          "nombre": "Ramen de mariscos",
+          "descripcion": "Caldo profundo de pescado y miso, fideos artesanales, camarones, alga nori, huevo marinado y cebollín."
+        },
+        {
+          "id": "platillos-050",
+          "n": 5,
+          "nombre": "Ensalada griega fresca",
+          "descripcion": "Jitomate, pepino, cebolla morada, aceitunas Kalamata, queso feta, orégano y aceite de oliva extra virgen."
+        },
+        {
+          "id": "platillos-051",
+          "n": 6,
+          "nombre": "Carpaccio de res con arúgula",
+          "descripcion": "Láminas finas de res cruda, aderezadas con limón, aceite de oliva, alcaparras, lascas de parmesano y arúgula fresca."
+        },
+        {
+          "id": "platillos-052",
+          "n": 7,
+          "nombre": "Paella mixta de mariscos y pollo",
+          "descripcion": "Arroz de grano medio cocido en caldo con azafrán, mejillones, camarones, calamar y trozos de pollo, con costra ligera en el fondo."
+        },
+        {
+          "id": "platillos-053",
+          "n": 8,
+          "nombre": "Shakshuka mediterránea",
+          "descripcion": "Huevos pochados en salsa de jitomate con pimientos, cebolla y especias, servido en sartén de hierro con pan de masa madre."
+        },
+        {
+          "id": "platillos-054",
+          "n": 9,
+          "nombre": "Falafel con hummus y tabulé",
+          "descripcion": "Croquetas de garbanzo fritas, acompañadas de hummus cremoso, tabulé de perejil, tomate y bulgur, con pan pita tibio."
+        },
+        {
+          "id": "platillos-055",
+          "n": 10,
+          "nombre": "Pad Thai de camarón",
+          "descripcion": "Fideos de arroz salteados con camarón, huevo, brotes de soya, cacahuates tostados y salsa agridulce de tamarindo."
+        },
+        {
+          "id": "platillos-056",
+          "n": 11,
+          "nombre": "Curry verde tailandés de pollo",
+          "descripcion": "Pollo en salsa de curry verde con leche de coco, berenjenas tailandesas y hojas de albahaca, servido con arroz jazmín."
+        },
+        {
+          "id": "platillos-057",
+          "n": 12,
+          "nombre": "Bao buns de panceta de cerdo",
+          "descripcion": "Panes al vapor suaves, rellenos de panceta glaseada, pepino encurtido y mayonesa de sriracha."
+        },
+        {
+          "id": "platillos-058",
+          "n": 13,
+          "nombre": "Pizza napolitana margarita",
+          "descripcion": "Masa delgada con borde inflado, salsa de jitomate natural, mozzarella fresca, albahaca y aceite de oliva."
+        },
+        {
+          "id": "platillos-059",
+          "n": 14,
+          "nombre": "Shawarma de cordero",
+          "descripcion": "Láminas de cordero marinado, servidas en pan tipo pita con tahini, jitomate, pepino y cebolla."
+        },
+        {
+          "id": "platillos-060",
+          "n": 15,
+          "nombre": "Crème brûlée de vainilla",
+          "descripcion": "Crema suave de vainilla natural con superficie de azúcar caramelizado crujiente."
+        },
+        {
+          "id": "platillos-061",
+          "n": 16,
+          "nombre": "Tarta tatin de manzana",
+          "descripcion": "Manzanas caramelizadas al horno sobre masa crujiente, servidas tibias con helado de vainilla."
+        },
+        {
+          "id": "platillos-062",
+          "n": 17,
+          "nombre": "Helados artesanales de la isla",
+          "descripcion": "Selección de sabores naturales (vainilla real, chocolate amargo, maracuyá, coco, pistache), servidos en copa o cono crujiente."
+        },
+        {
+          "id": "platillos-063",
+          "n": 18,
+          "nombre": "Fondant de chocolate con centro líquido",
+          "descripcion": "Pequeño pastel de chocolate amargo con centro fundente, acompañado de helado de frutos rojos."
+        },
+        {
+          "id": "platillos-064",
+          "n": 19,
+          "nombre": "Ensalada de frutas tropicales",
+          "descripcion": "Mezcla de mango, piña, papaya, maracuyá y coco rallado, con toque de limón y menta fresca."
+        },
+        {
+          "id": "platillos-065",
+          "n": 20,
+          "nombre": "Tiramisú clásico",
+          "descripcion": "Capas de bizcocho de soletilla bañadas en café espresso y licor, crema de mascarpone y cacao amargo espolvoreado."
+        }
+      ]
+    },
+    {
+      "clave": "V",
+      "titulo": "Selección Adicional de Platillos Premium",
+      "id": "seleccion-adicional-de-platillos-premium",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "platillos-066",
+          "n": 1,
+          "nombre": "Pozole rojo de cerdo estilo Guerrero",
+          "descripcion": "Maíz cacahuazintle nixtamalizado, carne de cerdo suave, caldo rojo de chile guajillo, servido con lechuga, rábano, orégano y tostadas."
+        },
+        {
+          "id": "platillos-067",
+          "n": 2,
+          "nombre": "Birria de res estilo Jalisco",
+          "descripcion": "Carne de res cocida lentamente en adobo de chiles y especias, servida con consomé caliente, cebolla, cilantro y tortillas de maíz."
+        },
+        {
+          "id": "platillos-068",
+          "n": 3,
+          "nombre": "Coctel de camarón estilo cantina",
+          "descripcion": "Camarones en salsa de jitomate con limón, cátsup, chile, cebolla y cilantro, servido en copa grande con aguacate."
+        },
+        {
+          "id": "platillos-069",
+          "n": 4,
+          "nombre": "Chilaquiles verdes con pollo",
+          "descripcion": "Totopos de maíz bañados en salsa verde, pollo deshebrado, crema, queso fresco y cebolla."
+        },
+        {
+          "id": "platillos-070",
+          "n": 5,
+          "nombre": "Huevos rancheros",
+          "descripcion": "Tortillas fritas con frijoles, huevos estrellados, salsa roja, queso, aguacate y cilantro."
+        },
+        {
+          "id": "platillos-071",
+          "n": 6,
+          "nombre": "Hot cakes de elote",
+          "descripcion": "Panqueques dulces hechos con grano de elote, servidos con miel de agave y crema batida."
+        },
+        {
+          "id": "platillos-072",
+          "n": 7,
+          "nombre": "Sándwich club de pavo y tocino",
+          "descripcion": "Pan tostado en capas con pavo, tocino crujiente, jitomate, lechuga y mayonesa."
+        },
+        {
+          "id": "platillos-073",
+          "n": 8,
+          "nombre": "Ensalada Cobb",
+          "descripcion": "Mezcla de lechugas, pollo, tocino, huevo, jitomate, aguacate, queso azul y aderezo ranch."
+        },
+        {
+          "id": "platillos-074",
+          "n": 9,
+          "nombre": "Fish & chips de la isla",
+          "descripcion": "Filetes de pescado blanco en tempura crujiente, servidos con papas fritas gruesas y salsa tártara casera."
+        },
+        {
+          "id": "platillos-075",
+          "n": 10,
+          "nombre": "Rollitos de primavera vietnamitas",
+          "descripcion": "Rollos frescos de papel de arroz con camarón, hierbas, fideos de arroz y vegetales, acompañados de salsa de maní."
+        },
+        {
+          "id": "platillos-076",
+          "n": 11,
+          "nombre": "Gyozas de cerdo al vapor y doradas",
+          "descripcion": "Dumplings rellenos de cerdo y col, primero sellados y luego cocidos al vapor, servidos con salsa de soya y vinagre."
+        },
+        {
+          "id": "platillos-077",
+          "n": 12,
+          "nombre": "Ensalada de quinoa andina",
+          "descripcion": "Quinoa roja y blanca con vegetales asados, aguacate, semillas de girasol y aderezo de limón y aceite de oliva."
+        },
+        {
+          "id": "platillos-078",
+          "n": 13,
+          "nombre": "Arepas de reina pepiada",
+          "descripcion": "Arepas de maíz blanco rellenas de mezcla cremosa de pollo deshebrado, aguacate y limón."
+        },
+        {
+          "id": "platillos-079",
+          "n": 14,
+          "nombre": "Empanadas de carne al horno",
+          "descripcion": "Masa fina rellena de carne sazonada, cebolla, aceitunas y huevo duro, horneadas hasta dorar."
+        },
+        {
+          "id": "platillos-080",
+          "n": 15,
+          "nombre": "Crepas de cajeta y nuez",
+          "descripcion": "Crepas delgadas rellenas de cajeta de leche de cabra y nueces tostadas, con helado de vainilla."
+        },
+        {
+          "id": "platillos-081",
+          "n": 16,
+          "nombre": "Pan francés brioche",
+          "descripcion": "Rebanadas gruesas de pan brioche remojadas en mezcla de huevo y leche, doradas en mantequilla, servidas con frutas frescas y miel de maple."
+        },
+        {
+          "id": "platillos-082",
+          "n": 17,
+          "nombre": "Gazpacho andaluz",
+          "descripcion": "Sopa fría de jitomate, pepino y pimiento, emulsionada con aceite de oliva, servida muy fría con crutones."
+        },
+        {
+          "id": "platillos-083",
+          "n": 18,
+          "nombre": "Carpaccio de salmón",
+          "descripcion": "Láminas finas de salmón curado, aceite de oliva, limón, alcaparras, eneldo y cebolla morada finísima."
+        },
+        {
+          "id": "platillos-084",
+          "n": 19,
+          "nombre": "Mini sliders de cangrejo",
+          "descripcion": "Pequeños bollos rellenos de pastelitos de cangrejo, con ensalada de col y salsa tártara ligera."
+        },
+        {
+          "id": "platillos-085",
+          "n": 20,
+          "nombre": "Bruschettas mixtas",
+          "descripcion": "Rebanadas de pan tostado con distintas coberturas (jitomate y albahaca, champiñones al ajillo, tapenade de aceitunas)."
+        },
+        {
+          "id": "platillos-086",
+          "n": 21,
+          "nombre": "Ensalada caprese de burrata",
+          "descripcion": "Burrata cremosa sobre jitomates heirloom en rodajas, albahaca fresca, aceite de oliva y reducción de balsámico."
+        },
+        {
+          "id": "platillos-087",
+          "n": 22,
+          "nombre": "Sopa de lentejas al estilo mediterráneo",
+          "descripcion": "Lentejas cocidas con vegetales, hierbas y un toque de limón, servidas con pan rústico."
+        },
+        {
+          "id": "platillos-088",
+          "n": 23,
+          "nombre": "Arrachera marinada a la parrilla",
+          "descripcion": "Corte de res marinado en cítricos y especias, asado a la parrilla, servido con cebollas asadas y nopales."
+        },
+        {
+          "id": "platillos-089",
+          "n": 24,
+          "nombre": "Camarones al ajillo con chile guajillo",
+          "descripcion": "Camarones salteados en aceite de oliva con ajo laminado y chile guajillo, servidos con pan rústico o arroz blanco."
+        },
+        {
+          "id": "platillos-090",
+          "n": 25,
+          "nombre": "Tacos de pescado estilo Baja",
+          "descripcion": "Pescado rebozado crujiente en tortilla de harina, col rallada, salsa cremosa de chipotle y limón."
+        },
+        {
+          "id": "platillos-091",
+          "n": 26,
+          "nombre": "Bowl de poke hawaiano",
+          "descripcion": "Cubos de atún o salmón crudos marinados, sobre arroz, con aguacate, pepino, algas, edamame y ajonjolí."
+        },
+        {
+          "id": "platillos-092",
+          "n": 27,
+          "nombre": "Crema de elote rostizado",
+          "descripcion": "Sopa cremosa de elote tatemado, con crema, queso y un toque de chile poblano."
+        },
+        {
+          "id": "platillos-093",
+          "n": 28,
+          "nombre": "Brócoli rostizado con ajo y limón",
+          "descripcion": "Arbolitos de brócoli al horno con aceite de oliva, ajo y ralladura de limón, ligeramente dorados."
+        },
+        {
+          "id": "platillos-094",
+          "n": 29,
+          "nombre": "Coliflor estilo buffalo",
+          "descripcion": "Floretes de coliflor empanizados y horneados, bañados en salsa buffalo y servidos con dip cremoso."
+        },
+        {
+          "id": "platillos-095",
+          "n": 30,
+          "nombre": "Papas trufadas",
+          "descripcion": "Papas fritas delgadas, con aceite de trufa, parmesano rallado y perejil fresco."
+        },
+        {
+          "id": "platillos-096",
+          "n": 31,
+          "nombre": "Tartar de atún con aguacate",
+          "descripcion": "Cubos de atún crudo y aguacate, sazonados con soya, sésamo y limón, servidos en torre."
+        },
+        {
+          "id": "platillos-097",
+          "n": 32,
+          "nombre": "Ensalada de sandía y queso feta",
+          "descripcion": "Cubos de sandía fría con queso feta, menta fresca y un toque de balsámico."
+        },
+        {
+          "id": "platillos-098",
+          "n": 33,
+          "nombre": "Brochetas de pollo teriyaki",
+          "descripcion": "Trozos de pollo glaseados en salsa teriyaki, asados y servidos con semillas de sésamo."
+        },
+        {
+          "id": "platillos-099",
+          "n": 34,
+          "nombre": "Sopa minestrone",
+          "descripcion": "Sopa italiana de vegetales, pasta y frijoles, con caldo de jitomate y hierbas."
+        },
+        {
+          "id": "platillos-100",
+          "n": 35,
+          "nombre": "Croquetas de jamón serrano",
+          "descripcion": "Bechamel densa con pequeños trozos de jamón serrano, empanizada y frita hasta quedar dorada."
+        }
+      ]
+    }
+  ],
+  "cierre": ""
+}

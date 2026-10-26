@@ -1,0 +1,17 @@
+# RLR · Isla La Encantada
+.DS_Store
+.wrangler/
+node_modules/
+__pycache__/
+*.pyc
+
+# Unreal Engine 5 (unreal/IslaEncantada/): lo que el editor regenera solo
+unreal/**/Binaries/
+unreal/**/Build/
+unreal/**/DerivedDataCache/
+unreal/**/Intermediate/
+unreal/**/Saved/
+unreal/**/.vs/
+unreal/**/*.sln
+unreal/**/*.xcworkspace
+unreal/**/.idea/

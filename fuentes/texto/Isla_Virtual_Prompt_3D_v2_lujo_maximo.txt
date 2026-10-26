@@ -1,0 +1,211 @@
+Documento Técnico v2 – Prompt Maestro para
+Modelado 3D de Isla Virtual de Lujo Máximo
+Esta es la versión 2 del prompt maestro para modelar en 3D una isla virtual de mega-resort de
+lujo, profundamente detallada. Se han añadido especificaciones adicionales sobre: camas mucho
+más cómodas, baños sensuales en todos los cuartos (regaderas, escusados de lujo, doble
+lavabo), flora y fauna mejoradas y un enfoque extremo en la experiencia gastronómica, con
+menús de alta cocina y preparación impecable. Todo sigue siendo semi realista y ergonómico,
+pensado para maximizar el placer visual, sensorial y de uso del huésped humano.
+1. VISIÓN GENERAL DEL MUNDO 3D
+Crea un mundo virtual 3D persistente de calidad AAA, ambientado en una isla volcánica
+privada convertida en un mega-resort de lujo para vacaciones en familia y parejas. El objetivo es
+que las personas sientan que alguien pensó en absolutamente todos los detalles: proporciones
+reales, ergonomía perfecta, límites de capacidad física, y una experiencia visual, táctil (imaginaria)
+y sonora exquisita.
+El mundo debe ser semi realista: todo tiene tamaños, alturas y distancias coherentes con un
+resort físico real, pero aprovechando lo mejor de un mundo virtual (sin bugs, sin desgaste, sin clima
+extremo incómodo).
+2. TOPOGRAFÍA, ESCALA Y CICLO DÍA/NOCHE
+Topografía
+• Isla volcánica de aproximadamente 3–4 km de diámetro, con un gran cráter central, laderas
+verdes, acantilados, playas curvas de arena blanca y bahías tranquilas.
+• Zonas claramente diferenciadas: área hotelera, zona de villas, marina, pista aérea, spa &
+bienestar, áreas naturales, staff village oculto.
+Ciclo de 24 horas: 18 horas de día, 8 de noche
+• 18 horas de luz (amanecer + día + atardecer) y 8 horas de noche.
+• Amanecer (1.5–2 h virtuales):
+- Considerar referencias de los amaneceres más impresionantes captados en fotos y cine:
+gradiente de colores suaves (azul profundo → morado → rosa → naranja → dorado).
+- Nubes finas y algunas volumétricas con bordes iluminados, reflejo del sol naciente en el mar.
+- Aumento paulatino del canto de las aves, brisa ligera, luz cálida suave sobre fachadas y
+vegetación.
+• Día (14–15 h):
+- Cielo azul claro con nubes esponjosas; luz clara, sombras agradables, mar turquesa
+transparente.
+- Excelente visibilidad para explorar, nadar, bucear y recorrer senderos.
+• Atardecer (1.5–2 h):
+- Recrear los mejores atardeceres conocidos: cielo naranja intenso, bandas rosas, violetas y
+azul profundo.
+- Sol cayendo al horizonte, reflejo dorado en el agua; nubes volumétricas reciben luz lateral
+espectacular.
+- Iluminación gradual de caminos, edificios y piscinas con tonos cálidos (2700–3000K).
+• Noche (8 h):
+- Cielo negro profundo con Vía Láctea, estrellas muy definidas y luna en fases cambiantes.
+- Iluminación suave y respetuosa del cielo nocturno, sin contaminación lumínica excesiva.
+- Sonido de grillos, oleaje, voces y música lejana de bares y restaurantes.
+3. CAPACIDAD, HABITACIONES, VILLAS Y STAFF
+Habitaciones estándar
+• 800 habitaciones estándar, con capacidad máxima de 3 huéspedes (configuraciones: king + sofá
+
+cama, o doble queen).
+• Precio de referencia en economía virtual: 100 USD/noche.
+Villas ultra lujo
+• 80 villas de super lujo, con 2–4 recámaras cada una, capacidad promedio de 5 huéspedes (4–6).
+• Precio de referencia: 10,000 USD/noche.
+Capacidad total huéspedes
+• Máximo teórico ≈ 2,400 huéspedes en habitaciones + 400 en villas = ≈2,800 huéspedes
+simultáneos.
+• El sistema de reservas debe respetar estas capacidades, como un hotel real (no se permite
+sobreventa).
+Staff
+• Implementar 1,200 NPC de staff: recepción, concierge, bellboys, meseros, chefs, bartenders,
+camaristas, spa, mantenimiento, jardinería, seguridad, pilotos, marineros, animadores, guías,
+médicos, etc.
+• Cada NPC debe tener rutinas de trabajo, turnos, descansos, rutas internas, animaciones de
+servicio y sociabilización.
+
+4. DISEÑO DE HABITACIONES – CAMAS, BAÑOS SENSUALES Y DETALLES
+4.1 Camas mucho más cómodas
+• Cama king estándar: 200×200 cm; cama queen: 160×200 cm.
+• Altura total desde el piso hasta la parte superior del colchón: 55–60 cm, una altura ideal para
+sentarse y levantarse.
+• Colchón de lujo tipo hotel 5–7 estrellas: 32–38 cm de grosor, con varias capas (soporte firme +
+capa superior tipo topper memory foam suave).
+• Topper adicional suave (5–8 cm) para sensación de nube.
+• Ropa de cama: algodón egipcio o similar de 400–800 hilos, extremadamente suave al tacto.
+• Mínimo 4 almohadas grandes y 2 almohadas decorativas, con “menú de almohadas” virtual
+(firme, media, suave, pluma, hypoallergénica).
+• Cabecera acolchada de tela o cuero suave, para apoyar la espalda al leer o ver TV.
+4.2 Baños sensuales en todos los cuartos
+• Regaderas sensuales:
+- Ducha tipo lluvia en techo, diámetro amplio (25–35 cm).
+- Ducha de mano adicional con cabezal ajustable.
+- Opción de chorros laterales (jets de masaje) a alturas de 110–130 cm.
+- Espacio mínimo de ducha: 100×140 cm para permitir moverse en pareja.
+- Iluminación suave y cálida (2700K) con dimmer dentro de la regadera o justo afuera.
+- Nichos en muro para amenities (botellas de shampoo, gel, etc.) a 100–120 cm de altura.
+- Acabados: piedra natural mate antideslizante en piso, muros con textura de piedra o porcelanato
+tipo piedra.
+• Escusado cerrado de lujo:
+- WC en un pequeño recinto separado dentro del baño (puerta corrediza o abatible, con
+ventilación), para privacidad.
+- Altura del asiento 42–45 cm, tapa de cierre suave.
+- Incluir bidet electrónico o WC tipo washlet con funciones de limpieza, secado y calefacción de
+asiento (como modelos japoneses de alta gama).
+- Porta papel y controles en una posición ergonómica (a 65–80 cm de altura y a poca distancia
+lateral).
+• Doble lavabo:
+- Todos los baños de habitaciones y villas deben incluir doble lavabo en una misma cubierta.
+- Altura de cubierta: 85–90 cm, lavabos sobre cubierta o semi-empotrados.
+- Espejo corrido con iluminación frontal y perimetral, centro a 150–160 cm del piso.
+- Suficiente espacio entre lavabos (mínimo 70–80 cm) para uso cómodo simultáneo.
+- Cajones y repisas para toallas, cosméticos, etc.
+5. ILUMINACIÓN, CONFORT Y DETALLE EN HABITACIONES Y VILLAS
+• Iluminación principal: indirecta, cálida (2700–3000K), con dimmers en todos los puntos clave
+(techo, lámparas, tiras LED).
+• Lámparas de mesa y piso con pantallas de tela clara, difusa, que emitan luz homogénea sin
+deslumbrar.
+• Iluminación de acento sobre obras de arte, plantas interiores y texturas especiales en paredes.
+• Cortinas dobles: black-out para dormir completamente oscuro y velo traslúcido para filtrar luz
+diurna.
+• Control central (panel o tablet virtual) para: persianas, cortinas, iluminación, clima, música
+ambiente.
+• Aire acondicionado y ventiladores de techo muy silenciosos (<30 dB) con control de intensidad.
+
+6. FLORA Y FAUNA – VERSIÓN MEJORADA
+Flora detallada
+• Palmeras altas de distintas especies, con alturas de 10–20 m, algunas inclinadas hacia el mar,
+otras rectas, creando avenidas naturales y sombras dinámicas.
+• Árboles de sombra: ceibas monumentales con raíces aéreas, almendros tropicales con copas
+amplias, jacarandas o árboles florales en puntos específicos para color estacional.
+• Arbustos florales: buganvilias en distintos colores (magenta, blanco, naranja), hibiscos, plumerias,
+colocados junto a muros, entradas y caminos.
+• Plantas de playa: pastos resistentes, agaves y pequeñas suculentas, ayudando a estabilizar la
+arena en dunas suaves.
+• Jardines aromáticos cerca del spa y restaurantes con lavanda, romero, menta, jazmín y albahaca;
+el sonido de insectos y el olor imaginario deben sugerirse con audio y contexto visual.
+Fauna terrestre mejorada
+• Aves marinas (gaviotas, fragatas, pelícanos) volando en grupos, planeando sobre el mar,
+posándose en rocas y boyas, sin molestar a los jugadores directamente.
+• Aves pequeñas (colibríes, jilgueros, aves de colores) visibles en jardines, acercándose a flores y
+fuentes, con cantos localizados según posición.
+• Mariposas en áreas florales, de varios colores y movimientos suaves.
+• Pequeños reptiles (geckos, iguanas) tomando sol en rocas y muros exteriores.
+• La fauna se agrupa en zonas de observación natural (miradores, senderos, jardines), para que
+los huéspedes la disfruten sin sentirse invadidos; se evita que animales crucen constantemente el
+paso del jugador en zonas de tránsito intenso.
+7. ARRECIFES, BUCEO Y FAUNA MARINA – VERSIÓN MEJORADA
+• Crear arrecifes espectaculares alrededor de la isla, con corales de múltiples formas y colores,
+cuevas pequeñas, arcos de roca submarinos y caídas suaves de profundidad.
+• Peces en cantidades abundantes pero creíbles: bancos de peces plateados, peces loro, peces
+ángel, peces mariposa, damiselas, cirujanos de colores (azules, amarillos), todos con movimientos
+coordinados y variados.
+• Mantarrayas planeando cerca del fondo, tortugas marinas nadando tranquilamente cerca de
+buceadores y snorkelistas.
+• Delfines apareciendo a distancia, ocasionalmente acercándose a la proa de yates o lanchas;
+ballenas en temporada, visible su soplo y parte del lomo en el horizonte.
+• La experiencia de buceo debe incluir efectos de luz filtrándose, cambio de color hacia tonos
+azules profundos con la profundidad, burbujas, y un ambiente sonoro amortiguado lleno de clicks,
+crujidos y sonidos sutiles marinos.
+
+8. EXPERIENCIA GASTRONÓMICA – MENÚ DE ALTA COCINA CUIDADO AL DETALLE
+La comida debe ser uno de los mayores placeres del resort. Todo el diseño gastronómico debe
+transmitir lujo, cuidado extremo y sabor perfecto.
+Concepto general
+• Varios restaurantes de autor y temáticos: mariscos frescos, cocina mexicana moderna, asiática
+de fusión, mediterránea, steakhouse, vegetariano gourmet, etc.
+• Cada restaurante con su menú cuidadosamente curado, con ingredientes frescos, platos
+equilibrados en sabor, textura, color y presentación.
+• Opciones para niños y adolescentes sin perder calidad (porciones y sabores adaptados, pero
+bien hechos).
+Detalles técnicos en mesas y servicio
+• Mesas de comedor estándar: 75 cm de altura, con mantel o superficie de madera de alta calidad,
+sillas con asiento a 45 cm, respaldo cómodo para cenas largas.
+• Iluminación de mesa: luz cálida enfocada (3000K), lo suficiente para ver la comida con detalle, sin
+encandilar, mezclada con iluminación ambiental baja.
+• Vajilla, cubertería y cristalería de diseño, proporciones elegantes; cubiertos con peso agradable,
+vasos y copas delgadas pero resistentes.
+Menú y preparación
+• Implementar un sistema de menú visual donde cada plato se vea apetitoso, con descripciones
+claras (ingredientes, origen, maridajes sugeridos).
+• Platos emblemáticos por restaurante; por ejemplo:
+- Ceviches y tiraditos con pescado “virtualmente” fresco, colores vivos.
+- Tacos de mariscos de autor, con tortillas hechas a mano y salsas de diferentes intensidades.
+- Curries suaves y picantes, con presentación impecable.
+- Cortes de carne perfectos en punto de cocción, con guarniciones bien compuestas.
+• Los NPC de cocina (chefs) deben tener animaciones de trabajo: cortar, cocinar, emplatar, probar.
+• Los platos que llegan a la mesa deben verse estéticamente perfectos, con pequeñas
+variaciones aleatorias para no parecer copias idénticas.
+Bares y coctelería
+• Bares con coctelería clásica y de autor: margaritas, negronis, martinis, cocteles tropicales,
+opciones sin alcohol.
+• Cristalería diferente para cada tipo de bebida, hielo cristalino, decoración con frutas y hierbas
+frescas.
+• Menú de vinos y champaña, con referencias de regiones top (Francia, Italia, España, América
+Latina, etc.).
+9. EXPERIENCIA DEL JUGADOR Y DELEITE PARA LOS SENTIDOS
+• El jugador debe poder llegar con su “familia” (otros jugadores), compartir habitación o villa, hacer
+reservas de actividades, ir a cenar, nadar, bucear, navegar y relajarse juntos.
+• Cada vista (mirador, playa, terraza, restaurante) debe ser un “momento fotografiable”, con
+composición pensada: encuadres espectaculares, luz adecuada, elementos interesantes
+(palmeras, fuego, agua, cielo).
+• El sonido debe acompañar cada escena: pájaros en jardines, olas y viento en la playa, murmullo
+suave en restaurantes, música ambiente no invasiva.
+• Los muebles deben invitar a sentarse: proporciones correctas, alturas adecuadas, texturas
+visuales que sugieran confort.
+• En conjunto, el mundo debe sentirse como el resort perfecto: no hay elementos fuera de lugar,
+todo fue pensado, nada es genérico o descuidado.
+10. OBJETIVO DE ESTA VERSIÓN v2
+Esta versión v2 del documento profundiza en:
+• Camas ultracómodas (colchones, toppers, ropa de cama, almohadas).
+• Baños sensuales en todos los cuartos: regaderas grandes, privadas, con buena luz; escusados
+
+de lujo tipo washlet; doble lavabo en todas las unidades.
+• Flora y fauna aún más rica y mejor distribuida para deleitar la vista y el oído sin estorbar el
+movimiento.
+• Experiencia culinaria de altísimo nivel, con menús cuidados hasta el último detalle.
+El propósito es que el equipo de modelado 3D y diseño de experiencia pueda construir un mundo
+en el que cualquier persona, al entrar, diga: “esto es mucho mejor que cualquier resort real;
+pensaron en absolutamente todo”.
+
+

@@ -1,0 +1,188 @@
+[
+  {
+    "catalogo": "flora",
+    "titulo": "Flora",
+    "total": 50,
+    "secciones": [
+      {
+        "titulo": "Vegetación costera y de playa",
+        "piezas": 10
+      },
+      {
+        "titulo": "Selva interior, laderas volcánicas y bosques",
+        "piezas": 10
+      },
+      {
+        "titulo": "Estrato medio, sotobosque y cubresuelos",
+        "piezas": 10
+      },
+      {
+        "titulo": "Jardines del resort y áreas de villas",
+        "piezas": 10
+      },
+      {
+        "titulo": "Flora marina y de arrecife",
+        "piezas": 10
+      },
+      {
+        "titulo": "Composición paisajística y ecosistema global",
+        "piezas": 0
+      }
+    ]
+  },
+  {
+    "catalogo": "fauna",
+    "titulo": "Fauna",
+    "total": 70,
+    "secciones": [
+      {
+        "titulo": "Fauna marina – Peces, mamíferos y otros organismos del arrecife",
+        "piezas": 20
+      },
+      {
+        "titulo": "Fauna costera y de playa",
+        "piezas": 10
+      },
+      {
+        "titulo": "Fauna terrestre – Selva, senderos e interior de la isla",
+        "piezas": 15
+      },
+      {
+        "titulo": "Aves – Fauna aérea de costa y selva",
+        "piezas": 15
+      },
+      {
+        "titulo": "Fauna de jardines y áreas del resort",
+        "piezas": 10
+      },
+      {
+        "titulo": "Manejo de fauna y experiencia del huésped",
+        "piezas": 0
+      }
+    ]
+  },
+  {
+    "catalogo": "experiencias",
+    "titulo": "Experiencias",
+    "total": 100,
+    "secciones": [
+      {
+        "titulo": "Experiencias de mar y buceo",
+        "piezas": 15
+      },
+      {
+        "titulo": "Navegación y pesca",
+        "piezas": 10
+      },
+      {
+        "titulo": "Playa, albercas y experiencias de agua",
+        "piezas": 10
+      },
+      {
+        "titulo": "Experiencias de aire y vuelo",
+        "piezas": 8
+      },
+      {
+        "titulo": "Naturaleza y exploración terrestre",
+        "piezas": 12
+      },
+      {
+        "titulo": "Bienestar y spa (actividades no manuales)",
+        "piezas": 10
+      },
+      {
+        "titulo": "Gastronomía y enología",
+        "piezas": 10
+      },
+      {
+        "titulo": "Arte, cultura y creatividad",
+        "piezas": 10
+      },
+      {
+        "titulo": "Tecnología y experiencias inmersivas",
+        "piezas": 7
+      },
+      {
+        "titulo": "Experiencias sociales, eventos y familia",
+        "piezas": 8
+      }
+    ]
+  },
+  {
+    "catalogo": "platillos",
+    "titulo": "Menú de platillos",
+    "total": 100,
+    "secciones": [
+      {
+        "titulo": "Cocina Mexicana Premium",
+        "piezas": 15
+      },
+      {
+        "titulo": "Cocina de Estados Unidos Premium",
+        "piezas": 15
+      },
+      {
+        "titulo": "Cocina Peruana Premium",
+        "piezas": 15
+      },
+      {
+        "titulo": "Cocina Internacional y Postres Premium",
+        "piezas": 20
+      },
+      {
+        "titulo": "Selección Adicional de Platillos Premium",
+        "piezas": 35
+      }
+    ]
+  },
+  {
+    "catalogo": "masajes",
+    "titulo": "Menú de masajes",
+    "total": 120,
+    "secciones": [
+      {
+        "titulo": "Masajes de cuerpo completo",
+        "piezas": 20
+      },
+      {
+        "titulo": "Espalda, cuello y hombros",
+        "piezas": 20
+      },
+      {
+        "titulo": "Piernas y pies",
+        "piezas": 20
+      },
+      {
+        "titulo": "Cabeza, rostro y cuello",
+        "piezas": 20
+      },
+      {
+        "titulo": "Masajes especiales terapéuticos y de bienestar",
+        "piezas": 20
+      },
+      {
+        "titulo": "Masajes en pareja y experiencias compartidas (no sexuales)",
+        "piezas": 20
+      }
+    ]
+  },
+  {
+    "catalogo": "tiendas",
+    "titulo": "Tiendas",
+    "total": 200,
+    "secciones": [
+      {
+        "titulo": "Orillas del Mar – Textiles, beachwear y objetos suaves de lujo",
+        "piezas": 60
+      },
+      {
+        "titulo": "Joya del Océano – Joyería fina, gemas y objetos pequeños de alto lujo",
+        "piezas": 70
+      },
+      {
+        "titulo": "Gabinete de La Encantada – Arte, fragancias, curiosidades y diseño",
+        "piezas": 70
+      }
+    ]
+  }
+]

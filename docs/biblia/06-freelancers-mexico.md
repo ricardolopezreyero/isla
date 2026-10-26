@@ -1,0 +1,100 @@
+# FREELANCERS SUGERIDOS PARA PROYECTO ISLA 3D (MÉXICO)
+
+> Transcripción fiel de [`fuentes/pdf/Freelancers_Isla3D_Mexico.pdf`](../../fuentes/pdf/Freelancers_Isla3D_Mexico.pdf). No editar el sentido: los cambios de diseño van en un documento nuevo con versión.
+
+[← Biblia de diseño](README.md)
+
+## Objetivo
+
+Contar siempre a la mano con los datos de 2 freelancers mexicanos recomendados para avanzar el MVP de la Isla 3D:
+
+- 1 Environment / 3D Artist (isla, resort, vegetación, luz).
+- 1 Technical Artist / Game Developer (interacciones y lógica en Unreal).
+
+## 1. FREELANCER 1 – ENVIRONMENT / 3D ARTIST
+
+**Perfil sugerido:**
+
+- Nombre: "Antonio C."
+- Ubicación: Querétaro, México
+- Plataforma: Upwork (listado en "Unreal Engine Developers in Mexico").
+
+**Rol en el proyecto:**
+
+- Construir la isla con asset packs (resort tropical, hotel, villas, marina).
+- Distribuir vegetación, rocas, caminos, playas y edificios.
+- Ajustar iluminación (día, atardecer, noche) y ambiente general de lujo.
+- Detallar al menos:
+  - 1 tipo de habitación completa.
+  - 1 villa de lujo con alberca privada.
+  - Restaurante principal ("hero area").
+
+## 2. FREELANCER 2 – TECHNICAL ARTIST / GAME DEVELOPER
+
+**Perfil sugerido:**
+
+- Nombre: "Luis L."
+- Ubicación: Zapopan, México
+- Plataforma: Upwork (mismo listado de "Unreal Engine Developers in Mexico").
+
+**Rol en el proyecto:**
+
+- Configurar el proyecto en Unreal Engine 5.
+- Programar el movimiento del jugador y la cámara.
+- Integrar interacciones básicas:
+  - Abrir puertas.
+  - Prender/apagar luces.
+  - Entrar o salir de habitaciones y villas.
+  - Sentarse o acostarse en muebles clave.
+- Implementar UI simple:
+  - Menú del restaurante.
+  - Opciones básicas (ej. cambiar hora del día).
+- Integrar algunos NPC (staff y huéspedes) con comportamiento simple.
+
+## 3. MENSAJE MODELO PARA CONTACTARLOS (ESPAÑOL)
+
+Puedes copiar y pegar este mensaje base en Upwork y adaptarlo a cada uno.
+
+> "Hola [Nombre],
+>
+> Soy fundador de un proyecto de resort/isla virtual en Unreal Engine 5. Ya tengo un documento muy detallado con la topografía, edificios, habitaciones, villas, amenities y un menú gastronómico premium, y ahora quiero crear un MVP jugable de la isla.
+>
+> Busco a alguien con tu perfil para:
+>
+> – [Environment Artist] Montar la isla con asset packs (resort tropical, hotel, villas, marina), ajustar iluminación y vegetación, y dejar 1 habitación, 1 villa y 1 restaurante muy bien resueltos.
+>
+> – [Technical Artist / Dev] Programar el movimiento del jugador, interacciones básicas (abrir puertas, luces, UI de menú, etc.) y optimizar la escena en Unreal.
+>
+> ¿Te interesaría tener una llamada corta para contarte más del proyecto, tiempos y presupuesto?
+>
+> Gracias,  
+> Ricardo"
+
+**Recomendación: adjuntar al mensaje**
+
+- El PDF del plan de acción de la Isla 3D (MVP).
+- Algunas imágenes concepto (renders o imágenes generadas con IA).
+
+## 4. SHORT ENGLISH SUMMARY
+
+Goal: Hire 2 Mexican Unreal Engine freelancers for your Island 3D MVP.
+
+1) Environment / 3D Artist (e.g., Antonio C. from Querétaro, Mexico on Upwork)
+   - Build the tropical island layout with marketplace asset packs.
+   - Create hotel, villas, marina and main restaurant environments.
+   - Polish lighting (day, sunset, night) and overall luxury look.
+
+2) Technical Artist / Game Developer (e.g., Luis L. from Zapopan, Mexico on Upwork)
+   - Set up Unreal project and player movement.
+   - Implement simple interactions (doors, lights, seating, etc.).
+   - Build basic UI (restaurant menu, simple options).
+   - Add a few NPCs (staff + guests) to bring the resort to life.
+
+Use the Spanish template message above as your standard outreach text and always attach your Island 3D Action Plan PDF plus 2–3 concept images.
+
+## NOTAS:
+
+- Siempre revisar calificaciones, portafolio y reseñas antes de contratar.
+- Puedes adaptar nombres, ciudades y detalles si encuentras otros freelancers mexicanos que encajen mejor.
+
+<!-- RLR · Ricardo López Reyero · rev 181218 -->

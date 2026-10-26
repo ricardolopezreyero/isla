@@ -1,0 +1,511 @@
+{
+  "catalogo": "fauna",
+  "titulo": "Guía de Fauna – Isla La Encantada",
+  "tipo": "especie",
+  "fuente": "fuentes/pdf/Fauna_Isla_La_Encantada_Guia_Animales.pdf",
+  "intro": "Esta guía describe una selección curada de animales terrestres, marinos y aéreos que podrían habitar en un entorno tropical de lujo como Isla La Encantada. Se han elegido especies realistas y coherentes con un ecosistema de isla volcánica con selva, arrecifes de coral, playas y acantilados. Las descripciones se enfocan en su aspecto, comportamiento y en cómo podrían ser percibidos por los visitantes.",
+  "total": 70,
+  "secciones": [
+    {
+      "clave": "I",
+      "titulo": "Fauna marina – Peces, mamíferos y otros organismos del arrecife",
+      "id": "fauna-marina-peces-mamiferos-y-otros-organismos-",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "fauna-001",
+          "n": 1,
+          "nombre": "Pez loro",
+          "descripcion": "Pez de colores intensos (verdes, azules, rosas) con pico parecido al de un loro. Se alimenta de algas en el coral y ayuda a mantener el arrecife sano. Los visitantes lo ven nadando relajado cerca de la superficie, en grupos pequeños.",
+          "cientifico": "Scarus spp."
+        },
+        {
+          "id": "fauna-002",
+          "n": 2,
+          "nombre": "Pez ángel reina",
+          "descripcion": "Cuerpo aplanado de azul eléctrico con toques amarillos y una 'corona' en la cabeza. Suele moverse cerca de corales y rocas, aportando un punto de color muy fotogénico para buzos y snorkelistas.",
+          "cientifico": "Holacanthus ciliaris"
+        },
+        {
+          "id": "fauna-003",
+          "n": 3,
+          "nombre": "Pez mariposa",
+          "descripcion": "Peces pequeños de cuerpo plano con patrones geométricos y rayas negras sobre fondo amarillo o blanco. Siempre en pareja, se ven muy elegantes alrededor de los corales.",
+          "cientifico": "Chaetodontidae"
+        },
+        {
+          "id": "fauna-004",
+          "n": 4,
+          "nombre": "Pez payaso",
+          "descripcion": "Pequeño pez naranja con bandas blancas, asociado a anémonas de mar. Su comportamiento curioso lo hace ideal para que los visitantes lo identifiquen fácilmente en recorridos guiados.",
+          "cientifico": "Amphiprioninae"
+        },
+        {
+          "id": "fauna-005",
+          "n": 5,
+          "nombre": "Pez cirujano azul",
+          "descripcion": "Cuerpo azul con cola amarilla, de forma oval. Nada en cardúmenes medianos y suele verse en áreas de arrecife más profundo.",
+          "cientifico": "Paracanthurus hepatus"
+        },
+        {
+          "id": "fauna-006",
+          "n": 6,
+          "nombre": "Pez león",
+          "descripcion": "Pez de rayas rojas y blancas con largas espinas dorsales. Muy llamativo visualmente, pero venenoso; se observa a distancia y sirve para explicar el equilibrio del ecosistema.",
+          "cientifico": "Pterois volitans",
+          "nota": "solo para observación"
+        },
+        {
+          "id": "fauna-007",
+          "n": 7,
+          "nombre": "Banco de jureles",
+          "descripcion": "Peces plateados en grandes cardúmenes compactos que se mueven como una nube metálica. Los buzos pueden nadar 'dentro' del banco y vivir una experiencia inmersiva.",
+          "cientifico": "Caranx spp."
+        },
+        {
+          "id": "fauna-008",
+          "n": 8,
+          "nombre": "Tortuga marina verde",
+          "descripcion": "Caparazón ovalado verde-oliva, nado lento y elegante. Suele subir a la superficie a respirar frente a la isla, un momento mágico para huéspedes en kayaks o paddle board.",
+          "cientifico": "Chelonia mydas"
+        },
+        {
+          "id": "fauna-009",
+          "n": 9,
+          "nombre": "Tortuga carey",
+          "descripcion": "Caparazón con patrones más contrastados y pico pronunciado. Se asocia a arrecifes donde se alimenta de esponjas. Es una especie simbólica para programas de conservación en la isla.",
+          "cientifico": "Eretmochelys imbricata"
+        },
+        {
+          "id": "fauna-010",
+          "n": 10,
+          "nombre": "Delfín nariz de botella",
+          "descripcion": "Cuerpo gris, hocico corto y sonrisa característica. A veces se acerca a la costa para acompañar embarcaciones. Ideal para experiencias de avistamiento responsable desde la marina.",
+          "cientifico": "Tursiops truncatus"
+        },
+        {
+          "id": "fauna-011",
+          "n": 11,
+          "nombre": "Manta gigante de arrecife",
+          "descripcion": "Enorme 'ala' que puede superar varios metros de ancho, se desplaza con movimientos suaves. Puede verse en puntos específicos de alimentación, perfecta para buceo guiado avanzado.",
+          "cientifico": "Mobula alfredi"
+        },
+        {
+          "id": "fauna-012",
+          "n": 12,
+          "nombre": "Tiburón de arrecife de punta blanca",
+          "descripcion": "Tiburón esbelto, de tamaño moderado, con punta blanca en la aleta dorsal. Generalmente tímido; su presencia indica un arrecife saludable. Observación en buceo profundo.",
+          "cientifico": "Triaenodon obesus"
+        },
+        {
+          "id": "fauna-013",
+          "n": 13,
+          "nombre": "Rayas águila",
+          "descripcion": "Rayas con manchas blancas, cola larga, que vuelan literalmente sobre el arrecife. Muy estéticas para fotografía submarina.",
+          "cientifico": "Aetobatus narinari"
+        },
+        {
+          "id": "fauna-014",
+          "n": 14,
+          "nombre": "Pulpo común tropical",
+          "descripcion": "Cuerpo flexible, capaz de cambiar color y textura. Se esconde en grietas y sale de noche. Perfecto para buceo nocturno.",
+          "cientifico": "Octopus spp."
+        },
+        {
+          "id": "fauna-015",
+          "n": 15,
+          "nombre": "Calamar de arrecife",
+          "descripcion": "Pequeños cefalópodos translúcidos con puntos luminosos cuando se excitan o comunican. Pueden verse en grupos de noche bajo la luz de linternas."
+        },
+        {
+          "id": "fauna-016",
+          "n": 16,
+          "nombre": "Camarón limpiador",
+          "descripcion": "Pequeño camarón blanco y rojo que limpia parásitos de otros peces. Vive en estaciones de limpieza dentro del arrecife.",
+          "cientifico": "Lysmata amboinensis"
+        },
+        {
+          "id": "fauna-017",
+          "n": 17,
+          "nombre": "Cangrejo ermitaño",
+          "descripcion": "Cangrejito que habita en conchas vacías. Se ve caminando en la arena o sobre rocas poco profundas, muy simpático para observación en familia."
+        },
+        {
+          "id": "fauna-018",
+          "n": 18,
+          "nombre": "Estrella de mar azul",
+          "descripcion": "Estrella de mar de color azul intenso que vive en zonas arenosas y arrecifes poco profundos.",
+          "cientifico": "Linckia laevigata"
+        },
+        {
+          "id": "fauna-019",
+          "n": 19,
+          "nombre": "Erizo de mar de espinas largas",
+          "descripcion": "Erizo negro con largas agujas flexibles. Sirve para explicar cuidado al caminar en zonas rocosas y el papel de los erizos en el ecosistema.",
+          "cientifico": "Diadema spp."
+        },
+        {
+          "id": "fauna-020",
+          "n": 20,
+          "nombre": "Medusa luna",
+          "descripcion": "Medusa translúcida de aspecto delicado, normalmente inofensiva y de movimientos lentos. Puede aparecer estacionalmente en aguas calmadas.",
+          "cientifico": "Aurelia aurita"
+        }
+      ]
+    },
+    {
+      "clave": "II",
+      "titulo": "Fauna costera y de playa",
+      "id": "fauna-costera-y-de-playa",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "fauna-021",
+          "n": 1,
+          "nombre": "Cangrejo fantasma de playa",
+          "descripcion": "Cangrejo pequeño de color arena que corre velozmente entre sus madrigueras y la orilla. Se ve al atardecer y de noche, huyendo cuando detecta movimiento."
+        },
+        {
+          "id": "fauna-022",
+          "n": 2,
+          "nombre": "Iguana marina/roquera",
+          "descripcion": "Reptil de tamaño mediano que se asolea en rocas cercanas al mar. Color gris oscuro o verdoso, aporta un toque prehistórico a las zonas de acantilado."
+        },
+        {
+          "id": "fauna-023",
+          "n": 3,
+          "nombre": "Lagartija tropical de roca",
+          "descripcion": "Lagartijas pequeñas de colores discretos que se mueven entre grietas, ayudando a controlar insectos."
+        },
+        {
+          "id": "fauna-024",
+          "n": 4,
+          "nombre": "Gaviota marina",
+          "descripcion": "Ave costera de plumaje blanco y gris, siempre presente en la zona de playa y marina buscando peces o restos de comida."
+        },
+        {
+          "id": "fauna-025",
+          "n": 5,
+          "nombre": "Charrán",
+          "descripcion": "Cuerpo esbelto, alas largas, pico fino. Se lanza en picada al agua para pescar, un espectáculo visible desde la playa o la alberca infinita.",
+          "cientifico": "ave marina estilizada"
+        },
+        {
+          "id": "fauna-026",
+          "n": 6,
+          "nombre": "Pelícano pardo",
+          "descripcion": "Ave grande de pico largo y bolsa extensible, planea en formación y se deja caer al agua para pescar. Suele posarse en boyas y barandas de la marina."
+        },
+        {
+          "id": "fauna-027",
+          "n": 7,
+          "nombre": "Cangrejo violinista",
+          "descripcion": "Cangrejo pequeño de manglar con una de las pinzas muy grande. Se ve en zonas fangosas o de transición entre manglar y playa."
+        },
+        {
+          "id": "fauna-028",
+          "n": 8,
+          "nombre": "Caracol marino de concha cónica",
+          "descripcion": "Pequeñas conchas en rocas y zonas intermareales, parte del detalle visual de charcas de marea."
+        },
+        {
+          "id": "fauna-029",
+          "n": 9,
+          "nombre": "Aves playeras correlimos",
+          "descripcion": "Pequeñas aves que corren siguiendo la espuma de las olas, con patas finas y movimientos rápidos."
+        },
+        {
+          "id": "fauna-030",
+          "n": 10,
+          "nombre": "Rayas pequeñas en la orilla",
+          "descripcion": "Se acercan a fondos arenosos poco profundos. Se explican reglas para caminar arrastrando los pies y no pisarlas por accidente.",
+          "cientifico": "pastinacas"
+        }
+      ]
+    },
+    {
+      "clave": "III",
+      "titulo": "Fauna terrestre – Selva, senderos e interior de la isla",
+      "id": "fauna-terrestre-selva-senderos-e-interior-de-la-",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "fauna-031",
+          "n": 1,
+          "nombre": "Venado pequeño tropical",
+          "descripcion": "Mamífero elegante, de tamaño medio, que aparece al amanecer o atardecer en claros de selva y zonas de pasto.",
+          "cientifico": "tipo venado cola blanca insular"
+        },
+        {
+          "id": "fauna-032",
+          "n": 2,
+          "nombre": "Tejón o coatí tropical",
+          "descripcion": "Mamífero curioso con hocico alargado y cola larga, se mueve en pequeños grupos buscando frutos e insectos."
+        },
+        {
+          "id": "fauna-033",
+          "n": 3,
+          "nombre": "Zorro o mapache insular",
+          "descripcion": "Carnívoro pequeño oportunista que se acerca ocasionalmente a áreas de servicio, pero se mantiene distante si se gestiona bien la basura.",
+          "cientifico": "adaptado"
+        },
+        {
+          "id": "fauna-034",
+          "n": 4,
+          "nombre": "Mono aullador o mono capuchino",
+          "descripcion": "Primates que viven en la parte alta de la selva. Pueden escucharse (aullidos o llamados) y verse ocasionalmente desde miradores.",
+          "cientifico": "según región imaginada"
+        },
+        {
+          "id": "fauna-035",
+          "n": 5,
+          "nombre": "Perezoso de tres dedos",
+          "descripcion": "Se mueve muy lentamente en las copas de los árboles, símbolo de calma. Difícil de ver, pero muy valorado cuando aparece.",
+          "cientifico": "si el ecosistema lo permite"
+        },
+        {
+          "id": "fauna-036",
+          "n": 6,
+          "nombre": "Armadillo pequeño",
+          "descripcion": "Mamífero cubierto de placas óseas que excava en busca de insectos. No suele verse de día, más activo al anochecer."
+        },
+        {
+          "id": "fauna-037",
+          "n": 7,
+          "nombre": "Zorro volador o murciélago frugívoro grande",
+          "descripcion": "Mamífero volador que se alimenta de frutas y flores, visible al atardecer cuando sale en grupos."
+        },
+        {
+          "id": "fauna-038",
+          "n": 8,
+          "nombre": "Rana arborícola verde",
+          "descripcion": "Rana pequeña de colores vivos que canta tras la lluvia. Su presencia añade sonido tropical por las noches."
+        },
+        {
+          "id": "fauna-039",
+          "n": 9,
+          "nombre": "Gecko de pared",
+          "descripcion": "Pequeño reptil que se adhiere a muros y techos, cazando insectos alrededor de luces exteriores."
+        },
+        {
+          "id": "fauna-040",
+          "n": 10,
+          "nombre": "Serpiente inofensiva de selva",
+          "descripcion": "Aparecen rara vez, se describen en la guía para evitar miedos infundados.",
+          "cientifico": "pequeñas culebras no venenosas"
+        },
+        {
+          "id": "fauna-041",
+          "n": 11,
+          "nombre": "Mariposas tropicales",
+          "descripcion": "Diversas especies de mariposas grandes y coloridas que vuelan entre flores y claros de luz."
+        },
+        {
+          "id": "fauna-042",
+          "n": 12,
+          "nombre": "Libélulas en zonas de agua dulce",
+          "descripcion": "Insectos de alas traslúcidas que patrullan sobre charcas, lagos pequeños o estanques del jardín botánico."
+        },
+        {
+          "id": "fauna-043",
+          "n": 13,
+          "nombre": "Hormigas cortadoras de hojas",
+          "descripcion": "Se observan en filas organizadas cargando fragmentos de hojas, interesantes para tours de naturaleza."
+        },
+        {
+          "id": "fauna-044",
+          "n": 14,
+          "nombre": "Escarabajos brillantes",
+          "descripcion": "Coleópteros con caparazón metálico en verdes y azules, visibles en troncos y suelos de selva."
+        },
+        {
+          "id": "fauna-045",
+          "n": 15,
+          "nombre": "Pequeños roedores de bosque",
+          "descripcion": "Tímidos, salen de noche y forman parte de la cadena alimenticia sin ser protagónicos para el huésped."
+        }
+      ]
+    },
+    {
+      "clave": "IV",
+      "titulo": "Aves – Fauna aérea de costa y selva",
+      "id": "aves-fauna-aerea-de-costa-y-selva",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "fauna-046",
+          "n": 1,
+          "nombre": "Fragata",
+          "descripcion": "Ave marina de alas larguísimas y silueta de cometa, planea a gran altura sobre la costa usando corrientes de aire. Machos con saco gular rojo muy distintivo.",
+          "cientifico": "Fregata magnificens"
+        },
+        {
+          "id": "fauna-047",
+          "n": 2,
+          "nombre": "Albatros o pardela grande",
+          "descripcion": "Aves marinas viajeras, con capacidad de recorrer grandes distancias. Su presencia es ocasional, pero impactante.",
+          "cientifico": "según región"
+        },
+        {
+          "id": "fauna-048",
+          "n": 3,
+          "nombre": "Gaviota",
+          "descripcion": "Aves costeras omnipresentes, de plumaje blanco y gris. Representan la vida cotidiana de la playa y la marina.",
+          "cientifico": "Laridae"
+        },
+        {
+          "id": "fauna-049",
+          "n": 4,
+          "nombre": "Pelícano pardo",
+          "descripcion": "Ya descrito en fauna costera, también se contabiliza como ave aérea icónica de la isla."
+        },
+        {
+          "id": "fauna-050",
+          "n": 5,
+          "nombre": "Tucán",
+          "descripcion": "Ave de pico enorme y colores brillantes, que aparece en la parte alta de los árboles cerca de senderos de observación.",
+          "cientifico": "si la selva lo permite"
+        },
+        {
+          "id": "fauna-051",
+          "n": 6,
+          "nombre": "Loros y periquitos verdes",
+          "descripcion": "Bandadas ruidosas de aves color verde con detalles de otros colores; sus llamados se escuchan principalmente al amanecer y atardecer."
+        },
+        {
+          "id": "fauna-052",
+          "n": 7,
+          "nombre": "Colibríes tropicales",
+          "descripcion": "Aves diminutas de vuelo rápido, que se alimentan de flores y bebedores de néctar; cuerpo brillante con destellos metálicos al sol."
+        },
+        {
+          "id": "fauna-053",
+          "n": 8,
+          "nombre": "Garza blanca",
+          "descripcion": "Ave esbelta de patas largas que caza en zonas poco profundas o manglares.",
+          "cientifico": "Egretta alba"
+        },
+        {
+          "id": "fauna-054",
+          "n": 9,
+          "nombre": "Martín pescador",
+          "descripcion": "Ave pequeña y compacta con pico largo, se posa sobre ramas cercanas al agua y se lanza por peces pequeños."
+        },
+        {
+          "id": "fauna-055",
+          "n": 10,
+          "nombre": "Lechuza o búho tropical",
+          "descripcion": "Aves nocturnas discretas, con ojos grandes. Sus sonidos suaves se pueden escuchar en la noche cerca de áreas de selva."
+        },
+        {
+          "id": "fauna-056",
+          "n": 11,
+          "nombre": "Golondrinas de mar",
+          "descripcion": "Aves de vuelo rápido que vuelan cerca de la superficie del agua, principalmente al atardecer."
+        },
+        {
+          "id": "fauna-057",
+          "n": 12,
+          "nombre": "Aves insectívoras pequeñas",
+          "descripcion": "Se ven revoloteando en claros de selva y jardines.",
+          "cientifico": "tiránidos, atrapamoscas"
+        },
+        {
+          "id": "fauna-058",
+          "n": 13,
+          "nombre": "Zanate u otros pájaros negros con reflejos metálicos",
+          "descripcion": "Se adaptan a zonas humanizadas, frecuentando jardines y áreas abiertas."
+        },
+        {
+          "id": "fauna-059",
+          "n": 14,
+          "nombre": "Pájaros cantores tropicales",
+          "descripcion": "Variedad de especies que aportan trinos complejos en la madrugada y primeras horas del día."
+        },
+        {
+          "id": "fauna-060",
+          "n": 15,
+          "nombre": "Buitre de selva o zopilote negro",
+          "descripcion": "Se encarga de la limpieza natural del ecosistema, volando en círculos altos aprovechando corrientes térmicas."
+        }
+      ]
+    },
+    {
+      "clave": "V",
+      "titulo": "Fauna de jardines y áreas del resort",
+      "id": "fauna-de-jardines-y-areas-del-resort",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "fauna-061",
+          "n": 1,
+          "nombre": "Lagartijas pequeñas de jardín",
+          "descripcion": "Reptiles discretos que viven entre rocas, muros y plantas ornamental, ayudando a controlar insectos."
+        },
+        {
+          "id": "fauna-062",
+          "n": 2,
+          "nombre": "Geckos en exteriores de villas",
+          "descripcion": "Activos al anochecer, se acercan a las luces para cazar polillas y otros insectos voladores."
+        },
+        {
+          "id": "fauna-063",
+          "n": 3,
+          "nombre": "Mariposas diurnas de jardín",
+          "descripcion": "Especies atraídas por flores ornamentales, añaden movimiento y color a los senderos del resort."
+        },
+        {
+          "id": "fauna-064",
+          "n": 4,
+          "nombre": "Polinizadores",
+          "descripcion": "Insectos esenciales para la reproducción de plantas en la isla; se cuidan mediante paisajismo amigable.",
+          "cientifico": "abejas nativas y abejas sin aguijón"
+        },
+        {
+          "id": "fauna-065",
+          "n": 5,
+          "nombre": "Libélulas en fuentes y estanques decorativos",
+          "descripcion": "Vuelan constante sobre el agua, dando sensación de entorno vivo y sano."
+        },
+        {
+          "id": "fauna-066",
+          "n": 6,
+          "nombre": "Pequeñas ranas en zonas húmedas y fuentes discretas",
+          "descripcion": "Añaden sonido en noches húmedas, reforzando el ambiente tropical."
+        },
+        {
+          "id": "fauna-067",
+          "n": 7,
+          "nombre": "Caracoles terrestres pequeños",
+          "descripcion": "Aparecen tras la lluvia en macizos de vegetación."
+        },
+        {
+          "id": "fauna-068",
+          "n": 8,
+          "nombre": "Cigarras y grillos",
+          "descripcion": "Insectos que aportan sonido de fondo potente en ciertas horas de la tarde y noche, muy característico de climas cálidos."
+        },
+        {
+          "id": "fauna-069",
+          "n": 9,
+          "nombre": "Pájaros pequeños granívoros",
+          "descripcion": "Se alimentan de semillas en césped y jardines, se ven en pequeños grupos."
+        },
+        {
+          "id": "fauna-070",
+          "n": 10,
+          "nombre": "Murciélagos insectívoros pequeños",
+          "descripcion": "Vuelan alrededor de áreas verdes por la noche, controlando poblaciones de insectos cerca del resort."
+        }
+      ]
+    },
+    {
+      "clave": "VI",
+      "titulo": "Manejo de fauna y experiencia del huésped",
+      "id": "manejo-de-fauna-y-experiencia-del-huesped",
+      "texto": "La fauna de Isla La Encantada se ha seleccionado pensando en un equilibrio entre belleza visual, seguridad y realismo ecológico. Los animales marinos –peces de arrecife, tortugas, delfines, tiburones de arrecife y mantarrayas– crean un entorno submarino espectacular para el buceo y el snorkel. La fauna terrestre y de selva añade sonidos, encuentros ocasionales y oportunidades de tours guiados de naturaleza. Las aves dan vida al cielo, los acantilados y los jardines, mientras que pequeños insectos, lagartijas y geckos forman parte del “detalle fino” de un ecosistema tropical completo. En un diseño virtual o en una conceptualización de resort real, esta guía sirve como base para decidir qué especies se representan de forma más prominente (por ejemplo, tortugas, delfines, mantarrayas, pelícanos, colibríes, mariposas) y cuáles se mantienen como parte del entorno de fondo (insectos, pequeños roedores, reptiles discretos), siempre tratando a la fauna con respeto y coherencia ecológica.",
+      "piezas": []
+    }
+  ],
+  "cierre": ""
+}

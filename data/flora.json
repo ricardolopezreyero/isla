@@ -1,0 +1,386 @@
+{
+  "catalogo": "flora",
+  "titulo": "Guía de Flora – Isla La Encantada",
+  "tipo": "especie",
+  "fuente": "fuentes/pdf/Flora_Isla_La_Encantada_Guia_Completa.pdf",
+  "intro": "Esta guía presenta una selección curada de la flora terrestre y marina ideal para Isla La Encantada: una isla volcánica tropical con selva, playas, dunas, acantilados, jardines de resort y arrecifes de coral. El objetivo es crear un ecosistema visualmente espectacular pero también coherente y creíble, que podría existir en la realidad si se planeara y conservara correctamente.",
+  "total": 50,
+  "secciones": [
+    {
+      "clave": "I",
+      "titulo": "Vegetación costera y de playa",
+      "id": "vegetacion-costera-y-de-playa",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "flora-001",
+          "n": 1,
+          "nombre": "Palmera cocotera",
+          "descripcion": "Icono de playa tropical, con tronco esbelto y coronas de hojas plumosas que proyectan sombras largas sobre la arena. Ideal para alinear ciertas secciones de playa y enmarcar vistas sin saturar todo el litoral. Produce cocos, integrando también un elemento comestible local.",
+          "cientifico": "Cocos nucifera"
+        },
+        {
+          "id": "flora-002",
+          "n": 2,
+          "nombre": "Uva de mar",
+          "descripcion": "Arbusto o arbolito con hojas grandes, redondas, de tono verde con venas rojizas. Se adapta bien a suelos arenosos y salinos. Forma barreras naturales contra viento y erosión, y visualmente aporta textura y color diferente a las palmeras.",
+          "cientifico": "Coccoloba uvifera"
+        },
+        {
+          "id": "flora-003",
+          "n": 3,
+          "nombre": "Almendro de playa",
+          "descripcion": "Árbol de copa amplia y ramas horizontales, con hojas que se tornan rojas y amarillas antes de caer. Aporta sombra densa cerca de la playa o en áreas de picnic, y su silueta es muy fotogénica al atardecer.",
+          "cientifico": "Terminalia catappa"
+        },
+        {
+          "id": "flora-004",
+          "n": 4,
+          "nombre": "Pandanus o pino de playa",
+          "descripcion": "Plantas con troncos retorcidos y raíces aéreas en zancos, hojas largas y en espiral. Ideales para lugares más rocosos o expuestos, con una estética casi escultórica.",
+          "cientifico": "Pandanus tectorius"
+        },
+        {
+          "id": "flora-005",
+          "n": 5,
+          "nombre": "Hierba de playa o pasto rastrero",
+          "descripcion": "Enredadera rastrera con flores moradas en forma de campana, que se extiende sobre la arena ayudando a fijarla. Visualmente agrega alfombras verdes y flores delicadas sobre las dunas.",
+          "cientifico": "Ipomoea pes-caprae"
+        },
+        {
+          "id": "flora-006",
+          "n": 6,
+          "nombre": "Heliconias bajas de borde costero",
+          "descripcion": "Variedades seleccionadas para crecer cerca de zonas sombreadas en la transición selva-playa. Brácteas rojas, anaranjadas o amarillas que parecen esculturas, muy atractivas para colibríes.",
+          "cientifico": "Heliconia spp."
+        },
+        {
+          "id": "flora-007",
+          "n": 7,
+          "nombre": "Plumeria o frangipani",
+          "descripcion": "Árbol mediano con flores muy fragantes (blancas, rosas, amarillas) utilizado estratégicamente en accesos a villas y senderos cercanos a la playa, generando perfume sutil al atardecer.",
+          "cientifico": "Plumeria rubra/Plumeria alba"
+        },
+        {
+          "id": "flora-008",
+          "n": 8,
+          "nombre": "Agave de costa",
+          "descripcion": "Plantas suculentas de roseta que se colocan en puntos estratégicos de rocas y transiciones, aportando formas geométricas y muy escultóricas contra el fondo del mar.",
+          "cientifico": "Agave spp. tolerantes a salinidad"
+        },
+        {
+          "id": "flora-009",
+          "n": 9,
+          "nombre": "Arbusto de hibisco",
+          "descripcion": "Setos y puntos focales con flores grandes en tonos rojos, naranjas, amarillos y blancos. Ideales para marcos de entradas a palapas, spas de playa o zonas de regadera exterior.",
+          "cientifico": "Hibiscus rosa-sinensis"
+        },
+        {
+          "id": "flora-010",
+          "n": 10,
+          "nombre": "Manglar de borde",
+          "descripcion": "En pequeñas áreas protegidas donde se quiera dar realismo ecológico. Sus raíces aéreas generan hábitat para peces juveniles y aves costeras, y visualmente aportan una franja de vegetación densa y misteriosa.",
+          "cientifico": "Rhizophora mangle y Avicennia germinans, según región"
+        }
+      ]
+    },
+    {
+      "clave": "II",
+      "titulo": "Selva interior, laderas volcánicas y bosques",
+      "id": "selva-interior-laderas-volcanicas-y-bosques",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "flora-011",
+          "n": 1,
+          "nombre": "Palma real tropical",
+          "descripcion": "Palmas altas y rectas que dominan la línea del horizonte en ciertos puntos de la isla. Se usan para marcar avenidas naturales o accesos principales.",
+          "cientifico": "Roystonea regia u otra especie similar"
+        },
+        {
+          "id": "flora-012",
+          "n": 2,
+          "nombre": "Ceiba",
+          "descripcion": "Árbol monumental con tronco grueso y raíces tablares. Ideal como 'árbol sagrado' en un claro de selva o cerca de un mirador importante.",
+          "cientifico": "Ceiba pentandra o especie análoga"
+        },
+        {
+          "id": "flora-013",
+          "n": 3,
+          "nombre": "Árbol de la lluvia o saman",
+          "descripcion": "Copa amplia y redonda, perfecto para crear grandes sombras en praderas interiores o cerca de zonas de picnic y miradores elevados.",
+          "cientifico": "Samanea saman"
+        },
+        {
+          "id": "flora-014",
+          "n": 4,
+          "nombre": "Jacaranda",
+          "descripcion": "Árbol de porte medio a grande con floración morada espectacular en temporada. Aunque no siempre nativa de islas volcánicas, se incorpora cuidadosamente en jardines ampliados por su valor estético.",
+          "cientifico": "Jacaranda mimosifolia"
+        },
+        {
+          "id": "flora-015",
+          "n": 5,
+          "nombre": "Flamboyán o árbol de fuego",
+          "descripcion": "Copa extendida llena de flores rojas o anaranjadas intensas. Ideal colocar algunos ejemplares clave en entradas al resort o en rotondas internas.",
+          "cientifico": "Delonix regia"
+        },
+        {
+          "id": "flora-016",
+          "n": 6,
+          "nombre": "Guayaba, mango y otras frutales tropicales",
+          "descripcion": "Árboles integrados en zonas de huertos y senderos gastronómicos. Además de belleza, aportan frutos que se usan en jugos, postres y experiencias culinarias de la isla."
+        },
+        {
+          "id": "flora-017",
+          "n": 7,
+          "nombre": "Bambú tropical",
+          "descripcion": "Plantaciones controladas formando corredores verdes, cortavientos naturales y fondos de vegetación densa. Su sonido con el viento y su textura vertical añaden mucha atmósfera.",
+          "cientifico": "Bambusa spp."
+        },
+        {
+          "id": "flora-018",
+          "n": 8,
+          "nombre": "Helechos arborescentes",
+          "descripcion": "En zonas más húmedas y sombreadas se incorporan helechos gigantes que dan un toque prehistórico al interior de la isla."
+        },
+        {
+          "id": "flora-019",
+          "n": 9,
+          "nombre": "Árboles de hojas brillantes",
+          "descripcion": "Arbustos grandes o arbolitos de hojas gruesas, buen fondo verde uniforme detrás de caminos o estructuras.",
+          "cientifico": "por ejemplo, Clusia spp."
+        },
+        {
+          "id": "flora-020",
+          "n": 10,
+          "nombre": "Arbustos de floración perfumada",
+          "descripcion": "Colocados cerca de terrazas, spas al aire libre y accesos a las villas, generando micro-zonas de aroma muy agradable por las noches.",
+          "cientifico": "gardenias, jazmines tropicales"
+        }
+      ]
+    },
+    {
+      "clave": "III",
+      "titulo": "Estrato medio, sotobosque y cubresuelos",
+      "id": "estrato-medio-sotobosque-y-cubresuelos",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "flora-021",
+          "n": 1,
+          "nombre": "Helechos de sotobosque",
+          "descripcion": "Alfombras verdes en zonas sombreadas, debajo de árboles grandes. Aportan sensación de frescura y humedad.",
+          "cientifico": "diversas especies"
+        },
+        {
+          "id": "flora-022",
+          "n": 2,
+          "nombre": "Philodendros y monsteras",
+          "descripcion": "Plantas de hojas grandes, recortadas o con perforaciones, muy esculturales. Se colocan en laderas sombreadas, muros verdes y áreas cercanas a cascadas artificiales.",
+          "cientifico": "Monstera deliciosa, Philodendron spp."
+        },
+        {
+          "id": "flora-023",
+          "n": 3,
+          "nombre": "Alocasias y colocasias",
+          "descripcion": "Hojas gigantes de textura satinada, que crean rincones dramáticos en esquinas de senderos y cerca de espejos de agua.",
+          "cientifico": "orejas de elefante"
+        },
+        {
+          "id": "flora-024",
+          "n": 4,
+          "nombre": "Marantas y calatheas",
+          "descripcion": "Plantas de hoja mediana con patrones espectaculares (líneas, manchas, contraste de verdes, púrpuras). Ideales para jardines sombreados alrededor de spas, pasillos hacia las villas y patios interiores."
+        },
+        {
+          "id": "flora-025",
+          "n": 5,
+          "nombre": "Ginger ornamental",
+          "descripcion": "Plantas con inflorescencias rojas, naranjas o amarillas que aportan color vertical en el sotobosque.",
+          "cientifico": "Zingiber spp."
+        },
+        {
+          "id": "flora-026",
+          "n": 6,
+          "nombre": "Costus espiral o 'caña de la costa'",
+          "descripcion": "Tallos en espiral con flores llamativas, excelentes para bordes de senderos."
+        },
+        {
+          "id": "flora-027",
+          "n": 7,
+          "nombre": "Bromelias epífitas",
+          "descripcion": "Se colocan sobre troncos de árboles, en ramas y rocas, con embudos centrales que recolectan agua y flores intensas. Visualmente dan la sensación de selva rica y diversa."
+        },
+        {
+          "id": "flora-028",
+          "n": 8,
+          "nombre": "Musgos y pequeñas plantas tapizantes",
+          "descripcion": "Tapizan rocas húmedas y zonas con agua de escurrimiento, sobre todo cerca de cascadas o chorros de agua decorativos."
+        },
+        {
+          "id": "flora-029",
+          "n": 9,
+          "nombre": "Cubresuelos florales de baja altura",
+          "descripcion": "Plantas pequeñas con flores blancas o moradas, usadas para suavizar bordes de caminos y escalones."
+        },
+        {
+          "id": "flora-030",
+          "n": 10,
+          "nombre": "Hierbas aromáticas semi-silvestres (menta, hierbabuena, toronjil) integradas en pequeños rincones accesibles, donde los huéspedes pueden oler y tocar las plantas",
+          "descripcion": ""
+        }
+      ]
+    },
+    {
+      "clave": "IV",
+      "titulo": "Jardines del resort y áreas de villas",
+      "id": "jardines-del-resort-y-areas-de-villas",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "flora-031",
+          "n": 1,
+          "nombre": "Alineaciones de palmeras cocoteras y palmas reales",
+          "descripcion": "Usadas para enmarcar accesos a la recepción, la marina, el spa principal y la gran villa Horizon 50."
+        },
+        {
+          "id": "flora-032",
+          "n": 2,
+          "nombre": "Jardines de heliconias, gingers y aves del paraíso",
+          "descripcion": "Se colocan cerca de caminos principales y alrededor de albercas, creando explosiones de color entre verdes intensos.",
+          "cientifico": "Strelitzia reginae"
+        },
+        {
+          "id": "flora-033",
+          "n": 3,
+          "nombre": "Setos suaves de hibisco y buganvilias",
+          "descripcion": "Definen límites entre senderos y jardines sin crear muros rígidos. Las buganvilias aportan cascadas de rosas, fucsias, blancos y naranjas."
+        },
+        {
+          "id": "flora-034",
+          "n": 4,
+          "nombre": "Círculos de frangipani alrededor de jacuzzis exteriores",
+          "descripcion": "Sus flores perfumadas caen en el agua o sobre el piso, generando momentos sensorialmente memorables."
+        },
+        {
+          "id": "flora-035",
+          "n": 5,
+          "nombre": "Jardines de rocas con agaves, suculentas y gramíneas ornamentales",
+          "descripcion": "Ideales para zonas más expuestas al sol y viento, con bajo mantenimiento realista."
+        },
+        {
+          "id": "flora-036",
+          "n": 6,
+          "nombre": "Arriates de lavanda tropical o plantas de follaje aromático",
+          "descripcion": "Al pasar, el huésped roza las hojas y libera aromas discretos."
+        },
+        {
+          "id": "flora-037",
+          "n": 7,
+          "nombre": "Muros verdes en patios internos con filodendros, helechos y pequeñas cascadas",
+          "descripcion": "Generan microclimas frescos cerca de restaurantes interiores o pasillos de spa."
+        },
+        {
+          "id": "flora-038",
+          "n": 8,
+          "nombre": "Árboles de sombra media",
+          "descripcion": "Integran comida, sombra y belleza.",
+          "cientifico": "tamarindos, guayabos, limoneros",
+          "nota": "en plazas pequeñas junto a comercios y la tienda Orillas del Mar"
+        },
+        {
+          "id": "flora-039",
+          "n": 9,
+          "nombre": "Macetones grandes de cerámica con palmas de interior y drácenas",
+          "descripcion": "Usados en lobbies, terrazas de villas y pasillos amplios."
+        },
+        {
+          "id": "flora-040",
+          "n": 10,
+          "nombre": "Pequeños huertos comestibles de exhibición",
+          "descripcion": "Camas elevadas con lechugas, hierbas, chiles, tomates cherry, para conectar la gastronomía de la isla con la tierra."
+        }
+      ]
+    },
+    {
+      "clave": "V",
+      "titulo": "Flora marina y de arrecife",
+      "id": "flora-marina-y-de-arrecife",
+      "texto": "",
+      "piezas": [
+        {
+          "id": "flora-041",
+          "n": 1,
+          "nombre": "Praderas de pastos marinos",
+          "descripcion": "Plantas marinas verdaderas, con hojas tipo cinta que forman praderas ondulantes en fondos arenosos poco profundos. Hábitat clave para tortugas marinas y peces juveniles.",
+          "cientifico": "Thalassia testudinum y otras fanerógamas"
+        },
+        {
+          "id": "flora-042",
+          "n": 2,
+          "nombre": "Algas pardas de roca",
+          "descripcion": "Se adhieren a rocas y estructuras, formando parches que dan textura al paisaje submarino y sirven de refugio a pequeños peces e invertebrados.",
+          "cientifico": "Sargassum spp. en cantidades moderadas"
+        },
+        {
+          "id": "flora-043",
+          "n": 3,
+          "nombre": "Algas verdes del género Halimeda",
+          "descripcion": "Algas calcáreas con forma de pequeñas monedas articuladas, que ayudan a formar arena blanca al descomponerse."
+        },
+        {
+          "id": "flora-044",
+          "n": 4,
+          "nombre": "Algas rojas filamentosas",
+          "descripcion": "Forman velos de color rojo intenso en rocas poco profundas, añadiendo contraste visual en el arrecife."
+        },
+        {
+          "id": "flora-045",
+          "n": 5,
+          "nombre": "Macroalgas verdes",
+          "descripcion": "Hojas translúcidas tipo 'lechuga de mar' que tapizan algunas zonas y aportan un aspecto fresco y luminoso.",
+          "cientifico": "Ulva spp. y otras"
+        },
+        {
+          "id": "flora-046",
+          "n": 6,
+          "nombre": "Tapetes de algas coralinas incrustantes",
+          "descripcion": "Algas rojas calcáreas que se adhieren a la superficie del arrecife, aportando tonos rosas y morados y ayudando a consolidar la estructura."
+        },
+        {
+          "id": "flora-047",
+          "n": 7,
+          "nombre": "Seudocorales blandos y gorgonias acompañados de algas simbióticas",
+          "descripcion": "Aunque los corales son animales, la presencia de sus algas simbiontes (zooxantelas) es clave para el colorido general del arrecife."
+        },
+        {
+          "id": "flora-048",
+          "n": 8,
+          "nombre": "Hierbas marinas bajas en lagunas internas",
+          "descripcion": "Pequeñas fanerógamas que rellenan espacios entre corales y rocas en aguas muy tranquilas."
+        },
+        {
+          "id": "flora-049",
+          "n": 9,
+          "nombre": "Algas microscópicas y fitoplancton",
+          "descripcion": "Responsables de los leves cambios de tono en el agua cuando la luz atraviesa la columna de agua; aunque invisibles individualmente, su efecto global es perceptible."
+        },
+        {
+          "id": "flora-050",
+          "n": 10,
+          "nombre": "Algas que colonizan pilotes y estructuras de la marina",
+          "descripcion": "Crean biofilm y pequeños jardines submarinos sobre pilares, escaleras y muelles, haciendo que todo se vea integrado al entorno marino."
+        }
+      ]
+    },
+    {
+      "clave": "VI",
+      "titulo": "Composición paisajística y ecosistema global",
+      "id": "composicion-paisajistica-y-ecosistema-global",
+      "texto": "La combinación de esta flora crea un ecosistema isleño coherente, bello y funcional: las palmeras y uvas de mar protegen la playa y marcan la silueta tropical; la selva interior aporta profundidad, misterio y sonido; el sotobosque, con heliconias, monsteras, bromelias y helechos, construye una sensación de riqueza visual en cada sendero; los jardines del resort integran especies ornamentales y comestibles, conectando la experiencia del huésped con la tierra; y bajo el mar, las praderas de pastos marinos y las algas de arrecife sostienen la vida que da espectáculo a los buceadores. Si Isla La Encantada se materializara en el mundo real, esta selección de flora serviría como plano maestro para un diseño de paisaje sostenible, diverso y extraordinariamente bello, donde cada rincón –desde la playa hasta el cráter volcánico y el fondo marino– cuente una historia natural poderosa y armoniosa.",
+      "piezas": []
+    }
+  ],
+  "cierre": ""
+}
