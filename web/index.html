@@ -22,7 +22,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230b1a24'/%3E%3Ccircle cx='44' cy='22' r='7' fill='%23f2b35b'/%3E%3Cpath d='M8 46 L26 20 L34 30 L40 24 L56 46 Z' fill='%232f7d5b'/%3E%3Cpath d='M4 48 Q18 42 32 48 T60 48 V64 H4Z' fill='%2333b5c4'/%3E%3C/svg%3E">
+<link rel="icon" href="/img/icono.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -44,8 +44,11 @@ img{display:block;max-width:100%}
 /* barra */
 .barra{position:fixed;inset:0 0 auto;z-index:10;display:flex;align-items:center;justify-content:space-between;
   padding:14px clamp(16px,4vw,40px);background:linear-gradient(rgba(6,14,20,.62),rgba(6,14,20,0))}
-.marca{font-family:var(--serif);font-size:20px;font-weight:600;letter-spacing:.06em;text-decoration:none}
-.marca i{font-style:normal;color:var(--sol)}
+/* RLR · logotipo: ISLA arriba, el nombre de la isla abajo (habrá varias islas) */
+.marca{display:flex;flex-direction:column;line-height:1;text-decoration:none}
+.marca b{font:600 22px/1 var(--sans);letter-spacing:.32em;color:var(--arena)}
+.marca i{font:italic 500 16px/1.1 var(--serif);color:var(--sol);margin-top:2px}
+.der{display:flex;align-items:center;gap:10px}
 .tam{display:flex;gap:6px}
 .tam button{font:600 14px var(--sans);color:var(--texto);background:rgba(255,255,255,.1);border:1px solid var(--linea);
   border-radius:8px;min-width:40px;height:34px;cursor:pointer}
@@ -62,8 +65,9 @@ img{display:block;max-width:100%}
   letter-spacing:.04em;color:var(--arena);backdrop-filter:blur(6px)}
 .estado .punto{width:9px;height:9px;border-radius:50%;background:var(--sol);box-shadow:0 0 0 0 rgba(242,179,91,.7);animation:latido 1.8s infinite}
 @keyframes latido{70%{box-shadow:0 0 0 10px rgba(242,179,91,0)}100%{box-shadow:0 0 0 0 rgba(242,179,91,0)}}
-h1{font-family:var(--serif);font-weight:500;font-size:clamp(46px,9vw,112px);line-height:.95;margin:18px 0 14px;
-  text-shadow:0 2px 30px rgba(0,0,0,.35)}
+h1{margin:22px 0 16px;text-shadow:0 2px 30px rgba(0,0,0,.35);line-height:1}
+h1 .isla{display:block;font:600 clamp(60px,12vw,150px)/.9 var(--sans);letter-spacing:.3em;margin-right:-.3em;color:var(--arena)}
+h1 .nombre{display:block;font:italic 500 clamp(36px,6vw,76px)/1.05 var(--serif);color:var(--sol);margin-top:.12em}
 .lema{font-size:clamp(17px,2.1vw,22px);line-height:1.5;max-width:40ch;color:var(--suave)}
 
 /* números */
@@ -126,10 +130,13 @@ footer a{font-size:14.5px;color:var(--suave);text-underline-offset:3px}
 <body data-k="eye" data-rev="181218">
 
 <header class="barra">
-  <a class="marca" href="/">La <i>Encantada</i></a>
-  <div class="tam" aria-label="Tamaño de letra">
-    <button type="button" id="menos" aria-label="Letra más chica">A−</button>
-    <button type="button" id="mas" aria-label="Letra más grande">A+</button>
+  <a class="marca" href="/" aria-label="Isla La Encantada"><b>ISLA</b><i>La Encantada</i></a>
+  <div class="der">
+    <div class="tam" aria-label="Tamaño de letra">
+      <button type="button" id="menos" aria-label="Letra más chica">A−</button>
+      <button type="button" id="mas" aria-label="Letra más grande">A+</button>
+    </div>
+    <div data-login-ct></div>
   </div>
 </header>
 
@@ -139,7 +146,7 @@ footer a{font-size:14.5px;color:var(--suave);text-underline-offset:3px}
     <div class="foto" role="img" aria-label="Vista panorámica de la isla al atardecer: volcán, villas, playa y arrecife"></div>
     <div>
       <span class="estado"><span class="punto"></span>En construcción · trabajando</span>
-      <h1>Isla La Encantada</h1>
+      <h1><span class="isla">ISLA</span><span class="nombre">La Encantada</span></h1>
       <p class="lema">Una isla volcánica privada, convertida en el resort virtual donde alguien pensó en absolutamente todo.</p>
     </div>
   </div>
@@ -148,7 +155,7 @@ footer a{font-size:14.5px;color:var(--suave);text-underline-offset:3px}
     <div><b>3–4 km</b><span>de isla volcánica</span></div>
     <div><b>800</b><span>habitaciones</span></div>
     <div><b>80</b><span>villas de ultra lujo</span></div>
-    <div><b>1,200</b><span>personas de staff</span></div>
+    <div><b>1,760</b><span>personas de staff</span></div>
   </div>
 
   <!-- RLR · avance por fases (docs/01-roadmap.md) -->
@@ -215,6 +222,7 @@ document.getElementById("menos").onclick = () => { paso = Math.max(0, paso - 1);
 document.getElementById("mas").onclick = () => { paso = Math.min(PASOS.length - 1, paso + 1); aplicar(); };
 aplicar();
 </script>
+<script src="https://login.capitaltorreon.com/login.js" data-prefs="isla.tam" defer></script>
 <!-- RLR · fin · Ricardo López Reyero -->
 </body>
 </html>

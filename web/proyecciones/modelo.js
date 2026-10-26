@@ -1,0 +1,157 @@
+// RLR · Isla La Encantada — modelo de proyecciones · Ricardo López Reyero
+// Un solo módulo para la página privada /proyecciones y para herramientas/proyecciones.mjs.
+//   modeloV3(s) → réplica exacta del Excel v3 (ingreso por usuario activo al día)
+//   modeloV4(s) → por isla: llaves, personas por llave, ocupación, islas que se abren al llenarse,
+//                 construcción antes de lanzar y los costos que el v3 no traía
+// Todo en USD, por mes, 60 meses.
+export const _RLR = "Ricardo López Reyero", _k = "EYE", _rev = 181218;
+
+export const DIAS = 30.4;
+
+// ── v3: el Excel tal cual (fuentes/modelo/IslaEncantada_Model_v3.xlsx)
+export const V3 = {
+  Start_DAU: 1500, Max_DAU: 100000, Organic_growth: 0.06, Improvement_growth: 0.02,
+  Marketing_month1: 30000, Marketing_growth: 0.07, Paid_CAC: 18,
+  Rev_room: 35, Rev_activities: 15, Rev_shops: 5, Var_cost: 4,
+  Salaries: 25000, Other_fixed: 6000, Months: 60,
+};
+
+export function modeloV3(s = V3) {
+  const arpu = s.Rev_room + s.Rev_activities + s.Rev_shops, meses = [];
+  for (let mes = 1; mes <= s.Months; mes++) {
+    const prev = meses[mes - 2];
+    const mkt = mes === 1 ? s.Marketing_month1 : prev.marketing * (1 + s.Marketing_growth);
+    const pagados = s.Paid_CAC > 0 ? mkt / s.Paid_CAC : 0;
+    const crec = s.Organic_growth + s.Improvement_growth;
+    const dau = mes === 1 ? s.Start_DAU : Math.min(s.Max_DAU, prev.dau * (1 + crec) + pagados);
+    const ingresos = dau * arpu * DIAS;
+    const costos = dau * s.Var_cost * DIAS + s.Salaries + s.Other_fixed + mkt;
+    meses.push({ mes, dau, marketing: mkt, ingresos, costos, utilidad: ingresos - costos, islas: null, huespedes: null });
+  }
+  return acumular(meses);
+}
+
+// ── v4: por isla
+// RLR · regla de Ricardo (26-oct-2026): hasta 4 personas por habitación y hasta 10–12 por villa;
+//        una isla por región, se abre la siguiente cuando la última se llena.
+export const V4_BASE = {
+  // Capacidad de cada isla
+  habitaciones: 800, max_por_habitacion: 4, prom_por_habitacion: 2.5,
+  villas: 80, max_por_villa: 12, prom_por_villa: 8,
+  staff_por_llave: 2,               // personas de staff (NPC + usuarios-staff) por habitación o villa
+  // Precios por noche, por llave (no por persona)
+  precio_habitacion: 100, precio_villa: 10000,
+  gasto_huesped_dia: 20,            // actividades + tiendas + restaurantes, por huésped al día
+  // Demanda
+  mes_lanzamiento: 7,               // meses 1..6 = construir el MVP y la primera isla
+  ocupacion_inicial: 0.15,          // de la primera isla, el mes del lanzamiento
+  crecimiento_mensual: 0.12,        // de la demanda de habitaciones
+  factor_villas: 0.6,               // ocupación de villas = ocupación de habitaciones × factor
+  umbral_nueva_isla: 0.85,          // se abre otra isla cuando la demanda pasa de este % de lo que hay
+  max_islas: 12,
+  // Uso
+  horas_conectado: 2,               // horas al día que cada huésped está dentro
+  costo_hora: 0.25,                 // servidores / streaming por hora conectada
+  factor_pico: 2.5,                 // en la hora pico entra 2.5 veces el promedio
+  presencia_llena: 1500,            // personas visibles para que una isla se sienta llena
+  jugadores_por_servidor: 100,      // lo que aguanta un servidor dedicado de Unreal con buena calidad
+  // Costos
+  comision_pagos: 0.04,             // pasarela de pago
+  comision_tiendas: 0,              // 0.30 si se vende dentro de App Store / Google Play
+  regalia_unreal: 0.05,             // sobre ingresos brutos acumulados arriba de 1 millón
+  construccion_mes: 25000,          // freelancers + herramientas mientras no se lanza
+  assets_iniciales: 15000,          // asset packs y licencias, mes 1
+  equipo_base: 31000,               // equipo central (los 25 k + 6 k fijos del v3)
+  equipo_por_isla: 35000,           // operación, moderación, eventos y soporte de cada isla
+  marketing_base: 30000, marketing_pct: 0.12,
+  meses: 60,
+};
+
+export const ESCENARIOS = {
+  biblia:      { nombre: "Biblia · precios de lista", nota: "100 USD la habitación y 10,000 USD la villa por noche, como dice el prompt maestro", s: {} },
+  prudente:    { nombre: "Prudente", nota: "Precios de un lujo virtual que alguien sí paga cada semana",
+                 s: { precio_habitacion: 15, precio_villa: 450, gasto_huesped_dia: 4, crecimiento_mensual: 0.10 } },
+  conservador: { nombre: "Conservador", nota: "Precio de suscripción de videojuego y crecimiento lento",
+                 s: { precio_habitacion: 6, precio_villa: 150, gasto_huesped_dia: 1.5, crecimiento_mensual: 0.07, ocupacion_inicial: 0.08 } },
+};
+
+export const escenario = (id, cambios = {}) => ({ ...V4_BASE, ...(ESCENARIOS[id]?.s || {}), ...cambios });
+
+export function capacidadIsla(s = V4_BASE) {
+  const llaves = s.habitaciones + s.villas;
+  return {
+    llaves,
+    max_personas: s.habitaciones * s.max_por_habitacion + s.villas * s.max_por_villa,
+    prom_personas: s.habitaciones * s.prom_por_habitacion + s.villas * s.prom_por_villa,
+    staff: Math.round(llaves * s.staff_por_llave),
+  };
+}
+
+export function modeloV4(s = V4_BASE) {
+  const meses = [];
+  let demanda = 0, islas = 0, acumIngresos = 0;
+  for (let mes = 1; mes <= s.meses; mes++) {
+    const vivo = mes >= s.mes_lanzamiento;
+    if (vivo) {
+      demanda = mes === s.mes_lanzamiento ? s.ocupacion_inicial * s.habitaciones : demanda * (1 + s.crecimiento_mensual);
+      const necesarias = Math.ceil(demanda / (s.habitaciones * s.umbral_nueva_isla));
+      islas = Math.min(s.max_islas, Math.max(islas, 1, necesarias));
+    }
+    const habOcupadas = vivo ? Math.min(demanda, islas * s.habitaciones) : 0;
+    const ocupacion = vivo ? habOcupadas / (islas * s.habitaciones) : 0;
+    const villasOcupadas = islas * s.villas * Math.min(1, ocupacion * s.factor_villas);
+    const huespedes = habOcupadas * s.prom_por_habitacion + villasOcupadas * s.prom_por_villa;
+
+    const ingHab = habOcupadas * s.precio_habitacion * DIAS;
+    const ingVillas = villasOcupadas * s.precio_villa * DIAS;
+    const ingGasto = huespedes * s.gasto_huesped_dia * DIAS;
+    const ingresos = ingHab + ingVillas + ingGasto;
+
+    const regalia = s.regalia_unreal * Math.max(0, acumIngresos + ingresos - 1e6) - s.regalia_unreal * Math.max(0, acumIngresos - 1e6);
+    acumIngresos += ingresos;
+    const servidores = huespedes * s.horas_conectado * s.costo_hora * DIAS;
+    const comisiones = ingresos * (s.comision_pagos + s.comision_tiendas);
+    const equipo = vivo ? s.equipo_base + s.equipo_por_isla * islas : s.construccion_mes;
+    const marketing = vivo ? s.marketing_base + s.marketing_pct * ingresos : (mes >= s.mes_lanzamiento - 2 ? s.marketing_base : 0);
+    const assets = mes === 1 ? s.assets_iniciales : 0;
+    const costos = servidores + comisiones + regalia + equipo + marketing + assets;
+
+    meses.push({
+      mes, islas, ocupacion, habOcupadas, villasOcupadas, huespedes,
+      conectados: huespedes * s.horas_conectado / 24,           // promedio simultáneo
+      pico: huespedes * s.horas_conectado / 24 * s.factor_pico,
+      // RLR · lo que falta para verse llena en la hora pico lo ponen NPC huéspedes
+      npc_relleno: islas ? Math.max(0, s.presencia_llena - huespedes * s.horas_conectado / 24 * s.factor_pico / islas) * islas : 0,
+      servidores_pico: Math.ceil(huespedes * s.horas_conectado / 24 * s.factor_pico / s.jugadores_por_servidor),
+      staff: islas * capacidadIsla(s).staff,
+      ingresos, ingHab, ingVillas, ingGasto,
+      servidores, comisiones, regalia, equipo, marketing, assets, costos,
+      utilidad: ingresos - costos,
+    });
+  }
+  return acumular(meses);
+}
+
+function acumular(meses) {
+  let caja = 0, peor = 0, mesPeor = 0, equilibrio = null;
+  for (const m of meses) {
+    caja += m.utilidad; m.caja = caja;
+    if (caja < peor) { peor = caja; mesPeor = m.mes; }
+    if (equilibrio === null && m.utilidad > 0 && m.ingresos > 0) equilibrio = m.mes;
+  }
+  const anio = (a) => meses.slice((a - 1) * 12, a * 12).reduce((t, m) => ({ ingresos: t.ingresos + m.ingresos, utilidad: t.utilidad + m.utilidad }), { ingresos: 0, utilidad: 0 });
+  const recuperacion = meses.find((m) => m.mes > mesPeor && m.caja >= 0)?.mes ?? null;
+  return {
+    meses,
+    resumen: {
+      ingresos60: meses.reduce((t, m) => t + m.ingresos, 0),
+      utilidad60: caja,
+      capital_necesario: peor < 0 ? -peor : 0,   // lo más hondo que baja la caja: lo que hay que poner antes de que se pague sola
+      mes_equilibrio: equilibrio,   // primer mes con utilidad
+      mes_recuperacion: peor < 0 ? recuperacion : null,
+      islas_final: meses.at(-1).islas,
+      anios: [1, 2, 3, 4, 5].map(anio),
+    },
+  };
+}
+// RLR · fin

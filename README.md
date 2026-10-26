@@ -1,10 +1,10 @@
-# Isla La Encantada
+# ISLA · La Encantada
 
-**Ver en vivo: [isla.capitaltorreon.com](https://isla.capitaltorreon.com)**
+**Ver en vivo: [isla.capitaltorreon.com](https://isla.capitaltorreon.com)** · proyecciones privadas: [/proyecciones](https://isla.capitaltorreon.com/proyecciones) (con el login de CapitalTorreon)
 
 Un mundo 3D persistente, calidad AAA, ambientado en una isla volcánica privada convertida en el mega-resort de lujo más cuidado que exista. La meta es que cualquiera que entre diga: *«esto es mucho mejor que cualquier resort real; pensaron en absolutamente todo»*.
 
-> **Estado (25-oct-2026):** base del proyecto lista y dominio publicado con la página «en construcción». Siguiente: **Fase A · Plan rápido** y montar Unreal Engine 5 (ver [roadmap](docs/01-roadmap.md)).
+> **Estado (26-oct-2026):** base lista, página «en construcción» publicada, proyecciones privadas con login y bitácora funcionando, plan de personajes y revisión de números hechos. Siguiente: **Fase A · Plan rápido** y montar Unreal Engine 5 (ver [roadmap](docs/01-roadmap.md)).
 
 ![Isla La Encantada al atardecer](referencias/renders/06-panoramica-isla.png)
 
@@ -15,11 +15,13 @@ Un mundo 3D persistente, calidad AAA, ambientado en una isla volcánica privada 
 | | |
 |---|---|
 | Isla | volcánica, **3–4 km** de diámetro, cráter central, laderas verdes, acantilados, playas de arena blanca y bahías |
-| Habitaciones | **800** estándar · hasta 3 huéspedes · king + sofá cama o doble queen · referencia **100 USD/noche** |
-| Villas | **80** de ultra lujo · 2–4 recámaras · 4–6 huéspedes (promedio 5) · referencia **10,000 USD/noche** |
-| Capacidad | **≈ 2,800 huéspedes simultáneos** (2,400 en habitaciones + 400 en villas) · **sin sobreventa** |
-| Staff | **1,200 NPC** con turnos, descansos, rutas internas y animaciones de servicio |
-| Ciclo de luz | amanecer 1.5–2 h · día 14–15 h · atardecer 1.5–2 h · noche 8 h *(ver [decisiones abiertas](docs/00-vision.md#decisiones-abiertas))* |
+| Habitaciones | **800** · **hasta 4 personas** · referencia **100 USD/noche** |
+| Villas | **80** de ultra lujo · **hasta 10–12 personas** · referencia **10,000 USD/noche** |
+| Capacidad por isla | **4,160 huéspedes** máximo (2,640 en promedio) · **sin sobreventa** |
+| Staff | **1,760 por isla** (2 por llave: NPC + usuarios-staff) |
+| Islas | Una por **región horaria e idioma**; La Encantada es la primera. Se abre la siguiente cuando la última se llena ([07](docs/07-islas-y-capacidad.md)) |
+| Personajes | Gente bonita: cada sesión llega una mujer nueva y un hombre nuevo, al azar y ajustables, sin desnudos ([06](docs/06-personajes.md)) |
+| Ciclo de luz | Propuesta: 24 h reales de la región, noche de 22:00 a 6:00 *(ver [decisiones abiertas](docs/00-vision.md#decisiones-abiertas))* |
 | Motor | **Unreal Engine 5** + asset packs + 2 freelancers (environment artist y technical artist) |
 
 ## Cómo está organizado este repo
@@ -33,15 +35,21 @@ isla/
 │   ├── 02-equipo.md             roles, freelancers sugeridos y mensaje para contactarlos
 │   ├── 03-modelo-financiero.md  el Excel v3 explicado + lectura crítica
 │   ├── 04-unreal.md             cómo montar UE5, estructura, nombres, Git LFS
-│   ├── 05-web-y-dominio.md      isla.capitaltorreon.com: Worker, despliegue, cómo crece
+│   ├── 05-web-y-dominio.md      isla.capitaltorreon.com: Worker, login, base D1, despliegue
+│   ├── 06-personajes.md         avatares: gente bonita, al azar, ajustables, sin desnudos
+│   ├── 07-islas-y-capacidad.md  4 por habitación, 12 por villa, islas por región, «siempre llena»
+│   ├── 08-bitacora.md           el diario de cada huésped: qué se registra y cómo
+│   ├── 09-revision-del-razonamiento.md  las fallas encontradas y los números v4
 │   └── biblia/                  los documentos maestros transcritos tal cual
 ├── catalogo/                ← los catálogos legibles (generados desde data/)
 ├── data/                    ← los mismos catálogos en JSON: la fuente que leerán juego y web
 ├── referencias/renders/     ← concept art original (PNG)
 ├── fuentes/                 ← los originales: pdf/, texto/ (extraído) y modelo/ (Excel)
-├── herramientas/            ← scripts: catalogos.py y modelo.py
+├── herramientas/            ← scripts: catalogos.py, modelo.py (Excel v3) y proyecciones.mjs (v4)
+├── migraciones/             ← tablas de la base D1 `isla` (escenarios y bitácora)
+├── src/                     ← el Worker: página privada /proyecciones y su API
 ├── unreal/                  ← aquí vivirá el proyecto de Unreal Engine 5
-├── web/                     ← lo que se publica en isla.capitaltorreon.com
+├── web/                     ← lo que se publica en isla.capitaltorreon.com (+ web/proyecciones/modelo.js)
 └── wrangler.jsonc           ← configuración del Worker de Cloudflare
 ```
 
@@ -89,16 +97,22 @@ Regenerar catálogos (después de cambiar un texto en `fuentes/texto/` o el scri
 python3 herramientas/catalogos.py
 ```
 
-Recalcular el modelo financiero (después de cambiar un supuesto en `herramientas/modelo.py`):
+Recalcular el Excel v3 en código (después de cambiar un supuesto en `herramientas/modelo.py`):
 
 ```bash
 python3 herramientas/modelo.py
 ```
 
-Publicar la página en isla.capitaltorreon.com:
+Comparar los escenarios v4 (el mismo modelo de /proyecciones):
 
 ```bash
-npx wrangler deploy
+node herramientas/proyecciones.mjs
+```
+
+Publicar en isla.capitaltorreon.com:
+
+```bash
+cd ~/Code/isla && env -u CLOUDFLARE_API_TOKEN -u CLOUDFLARE_ACCOUNT_ID npx -y wrangler@latest deploy
 ```
 
 ## Bitácora
@@ -108,5 +122,6 @@ npx wrangler deploy
 | 23–24 nov 2025 | Concept art generado con IA (5 imágenes ChatGPT + 1 Gemini) |
 | 2025–2026 | Biblia de diseño v2, catálogos, plan MVP, freelancers y modelo financiero v3 |
 | 25 oct 2026 | Repo estructurado, catálogos a JSON, modelo en código, isla.capitaltorreon.com «en construcción» publicada · Unreal Engine 5 en descarga |
+| 26 oct 2026 | Logo ISLA / La Encantada · regla de 4 por habitación y 12 por villa · plan de personajes · islas por región · bitácora · modelo v4 y revisión de fallas · /proyecciones privada con login y base D1 |
 
 <!-- RLR · Ricardo López Reyero · Torreón, Coahuila, México · rev 181218 · EYE -->

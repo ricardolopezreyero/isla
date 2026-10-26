@@ -15,3 +15,6 @@ unreal/**/.vs/
 unreal/**/*.sln
 unreal/**/*.xcworkspace
 unreal/**/.idea/
+
+# Secretos y pruebas locales
+.dev.vars

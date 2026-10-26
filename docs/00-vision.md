@@ -24,10 +24,12 @@ De ahí salen cinco principios de trabajo para cualquier decisión de diseño o 
 |---|---|---|
 | Tipo | Volcánica, con gran cráter central, laderas verdes, acantilados, playas curvas de arena blanca y bahías tranquilas | [Prompt maestro §2](biblia/01-prompt-maestro-v2.md) |
 | Tamaño | 3–4 km de diámetro | Prompt maestro §2 |
-| Habitaciones estándar | 800 · máx. 3 huéspedes · king + sofá cama o doble queen · 100 USD/noche | Prompt maestro §3 |
-| Villas ultra lujo | 80 · 2–4 recámaras · 4–6 huéspedes (promedio 5) · 10,000 USD/noche | Prompt maestro §3 |
-| Huéspedes simultáneos | ≈ 2,800 (2,400 + 400) | Prompt maestro §3 |
-| Staff | 1,200 NPC con rutinas, turnos, descansos y rutas internas | Prompt maestro §3 |
+| Habitaciones | 800 · **hasta 4 personas** (la biblia decía 3) · 100 USD/noche | Regla del 26-oct-2026 · [07](07-islas-y-capacidad.md) |
+| Villas ultra lujo | 80 · **hasta 10–12 personas** (la biblia decía 4–6) · 10,000 USD/noche | Regla del 26-oct-2026 |
+| Huéspedes por isla | **4,160 máximo**, 2,640 en promedio (la biblia decía ≈ 2,800) | [07](07-islas-y-capacidad.md) |
+| Staff | **1,760 por isla** (2 por llave; la biblia decía 1,200 NPC) | [07](07-islas-y-capacidad.md) |
+| Islas | Una por región horaria e idioma; La Encantada primero | [07](07-islas-y-capacidad.md) |
+| Personajes | Gente bonita, sensual sin desnudos, al azar y ajustable | [06](06-personajes.md) |
 
 ### Zonas
 
@@ -84,12 +86,14 @@ Cosas que los documentos dicen de forma distinta o que todavía no se deciden. N
 
 | # | Tema | Lo que dicen las fuentes | Por decidir |
 |---|---|---|---|
-| 1 | **Duración del ciclo** | El prompt maestro dice «ciclo de 24 horas: 18 de día y 8 de noche», que suman **26 h**. Amanecer + día + atardecer = 17–19 h. | ¿Día de 16 h + noche de 8 h (24 h), o día de 18 h + noche de 6 h? ¿El ciclo virtual dura 24 h reales o se acelera? |
-| 2 | **Capacidad vs. usuarios** | La isla admite ≈ 2,800 huéspedes simultáneos sin sobreventa; el modelo financiero llega a **100,000 usuarios activos diarios**. | ¿Varias copias de la isla (instancias), turnos de estancia, o visitantes sin habitación? |
-| 3 | **Villas** | El prompt habla de 80 villas de 2–4 recámaras (≈ 5 huéspedes); la Villa Horizonte 50 es para 50 personas. | ¿Horizonte 50 es una villa especial aparte de las 80, y cuántas hay? |
+| 1 | **Duración del ciclo** | El prompt maestro dice «ciclo de 24 horas: 18 de día y 8 de noche», que suman **26 h**. | **Propuesta:** 24 h reales de la región de cada isla; amanecer 6:00, atardecer 20:00–21:30, noche 22:00–6:00 ([07 §2](07-islas-y-capacidad.md#2-una-isla-por-región-no-por-país)). Falta tu sí |
+| 2 | **Capacidad vs. usuarios** | Una isla admite 4,160 huéspedes; el Excel llega a 100,000 usuarios diarios. | **Resuelto:** varias islas por región, se abre otra con 85 % durante 4 semanas y lista de espera ([07](07-islas-y-capacidad.md)) |
+| 3 | **Villas** | 80 villas de hasta 12 personas; la Villa Horizonte 50 es para 50. | **Propuesta:** Horizonte 50 es una villa especial de grupo, aparte de las 80. Falta decir cuántas |
+| 8 | **Edad** | La estética es sensual y hay dinero y encuentros entre personas. | **Propuesta:** plataforma sólo para mayores de 18 años ([06 §5](06-personajes.md#5-sexy-sin-vulgaridad-las-reglas)) |
+| 9 | **Opción neutral en avatares** | El pedido es una mujer y un hombre nuevos por sesión. | ¿Agregar una tercera opción más adelante? ([06 §9](06-personajes.md#9-lo-que-todavía-hay-que-decidir)) |
 | 4 | **Precios** | Habitación 100 USD/noche y villa 10,000 USD/noche (prompt) vs. 35 USD por usuario al día por habitación (modelo). | Una sola lista de precios y moneda virtual. |
 | 5 | **Catálogo de masajes** | El PDF dice «100 tipos» y contiene **120**. | Se quedan los 120 (ya están en datos). |
-| 6 | **Nombre** | «Isla La Encantada», «IslaEncantada.com», «Isla Virtual de Lujo». | Nombre público definitivo y dominio propio, si se quiere además de isla.capitaltorreon.com. |
+| 6 | **Nombre** | «Isla La Encantada», «IslaEncantada.com», «Isla Virtual de Lujo». | **Resuelto:** la marca es **ISLA** y cada isla lleva su nombre abajo; la primera es **La Encantada** |
 | 7 | **Plataforma inicial** | Plan MVP: Unreal Engine 5; alternativa barata: Fortnite UEFN o Roblox. | Se va con Unreal (ya se está descargando). |
 
 <!-- RLR · Ricardo López Reyero · rev 181218 -->

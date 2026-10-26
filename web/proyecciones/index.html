@@ -1,0 +1,393 @@
+<!doctype html>
+<!-- ============================================================
+     RLR · Isla La Encantada — Proyecciones privadas
+     Autor: Ricardo López Reyero · isla.capitaltorreon.com/proyecciones
+     Este archivo es sólo el cascarón: los datos salen de /api/proyecciones con el pase
+     del Login de CapitalTorreon y sólo para los correos permitidos.
+     ============================================================ -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Proyecciones · Isla La Encantada</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="author" content="Ricardo López Reyero">
+<meta name="build" content="eye">
+<meta name="rev" content="181218">
+<meta name="theme-color" content="#0b1a24">
+<link rel="icon" href="/img/icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* RLR · misma paleta que la portada */
+:root{
+  --noche:#0b1a24; --noche2:#10242f; --noche3:#163140; --mar:#33b5c4; --arena:#f4ead8;
+  --sol:#f2b35b; --coral:#ff8a7a; --texto:#f7f3ec; --suave:#d8e4e8; --tenue:#b6c9cf;
+  --linea:rgba(255,255,255,.14);
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:Inter,system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{background:var(--noche);color:var(--texto);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+body{min-height:100vh}
+button,input,select{font:inherit;color:inherit}
+a{color:inherit}
+
+.barra{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:16px;justify-content:space-between;
+  padding:12px clamp(16px,3vw,32px);background:rgba(11,26,36,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--linea)}
+.logo{display:flex;flex-direction:column;line-height:1;text-decoration:none}
+.logo b{font:600 22px/1 var(--sans);letter-spacing:.32em;color:var(--arena)}
+.logo i{font:italic 500 16px/1.1 var(--serif);color:var(--sol);letter-spacing:.02em;margin-top:2px}
+.barra .titulo{font-size:14px;font-weight:600;color:var(--tenue);letter-spacing:.06em;text-transform:uppercase}
+.der{display:flex;align-items:center;gap:8px}
+.tam button{font-weight:600;font-size:14px;background:rgba(255,255,255,.08);border:1px solid var(--linea);border-radius:8px;min-width:40px;height:34px;cursor:pointer}
+.tam button:hover{background:rgba(255,255,255,.18)}
+
+main{padding:clamp(20px,3vw,36px) clamp(16px,3vw,32px) 64px;max-width:1360px;margin:0 auto}
+
+/* puerta */
+.puerta{min-height:calc(100vh - 160px);display:grid;place-items:center;text-align:center}
+.puerta .caja{max-width:420px;width:100%}
+.puerta .logo{align-items:center;margin-bottom:22px}
+.puerta .logo b{font-size:40px;padding-left:.32em}.puerta .logo i{font-size:28px}
+.puerta h1{font:500 32px/1.15 var(--serif);margin-bottom:10px}
+.puerta p{color:var(--suave);font-size:16px;line-height:1.5;margin-bottom:22px}
+
+/* escenarios */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{padding:9px 14px;border-radius:999px;border:1px solid var(--linea);background:var(--noche2);font-size:14.5px;font-weight:600;cursor:pointer}
+.chip:hover{background:var(--noche3)}
+.chip[aria-pressed="true"]{background:var(--arena);color:var(--noche);border-color:var(--arena)}
+.chip.guardado{border-style:dashed}
+.nota{color:var(--tenue);font-size:14.5px;margin:-6px 0 18px}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:16px}
+.kpi{background:var(--noche2);border:1px solid var(--linea);border-radius:14px;padding:16px}
+.kpi span{display:block;font-size:13px;color:var(--tenue);font-weight:500}
+.kpi b{display:block;font:600 30px/1.1 var(--serif);color:var(--arena);margin-top:6px}
+.kpi small{display:block;font-size:12.5px;color:var(--tenue);margin-top:4px}
+
+.rejilla{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;align-items:start}
+.panel{background:var(--noche2);border:1px solid var(--linea);border-radius:16px;padding:18px}
+.panel h2{font:500 24px/1.2 var(--serif);margin-bottom:12px}
+.panel h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--tenue);margin:16px 0 8px}
+
+.grafica svg{width:100%;height:auto;display:block}
+.leyenda{display:flex;flex-wrap:wrap;gap:14px;font-size:13.5px;color:var(--suave);margin-top:8px}
+.leyenda i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 8px;text-align:right;border-bottom:1px solid var(--linea);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{font-size:12.5px;color:var(--tenue);font-weight:600}
+.tabla{overflow-x:auto}
+.neg{color:var(--coral)}
+
+.ctrl{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:center;padding:7px 0;border-bottom:1px dashed var(--linea)}
+.ctrl label{font-size:14px;color:var(--suave)}
+.ctrl output{font-size:14px;font-weight:700;color:var(--arena);font-variant-numeric:tabular-nums}
+.ctrl input{grid-column:1/-1;width:100%;accent-color:var(--sol)}
+.v3aviso{font-size:14px;color:var(--tenue);line-height:1.5}
+
+.guardar{display:flex;gap:8px;margin-top:14px}
+.guardar input{flex:1;min-width:0;background:var(--noche);border:1px solid var(--linea);border-radius:10px;padding:10px 12px}
+.btn{background:var(--sol);color:#1b1205;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+.btn.sec{background:transparent;color:var(--suave);border:1px solid var(--linea)}
+.lista{list-style:none;padding:0;margin-top:10px}
+.lista li{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--linea);font-size:14px}
+.lista small{color:var(--tenue);font-size:12.5px}
+.lista button{background:none;border:0;color:var(--tenue);cursor:pointer;font-size:13px}
+.lista button:hover{color:var(--coral)}
+
+.hallazgos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.hallazgo{background:var(--noche);border:1px solid var(--linea);border-radius:14px;padding:16px}
+.hallazgo b{display:block;font-size:15.5px;margin-bottom:6px}
+.hallazgo p{font-size:14px;color:var(--suave);line-height:1.5}
+.hallazgo em{font-style:normal;color:var(--sol);font-weight:700}
+
+.bitacora li{font-size:13.5px}
+.oculto{display:none!important}
+.mensaje{font-size:14px;color:var(--mar);min-height:20px;margin-top:8px}
+
+@media (max-width:1100px){.rejilla{grid-template-columns:minmax(0,1fr)}.hallazgos{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.hallazgos{grid-template-columns:1fr}.barra .titulo{display:none}}
+</style>
+</head>
+<body data-k="eye" data-rev="181218">
+
+<header class="barra">
+  <a class="logo" href="/" aria-label="Isla La Encantada"><b>ISLA</b><i>La Encantada</i></a>
+  <span class="titulo">Proyecciones privadas</span>
+  <div class="der">
+    <div class="tam" aria-label="Tamaño de letra"><button type="button" id="menos" aria-label="Letra más chica">A−</button> <button type="button" id="mas" aria-label="Letra más grande">A+</button></div>
+    <div data-login-ct></div>
+  </div>
+</header>
+
+<main id="contenido">
+  <!-- RLR · puerta: sin sesión o sin permiso -->
+  <section class="puerta" id="puerta">
+    <div class="caja">
+      <div class="logo"><b>ISLA</b><i>La Encantada</i></div>
+      <h1 id="puertaTitulo">Proyecciones privadas</h1>
+      <p id="puertaTexto">Entra con tu cuenta de la casa.</p>
+      <div id="puertaLogin" data-login-ct="ancho" data-texto="Entrar"></div>
+      <p class="oculto" id="puertaOtra"><button class="btn sec" type="button" id="otraCuenta">Entrar con otra cuenta</button></p>
+    </div>
+  </section>
+
+  <!-- RLR · tablero -->
+  <section id="tablero" class="oculto">
+    <div class="chips" id="chips" role="group" aria-label="Escenario"></div>
+    <p class="nota" id="nota"></p>
+
+    <div class="kpis" id="kpis"></div>
+
+    <div class="rejilla">
+      <div>
+        <div class="panel grafica">
+          <h2>Mes a mes, 60 meses</h2>
+          <div id="grafica"></div>
+          <div class="leyenda">
+            <span><i style="background:var(--mar)"></i>Ingresos</span>
+            <span><i style="background:var(--coral)"></i>Costos</span>
+            <span><i style="background:var(--sol)"></i>Caja acumulada</span>
+            <span id="leyIslas"><i style="background:var(--tenue)"></i>Islas abiertas</span>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:16px">
+          <h2>Por año</h2>
+          <div class="tabla"><table id="tablaAnios"></table></div>
+        </div>
+
+        <div class="panel" style="margin-top:16px">
+          <h2>Lo que el modelo revela</h2>
+          <div class="hallazgos" id="hallazgos"></div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="panel">
+          <h2>Supuestos</h2>
+          <div id="controles"></div>
+          <div class="guardar">
+            <input id="nombreEsc" placeholder="Nombre del escenario" maxlength="80" aria-label="Nombre del escenario">
+            <button class="btn" type="button" id="btnGuardar">Guardar</button>
+          </div>
+          <button class="btn sec" type="button" id="btnRestaurar" style="margin-top:8px;width:100%">Volver a los valores del escenario</button>
+          <div class="mensaje" id="mensaje" role="status"></div>
+          <h3>Guardados</h3>
+          <ul class="lista" id="guardados"></ul>
+        </div>
+        <div class="panel" style="margin-top:16px">
+          <h2>Bitácora</h2>
+          <ul class="lista bitacora" id="bitacora"></ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<script type="module">
+/* RLR · Ricardo López Reyero · proyecciones privadas */
+import { modeloV3, modeloV4, ESCENARIOS, escenario, capacidadIsla, V4_BASE } from "/proyecciones/modelo.js";
+const _RLR = "Ricardo López Reyero", _k = "EYE", _rev = 181218;
+const $ = (id) => document.getElementById(id);
+
+// RLR · controles: [clave, etiqueta, min, max, paso, formato]
+const CONTROLES = [
+  ["precio_habitacion", "Habitación por noche", 1, 150, 1, "usd"],
+  ["precio_villa", "Villa por noche", 50, 12000, 50, "usd"],
+  ["gasto_huesped_dia", "Gasto por huésped al día", 0, 30, 0.5, "usd"],
+  ["ocupacion_inicial", "Ocupación al lanzar", 0.02, 0.6, 0.01, "pct"],
+  ["crecimiento_mensual", "Crecimiento mensual", 0, 0.25, 0.005, "pct"],
+  ["prom_por_habitacion", "Personas por habitación (prom.)", 1, 4, 0.1, "num"],
+  ["prom_por_villa", "Personas por villa (prom.)", 2, 12, 0.5, "num"],
+  ["umbral_nueva_isla", "Abrir otra isla al", 0.5, 1, 0.01, "pct"],
+  ["max_islas", "Islas máximo", 1, 30, 1, "num"],
+  ["horas_conectado", "Horas dentro al día", 0.5, 8, 0.5, "num"],
+  ["costo_hora", "Servidor por hora conectada", 0.02, 1.5, 0.01, "usd2"],
+  ["comision_tiendas", "Comisión App Store / Google", 0, 0.3, 0.3, "pct"],
+  ["equipo_por_isla", "Equipo por isla al mes", 0, 150000, 5000, "usd"],
+  ["marketing_pct", "Marketing (% de ingresos)", 0, 0.4, 0.01, "pct"],
+  ["mes_lanzamiento", "Mes de lanzamiento", 2, 18, 1, "num"],
+];
+
+const fUsd = (n) => {
+  const a = Math.abs(n), s = n < 0 ? "−$" : "$";
+  if (a >= 1e9) return s + (a / 1e9).toLocaleString("es-MX", { maximumFractionDigits: 2 }) + " mil M";
+  if (a >= 1e6) return s + (a / 1e6).toLocaleString("es-MX", { maximumFractionDigits: 1 }) + " M";
+  if (a >= 1e3) return s + Math.round(a / 1e3).toLocaleString("es-MX") + " mil";
+  return s + Math.round(a).toLocaleString("es-MX");
+};
+const fNum = (n) => Math.round(n).toLocaleString("es-MX");
+const fCtrl = (v, f) => f === "usd" ? "$" + Number(v).toLocaleString("es-MX") : f === "usd2" ? "$" + Number(v).toFixed(2) : f === "pct" ? (v * 100).toLocaleString("es-MX", { maximumFractionDigits: 1 }) + " %" : Number(v).toLocaleString("es-MX");
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+let estado = { base: "prudente", cambios: {}, guardadoId: null };
+let guardados = [];
+
+// ── API (siempre con el pase de la casa)
+async function api(ruta, datos = {}) {
+  const pase = window.LoginCT?.pase();
+  const r = await fetch("/api/proyecciones/" + ruta, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ pase, ...datos }) });
+  const j = await r.json().catch(() => ({ ok: false }));
+  return { status: r.status, ...j };
+}
+
+// ── puerta
+function puerta(modo) {
+  $("puerta").classList.remove("oculto"); $("tablero").classList.add("oculto");
+  $("puertaLogin").classList.toggle("oculto", modo !== "entrar");
+  $("puertaOtra").classList.toggle("oculto", modo !== "privada");
+  $("puertaTitulo").textContent = modo === "privada" ? "Esta página es privada" : modo === "cargando" ? "Abriendo…" : "Proyecciones privadas";
+  $("puertaTexto").textContent = modo === "privada" ? "Tu cuenta no tiene acceso a las proyecciones." : modo === "cargando" ? "" : "Entra con tu cuenta de la casa.";
+}
+
+async function abrir() {
+  if (!window.LoginCT?.quien()) return puerta("entrar");
+  puerta("cargando");
+  const r = await api("datos");
+  if (r.status === 403 && r.motivo === "privada") return puerta("privada");
+  if (!r.ok) return puerta("entrar");
+  guardados = r.escenarios; pintarBitacora(r.bitacora);
+  $("puerta").classList.add("oculto"); $("tablero").classList.remove("oculto");
+  pintarTodo();
+}
+
+// ── tablero
+function supuestos() { return escenario(estado.base === "v3" ? "prudente" : estado.base, estado.cambios); }
+function correr() { return estado.base === "v3" ? modeloV3() : modeloV4(supuestos()); }
+
+function pintarChips() {
+  const fijos = [["v3", "Excel v3"], ...Object.entries(ESCENARIOS).map(([id, e]) => [id, e.nombre.split(" · ")[0]])];
+  $("chips").innerHTML = fijos.map(([id, n]) => `<button class="chip" type="button" data-base="${id}" aria-pressed="${estado.base === id && !estado.guardadoId}">${esc(n)}</button>`).join("")
+    + guardados.map((g) => `<button class="chip guardado" type="button" data-guardado="${g.id}" aria-pressed="${estado.guardadoId === g.id}">★ ${esc(g.nombre)}</button>`).join("");
+  $("chips").querySelectorAll("[data-base]").forEach((b) => b.onclick = () => { estado = { base: b.dataset.base, cambios: {}, guardadoId: null }; pintarTodo(); });
+  $("chips").querySelectorAll("[data-guardado]").forEach((b) => b.onclick = () => { const g = guardados.find((x) => x.id === +b.dataset.guardado); estado = { base: g.base, cambios: { ...g.supuestos }, guardadoId: g.id }; pintarTodo(); });
+  $("nota").textContent = estado.base === "v3"
+    ? "El Excel tal cual: 55 USD por usuario activo al día, hasta 100,000 usuarios diarios. Sirve para comparar."
+    : (ESCENARIOS[estado.base]?.nota || "") + (Object.keys(estado.cambios).length ? " · con tus cambios" : "");
+}
+
+function pintarKpis(r) {
+  const R = r.resumen, v3 = estado.base === "v3";
+  const k = [
+    ["Ingresos 60 meses", fUsd(R.ingresos60), ""],
+    ["Utilidad 60 meses", fUsd(R.utilidad60), ""],
+    ["Capital necesario", fUsd(R.capital_necesario), R.mes_recuperacion ? `se recupera en el mes ${R.mes_recuperacion}` : "lo más hondo de la caja"],
+    ["Primer mes con utilidad", R.mes_equilibrio ? "Mes " + R.mes_equilibrio : "No llega", ""],
+    v3 ? ["Usuarios diarios al final", fNum(r.meses.at(-1).dau), "tope del Excel"] : ["Islas al mes 60", String(R.islas_final), fNum(r.meses.at(-1).huespedes) + " huéspedes"],
+  ];
+  $("kpis").innerHTML = k.map(([a, b, c]) => `<div class="kpi"><span>${a}</span><b>${b}</b>${c ? `<small>${c}</small>` : ""}</div>`).join("");
+}
+
+function pintarGrafica(r) {
+  const M = r.meses, W = 900, H = 320, P = { l: 70, r: 64, t: 14, b: 30 };
+  const vals = M.flatMap((m) => [m.ingresos, m.costos, m.caja]);
+  const max = Math.max(...vals, 1), min = Math.min(0, ...vals);
+  const x = (i) => P.l + (i / (M.length - 1)) * (W - P.l - P.r);
+  const y = (v) => P.t + (1 - (v - min) / (max - min)) * (H - P.t - P.b);
+  const linea = (k, c, w = 2.4) => `<path d="${M.map((m, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(m[k]).toFixed(1)).join("")}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linejoin="round"/>`;
+  const marcas = [0, .25, .5, .75, 1].map((f) => min + f * (max - min));
+  let islas = "";
+  if (M[0].islas !== null) {
+    const mi = Math.max(...M.map((m) => m.islas), 1);
+    const yi = (v) => H - P.b - (v / mi) * (H - P.t - P.b) * .35;
+    islas = `<path d="${M.map((m, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + yi(m.islas).toFixed(1)).join("")}" fill="none" stroke="var(--tenue)" stroke-width="1.6" stroke-dasharray="4 4"/>`
+      + `<text x="${W - P.r + 6}" y="${yi(mi) + 4}" fill="var(--tenue)" font-size="12">${mi} islas</text>`;
+  }
+  $("leyIslas").classList.toggle("oculto", M[0].islas === null);
+  $("grafica").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Ingresos, costos y caja por mes">
+    ${marcas.map((v) => `<line x1="${P.l}" x2="${W - P.r}" y1="${y(v)}" y2="${y(v)}" stroke="rgba(255,255,255,.08)"/><text x="${P.l - 8}" y="${y(v) + 4}" fill="var(--tenue)" font-size="12" text-anchor="end">${fUsd(v)}</text>`).join("")}
+    <line x1="${P.l}" x2="${W - P.r}" y1="${y(0)}" y2="${y(0)}" stroke="rgba(255,255,255,.3)"/>
+    ${[1, 12, 24, 36, 48, 60].map((m) => `<text x="${x(m - 1)}" y="${H - 8}" fill="var(--tenue)" font-size="12" text-anchor="middle">mes ${m}</text>`).join("")}
+    ${islas}${linea("costos", "var(--coral)")}${linea("ingresos", "var(--mar)")}${linea("caja", "var(--sol)", 2)}
+  </svg>`;
+}
+
+function pintarTabla(r) {
+  const v3 = estado.base === "v3";
+  const filas = [1, 2, 3, 4, 5].map((a) => {
+    const ms = r.meses.slice((a - 1) * 12, a * 12), fin = ms.at(-1);
+    const ing = ms.reduce((t, m) => t + m.ingresos, 0), ut = ms.reduce((t, m) => t + m.utilidad, 0);
+    const extra = v3 ? `<td>${fNum(fin.dau)}</td>`
+      : `<td>${fin.islas}</td><td>${Math.round(fin.ocupacion * 100)} %</td><td>${fNum(fin.huespedes)}</td><td>${fNum(fin.pico)}</td><td>${fNum(fin.npc_relleno)}</td>`;
+    return `<tr><td>Año ${a}</td><td>${fUsd(ing)}</td><td class="${ut < 0 ? "neg" : ""}">${fUsd(ut)}</td>${extra}</tr>`;
+  });
+  const cab = v3 ? "<th>Usuarios diarios</th>" : "<th>Islas</th><th>Ocupación</th><th>Huéspedes</th><th>Reales en pico</th><th>NPC para verse llena</th>";
+  $("tablaAnios").innerHTML = `<thead><tr><th></th><th>Ingresos</th><th>Utilidad</th>${cab}</tr></thead><tbody>${filas.join("")}</tbody>`;
+}
+
+function pintarHallazgos(r) {
+  const s = supuestos(), cap = capacidadIsla(s), v3 = estado.base === "v3";
+  const v4 = v3 ? modeloV4(escenario("prudente")) : r;
+  const fin = v4.meses.at(-1), porIsla = fin.islas ? fin.pico / fin.islas : 0;
+  const rob = 0.14; // RLR · referencia: Roblox ≈ 0.14 USD de compras por usuario activo al día (2023)
+  const arpu = v3 ? 55 : (fin.ingresos / Math.max(1, fin.huespedes) / 30.4);
+  const h = [
+    ["Vendida no es llena", `Con ${s.horas_conectado} h dentro al día, en la hora pico hay <em>${fNum(porIsla)}</em> personas reales por isla; para sentirse llena hacen falta ${fNum(s.presencia_llena)}. El resto, <em>${fNum(Math.max(0, s.presencia_llena - porIsla))}</em>, son NPC huéspedes.`],
+    ["El ingreso por persona manda", `Aquí cada huésped deja <em>$${arpu.toFixed(2)}</em> al día. Roblox anda cerca de $${rob} por usuario activo al día: ${Math.round(arpu / rob)} veces menos. Hay que validarlo con una preventa.`],
+    ["Capacidad por isla", `${fNum(cap.llaves)} llaves, hasta <em>${fNum(cap.max_personas)}</em> huéspedes (4 por habitación, 12 por villa) y <em>${fNum(cap.staff)}</em> de staff a 2 por llave.`],
+    ["Servidores", `En el pico del mes 60 hay ${fNum(fin.pico)} personas reales: <em>${fNum(fin.servidores_pico)}</em> servidores de ~${s.jugadores_por_servidor} jugadores. Una isla se parte por zonas.`],
+    ["Lo que el Excel no traía", `Construcción antes de lanzar, comisión de pagos (${Math.round(s.comision_pagos * 100)} %), 5 % de regalía de Unreal arriba de $1 M y equipo por isla. Con todo, el capital necesario es <em>${fUsd(v4.resumen.capital_necesario)}</em>.`],
+    ["Islas por región", `Abrir otra isla diluye la gente: la regla es abrirla con las habitaciones al ${Math.round(s.umbral_nueva_isla * 100)} % y lista de espera, no antes.`],
+  ];
+  $("hallazgos").innerHTML = h.map(([t, p]) => `<div class="hallazgo"><b>${t}</b><p>${p}</p></div>`).join("");
+}
+
+function pintarControles() {
+  if (estado.base === "v3") { $("controles").innerHTML = `<p class="v3aviso">El Excel v3 se queda fijo para comparar. Elige Biblia, Prudente o Conservador para mover supuestos.</p>`; return; }
+  const s = supuestos();
+  $("controles").innerHTML = CONTROLES.map(([k, n, a, b, p, f]) => `<div class="ctrl"><label for="c_${k}">${n}</label><output id="o_${k}">${fCtrl(s[k], f)}</output><input id="c_${k}" type="range" min="${a}" max="${b}" step="${p}" value="${s[k]}" data-k="${k}" data-f="${f}"></div>`).join("");
+  $("controles").querySelectorAll("input").forEach((i) => i.oninput = () => {
+    estado.cambios[i.dataset.k] = +i.value; $("o_" + i.dataset.k).textContent = fCtrl(+i.value, i.dataset.f);
+    pintarResultados();
+  });
+}
+
+function pintarResultados() { const r = correr(); pintarKpis(r); pintarGrafica(r); pintarTabla(r); pintarHallazgos(r); $("nota").textContent = estado.base === "v3" ? $("nota").textContent : (ESCENARIOS[estado.base]?.nota || "") + (Object.keys(estado.cambios).length ? " · con tus cambios" : ""); }
+function pintarTodo() { pintarChips(); pintarControles(); pintarResultados(); pintarGuardados(); }
+
+function pintarGuardados() {
+  $("guardados").innerHTML = guardados.length ? guardados.map((g) => `<li><span>${esc(g.nombre)}<br><small>${esc(ESCENARIOS[g.base]?.nombre.split(" · ")[0] || g.base)} · ${new Date(g.actualizado).toLocaleString("es-MX", { dateStyle: "medium", timeStyle: "short" })}</small></span><button type="button" data-borrar="${g.id}" aria-label="Borrar ${esc(g.nombre)}">Borrar</button></li>`).join("") : `<li><small>Todavía no guardas ninguno.</small></li>`;
+  $("guardados").querySelectorAll("[data-borrar]").forEach((b) => b.onclick = async () => {
+    const r = await api("borrar", { id: +b.dataset.borrar });
+    if (r.ok) { guardados = guardados.filter((g) => g.id !== +b.dataset.borrar); if (estado.guardadoId === +b.dataset.borrar) estado.guardadoId = null; pintarChips(); pintarGuardados(); refrescarBitacora(); }
+  });
+}
+
+const TIPOS = { entro: "Entró a proyecciones", "guardo-escenario": "Guardó escenario", "borro-escenario": "Borró escenario" };
+function pintarBitacora(b) {
+  $("bitacora").innerHTML = (b || []).map((e) => `<li><span>${esc(TIPOS[e.tipo] || e.tipo)}${e.detalle?.nombre ? " · " + esc(e.detalle.nombre) : ""}</span><small>${new Date(e.creado).toLocaleString("es-MX", { dateStyle: "short", timeStyle: "short" })}</small></li>`).join("") || `<li><small>Sin eventos.</small></li>`;
+}
+async function refrescarBitacora() { const r = await api("datos", { silencio: true }); if (r.ok) { guardados = r.escenarios; pintarBitacora(r.bitacora); pintarChips(); pintarGuardados(); } }
+
+$("btnGuardar").onclick = async () => {
+  const nombre = $("nombreEsc").value.trim();
+  if (estado.base === "v3") { $("mensaje").textContent = "El Excel v3 no se guarda: elige otro escenario."; return; }
+  if (!nombre) { $("nombreEsc").focus(); $("mensaje").textContent = "Ponle nombre."; return; }
+  const r = await api("guardar", { nombre, base: estado.base, supuestos: estado.cambios });
+  $("mensaje").textContent = r.ok ? "Guardado." : "No se pudo guardar.";
+  if (r.ok) { $("nombreEsc").value = ""; estado.guardadoId = r.id; await refrescarBitacora(); }
+};
+$("btnRestaurar").onclick = () => { estado.cambios = {}; estado.guardadoId = null; pintarTodo(); };
+$("otraCuenta").onclick = () => window.LoginCT?.entrar(true);
+
+// RLR · A− / A+ (sobre el contenido, no sobre la barra)
+const PASOS = [0.9, 1, 1.15, 1.3, 1.45]; let paso = 1;
+try { const g = +localStorage.getItem("isla.tam"); if (PASOS[g]) paso = g; } catch (e) {}
+const aplicarTam = () => { $("contenido").style.zoom = PASOS[paso]; try { localStorage.setItem("isla.tam", paso); } catch (e) {} };
+$("menos").onclick = () => { paso = Math.max(0, paso - 1); aplicarTam(); };
+$("mas").onclick = () => { paso = Math.min(PASOS.length - 1, paso + 1); aplicarTam(); };
+aplicarTam();
+
+// RLR · arrancar cuando el login de la casa esté listo
+const listo = () => { window.LoginCT.al(() => abrir()); abrir(); };
+if (window.LoginCT) listo(); else document.querySelector('script[src*="login.js"]').addEventListener("load", listo);
+</script>
+<script src="https://login.capitaltorreon.com/login.js" data-prefs="isla.tam"></script>
+<!-- RLR · fin · Ricardo López Reyero -->
+</body>
+</html>

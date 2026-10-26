@@ -1,9 +1,23 @@
 // RLR · Isla La Encantada en isla.capitaltorreon.com — Ricardo López Reyero
-// Sólo publica la carpeta web/. Desplegar desde la raíz: npx wrangler deploy
+// Publica web/ y el Worker de src/ atiende /proyecciones (privada) y /api/*.
+// Desplegar desde la raíz: env -u CLOUDFLARE_API_TOKEN -u CLOUDFLARE_ACCOUNT_ID npx wrangler deploy
 {
   "name": "isla",
+  "main": "src/index.js",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./web", "not_found_handling": "404-page" },
+  "assets": {
+    "directory": "./web",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/proyecciones", "/proyecciones/", "/proyecciones/index.html", "/api/*"]
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "isla", "database_id": "33c4e9bc-e84e-4cea-ac80-8979bb9b4e20", "migrations_dir": "migraciones" }
+  ],
+  "vars": {
+    // Correos que abren /proyecciones (todos son de Ricardo; el primero es el que se muestra)
+    "PERMITIDOS": "ricardo@superleads.mx,contacto@ingenieriadigital.mx,reyero.ricardo@gmail.com"
+  },
   "routes": [{ "pattern": "isla.capitaltorreon.com", "custom_domain": true }],
   "workers_dev": false,
   "preview_urls": false

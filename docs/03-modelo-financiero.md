@@ -1,6 +1,8 @@
-# 03 · Modelo financiero (v3)
+# 03 · Modelo financiero (v3 y v4)
 
 [← Volver al README](../README.md)
+
+> **Desde el 26-oct-2026 hay un modelo v4** por isla (llaves, 4 personas por habitación, 12 por villa, islas que se abren al llenarse, construcción, comisiones, regalía de Unreal y presencia real). Vive en [`web/proyecciones/modelo.js`](../web/proyecciones/modelo.js), se mueve en la página privada [/proyecciones](https://isla.capitaltorreon.com/proyecciones) y se compara con `node herramientas/proyecciones.mjs`. La comparación y las fallas están en [09-revision-del-razonamiento.md](09-revision-del-razonamiento.md). Esta página documenta el Excel v3 tal cual.
 
 - **Fuente:** [`fuentes/modelo/IslaEncantada_Model_v3.xlsx`](../fuentes/modelo/IslaEncantada_Model_v3.xlsx) (hojas *Supuestos*, *Proyeccion_60m*, *Resumen_Exec*)
 - **En código:** [`herramientas/modelo.py`](../herramientas/modelo.py) replica las mismas fórmulas y comprueba que da igual al Excel al centavo (mes 1 y mes 60).

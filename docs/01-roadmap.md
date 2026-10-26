@@ -38,7 +38,10 @@ Cuando cambie el estado, actualizar esta tabla **y** el arreglo `FASES` de [`web
 - [x] Modelo financiero v3 replicado en código (`herramientas/modelo.py`)
 - [x] Concept art ordenado en `referencias/renders/`
 - [x] isla.capitaltorreon.com publicada «en construcción» (Worker `isla`)
-- [ ] Unreal Engine 5 instalado (en descarga) → seguir [04-unreal.md](04-unreal.md)
+- [x] Logo **ISLA / La Encantada** (26-oct)
+- [x] Página privada [/proyecciones](https://isla.capitaltorreon.com/proyecciones) con login de CapitalTorreon, escenarios guardados y bitácora en D1 (26-oct)
+- [x] Plan de personajes ([06](06-personajes.md)), islas y capacidad ([07](07-islas-y-capacidad.md)), bitácora ([08](08-bitacora.md)) y revisión de fallas ([09](09-revision-del-razonamiento.md)) (26-oct)
+- [ ] Unreal Engine 5 instalado (se está instalando) → seguir [04-unreal.md](04-unreal.md)
 
 ## Fase A · Plan rápido (≈ 1 semana) 🟡
 
@@ -51,6 +54,9 @@ Tomar el documento maestro y aterrizarlo en un mapa y en una lista cerrada.
 - [ ] Cerrar las [decisiones abiertas](00-vision.md#decisiones-abiertas) 1 y 2 (ciclo y capacidad)
 - [ ] Elegir y comprar asset packs: *Tropical Island / Resort / Marina / Luxury Villas* y *Modern Hotel Interior / Luxury Room / Spa*
 - [ ] Contactar a los freelancers con el mensaje de [02-equipo.md](02-equipo.md)
+- [ ] Moodboard de «gente bonita La Encantada» (30–50 referencias de estilo, sin personas reales identificables) → `referencias/personajes/`
+- [ ] Decidir: ciclo de 24 h por región, plataforma 18+, Horizonte 50 como villa especial
+- [ ] Lista de espera con la pregunta de precio (para medir el dato que más mueve las proyecciones)
 
 **Entregables:** mapa de zonas · lista del MVP 0.1 · carpeta de concept art.
 
@@ -62,6 +68,7 @@ El environment artist arma la isla en bloques, sin detalle.
 - [ ] Caminos y edificios como bloques grises
 - [ ] Escala real: alturas, distancias caminables, tamaño de habitación (Suite Retorno = 100 m² + terraza) y villas
 - [ ] Recorrido a pie de punta a punta cronometrado (¿cuánto se tarda una persona en cruzar 3–4 km?)
+- [ ] Personajes: 4 rostros base en MetaHuman (2 y 2) + prueba de multitud de 50 NPC midiendo cuadros por segundo
 
 **Entregables:** versión jugable muy básica donde ya se camina · layout aprobado (forma, distancias, zonas).
 
@@ -84,6 +91,9 @@ El environment artist arma la isla en bloques, sin detalle.
 - [ ] Entrar al restaurante, ver el menú interactivo (leído de [platillos.json](../data/platillos.json)) y sentarse a la mesa
 - [ ] NPC: recepcionista en el lobby, mesero en el restaurante, 2–4 huéspedes
 - [ ] UI simple: menú del restaurante y cambiar la hora del día
+- [ ] Pantalla «Llegada de hoy»: una mujer y un hombre nuevos, ↻ al azar, estudio rápido y vestidor en la habitación
+- [ ] Bitácora: el juego escribe llegada, look, comida y salida en la API del Worker
+- [ ] Prueba de servidores: 2 zonas y 20 jugadores reales
 
 **Entregables:** demo jugable para recorrer la isla, explorar habitación y villa, visitar el restaurante y ver la vida básica del resort.
 

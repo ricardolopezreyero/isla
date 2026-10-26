@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-label="Isla La Encantada">
+  <!-- RLR · Isla La Encantada · logotipo: ISLA arriba, el nombre de la isla abajo · Ricardo López Reyero -->
+  <text x="280" y="112" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="600" font-size="112" letter-spacing="38" fill="#f4ead8">ISLA</text>
+  <line x1="120" y1="138" x2="440" y2="138" stroke="#f2b35b" stroke-width="2"/>
+  <text x="280" y="196" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-weight="500" font-size="62" fill="#f2b35b">La Encantada</text>
+</svg>
