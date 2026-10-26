@@ -41,7 +41,7 @@ Cuando cambie el estado, actualizar esta tabla **y** el arreglo `FASES` de [`web
 - [x] Logo **ISLA / La Encantada** (26-oct)
 - [x] Página privada [/proyecciones](https://isla.capitaltorreon.com/proyecciones) con login de CapitalTorreon, escenarios guardados y bitácora en D1 (26-oct)
 - [x] Plan de personajes ([06](06-personajes.md)), islas y capacidad ([07](07-islas-y-capacidad.md)), bitácora ([08](08-bitacora.md)) y revisión de fallas ([09](09-revision-del-razonamiento.md)) (26-oct)
-- [ ] Unreal Engine 5 instalado (se está instalando) → seguir [04-unreal.md](04-unreal.md)
+- [x] Unreal Engine 5.8.4 instalado, proyecto `unreal/IslaLaEncantada` en Git con LFS y Claude conectado por Unreal MCP (26-oct)
 
 ## Fase A · Plan rápido (≈ 1 semana) 🟡
 

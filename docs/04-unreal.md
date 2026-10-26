@@ -2,7 +2,9 @@
 
 [← Volver al README](../README.md)
 
-Guía para dejar el proyecto de Unreal listo y conectado a este repo en cuanto termine la descarga. El objetivo inmediato es la **Fase B (greybox)** del [roadmap](01-roadmap.md).
+> **Estado (26-oct-2026):** Unreal Engine **5.8.4** instalado; proyecto **`unreal/IslaLaEncantada/IslaLaEncantada.uproject`** (plantilla First Person), en Git con LFS. Claude lo controla por el plugin oficial **Unreal MCP** (`http://localhost:8000/mcp`, ver §9). Si Unreal marca «missing Metal Toolchain»: `xcodebuild -downloadComponent MetalToolchain`.
+
+Guía para dejar el proyecto de Unreal listo y conectado a este repo. El objetivo inmediato es la **Fase B (greybox)** del [roadmap](01-roadmap.md).
 
 ## 1. Instalar (una vez por máquina)
 
@@ -32,9 +34,9 @@ En el launcher: *Launch* → **Games** → plantilla **Third Person** →
 | Starter content | Sí | Materiales y piezas básicas para el greybox |
 | Raytracing | No (por ahora) | Se activa en la Fase C si el equipo lo aguanta |
 | Ubicación | `~/Code/isla/unreal/` | **Fuera del Escritorio**: el Escritorio está en iCloud y deja los archivos sólo en la nube |
-| Nombre | **`IslaEncantada`** | |
+| Nombre | **`IslaLaEncantada`** | Así quedó creado |
 
-Queda en `unreal/IslaEncantada/IslaEncantada.uproject`.
+Queda en `unreal/IslaLaEncantada/IslaLaEncantada.uproject`.
 
 ## 3. El mapa de la isla
 
@@ -120,5 +122,24 @@ cd ~/Code/isla && git add unreal && git commit -m "Greybox: forma de la isla" &&
 | Video/recorridos | Renders y paseos grabados en la web | Barato, sirve para vender la idea | No es jugable |
 
 Para el MVP 0.1 basta un build local. La web empieza mostrando recorridos y capturas.
+
+## 9. Claude dentro del editor (Unreal MCP)
+
+Unreal 5.8 trae el plugin experimental **Model Context Protocol** («Unreal MCP», de Epic). En este proyecto están activados, en el `.uproject`, `ModelContextProtocol`, `AllToolsets`, `PythonScriptPlugin` y `EditorScriptingUtilities`, y en `Config/DefaultEditorPerProjectUserSettings.ini`:
+
+```ini
+[/Script/ModelContextProtocolEngine.ModelContextProtocolSettings]
+bAutoStartServer=True
+ServerPortNumber=8000
+ServerUrlPath=/mcp
+```
+
+Al abrir el proyecto, el editor sirve MCP en `http://localhost:8000/mcp`. En Claude Code se registró una vez con:
+
+```bash
+claude mcp add --transport http --scope user unreal http://localhost:8000/mcp
+```
+
+Con eso Claude puede crear niveles, colocar actores, mover luces, hacer Blueprints y correr Python en el editor. Sólo funciona con Unreal abierto.
 
 <!-- RLR · Ricardo López Reyero · rev 181218 -->
