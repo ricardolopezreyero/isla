@@ -89,7 +89,7 @@ Cosas que los documentos dicen de forma distinta o que todavía no se deciden. N
 | 1 | **Duración del ciclo** | El prompt maestro dice «ciclo de 24 horas: 18 de día y 8 de noche», que suman **26 h**. | **Propuesta:** 24 h reales de la región de cada isla; amanecer 6:00, atardecer 20:00–21:30, noche 22:00–6:00 ([07 §2](07-islas-y-capacidad.md#2-una-isla-por-región-no-por-país)). Falta tu sí |
 | 2 | **Capacidad vs. usuarios** | Una isla admite 4,160 huéspedes; el Excel llega a 100,000 usuarios diarios. | **Resuelto:** varias islas por región, se abre otra con 85 % durante 4 semanas y lista de espera ([07](07-islas-y-capacidad.md)) |
 | 3 | **Villas** | 80 villas de hasta 12 personas; la Villa Horizonte 50 es para 50. | **Propuesta:** Horizonte 50 es una villa especial de grupo, aparte de las 80. Falta decir cuántas |
-| 8 | **Edad** | La estética es sensual y hay dinero y encuentros entre personas. | **Propuesta:** plataforma sólo para mayores de 18 años ([06 §5](06-personajes.md#5-sexy-sin-vulgaridad-las-reglas)) |
+| 8 | **Edad** | La estética es sensual y hay dinero y encuentros entre personas. | **Decidido (26-oct-2026, Ricardo):** la plataforma es sólo para mayores de 18 años ([06 §5](06-personajes.md#5-sexy-sin-vulgaridad-las-reglas)) |
 | 9 | **Opción neutral en avatares** | El pedido es una mujer y un hombre nuevos por sesión. | ¿Agregar una tercera opción más adelante? ([06 §9](06-personajes.md#9-lo-que-todavía-hay-que-decidir)) |
 | 4 | **Precios** | Habitación 100 USD/noche y villa 10,000 USD/noche (prompt) vs. 35 USD por usuario al día por habitación (modelo). | Una sola lista de precios y moneda virtual. |
 | 5 | **Catálogo de masajes** | El PDF dice «100 tipos» y contiene **120**. | Se quedan los 120 (ya están en datos). |

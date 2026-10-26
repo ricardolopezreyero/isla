@@ -67,7 +67,7 @@ Regla técnica de la «llegada de hoy»: la semilla es `id de usuario + fecha`. 
 | Movimiento | Caminar, sentarse, recargarse y bailar con elegancia natural (postura de modelo, no de caricatura). Sin gestos obscenos |
 | Gestos entre personas | Saludar, brindar, bailar en pareja, tomar del brazo y abrazar **sólo con invitación aceptada**. Nada sexual |
 | Espacio personal | Burbuja de ~1 m: nadie atraviesa ni se pega a otro avatar sin invitación. Bloquear y silenciar con un toque |
-| Edad de usuarios | Plataforma para mayores de 18 años (ver [decisión abierta](00-vision.md#decisiones-abiertas)); los avatares siempre se ven adultos |
+| Edad de usuarios | **Sólo mayores de 18 años** (decidido el 26-oct-2026, ver [decisiones](00-vision.md#decisiones-abiertas)); se pide la edad al crear la cuenta y los avatares siempre se ven adultos |
 | Fotos | Fotos dentro del juego sí, pero sólo de personas que lo permiten (ajuste «aparecer en fotos de otros») |
 
 ## 6. El staff y los huéspedes NPC

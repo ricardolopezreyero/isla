@@ -55,7 +55,8 @@ Tomar el documento maestro y aterrizarlo en un mapa y en una lista cerrada.
 - [ ] Elegir y comprar asset packs: *Tropical Island / Resort / Marina / Luxury Villas* y *Modern Hotel Interior / Luxury Room / Spa*
 - [ ] Contactar a los freelancers con el mensaje de [02-equipo.md](02-equipo.md)
 - [ ] Moodboard de «gente bonita La Encantada» (30–50 referencias de estilo, sin personas reales identificables) → `referencias/personajes/`
-- [ ] Decidir: ciclo de 24 h por región, plataforma 18+, Horizonte 50 como villa especial
+- [x] Plataforma sólo para mayores de 18 años (decidido el 26-oct-2026)
+- [ ] Decidir: ciclo de 24 h por región, Horizonte 50 como villa especial
 - [ ] Lista de espera con la pregunta de precio (para medir el dato que más mueve las proyecciones)
 
 **Entregables:** mapa de zonas · lista del MVP 0.1 · carpeta de concept art.
